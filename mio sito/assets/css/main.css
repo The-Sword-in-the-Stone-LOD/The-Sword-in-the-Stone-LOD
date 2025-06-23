@@ -1,0 +1,633 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+:root {
+  --default-font: "Open Sans", sans-serif;
+  --heading-font: "Marcellus", serif;
+  --background-color: #ffffff;
+  --default-color: #212529;
+  --heading-color: #2d465e;
+  --accent-color: #8b5a2b; /* Brown color for sword theme */
+  --surface-color: #f8f9fa;
+  --contrast-color: #ffffff;
+}
+
+body {
+  font-family: var(--default-font);
+  color: var(--default-color);
+  background-color: var(--background-color);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6d4a2a;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--heading-color);
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  transition: all 0.5s;
+  padding: 20px 0;
+  background-color: var(--background-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.navmenu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.navmenu a {
+  padding: 10px 15px;
+  font-family: var(--heading-font);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--default-color);
+  transition: 0.3s;
+}
+
+.navmenu a:hover, 
+.navmenu .active {
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: var(--surface-color);
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-color);
+  bottom: -10px;
+  left: calc(50% - 25px);
+}
+
+/*--------------------------------------------------------------
+# Home Section (con immagine di sfondo)
+--------------------------------------------------------------*/
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), /* Overlay nero al 60% per contrasto */
+    url("../img/foto.jpg") center 75%/cover no-repeat; /* Immagine abbassata (75% dal top) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: var(--contrast-color);
+  text-align: center;
+  padding: 0;
+  margin-top: -80px;
+  padding-top: 80px;
+}
+
+.home h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.8),
+    -1px -1px 0 rgba(0, 0, 0, 0.5); /* Doppia ombra per massima leggibilità */
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+
+.home p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-shadow: 
+    1px 1px 3px rgba(0, 0, 0, 0.8),
+    -1px -1px 0 rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .home {
+    margin-top: -60px; /* Regola per mobile */
+    padding-top: 60px;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    padding: 0 15px; /* Aggiunge spazio ai lati */
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    padding: 0 15px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Study of the Domain
+--------------------------------------------------------------*/
+.study-domain {
+  padding: 80px 0;
+  background-color: var(--surface-color);
+}
+
+/* IDEA Section */
+.idea-section {
+  margin-bottom: 60px;
+}
+
+.idea-section h3 {
+  color: var(--accent-color);
+  font-size: 2rem;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.idea-section h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: 80px;
+  height: 3px;
+  background: var(--accent-color);
+}
+
+.idea-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 992px) {
+  .idea-content {
+    flex-direction: row;
+  }
+}
+
+.idea-text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.idea-gallery {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.idea-img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.idea-img:hover {
+  transform: scale(1.03);
+}
+
+/* ============================================= */
+/* STUDY OF THE DOMAIN - ITEMS SECTION (COMPLETE) */
+/* ============================================= */
+
+.items-section {
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
+.items-section h3 {
+  color: var(--accent-color);
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  font-family: var(--heading-font);
+}
+
+.items-section h3::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--accent-color);
+  margin: 15px auto 30px;
+}
+
+.items-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--default-color);
+}
+
+/* Grid Layout */
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+  padding: 20px 0;
+}
+
+/* Card Styles - GENERIC */
+.item-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(139, 90, 43, 0.1);
+  transition: all 0.4s ease;
+  position: relative;
+  border: 1px solid rgba(139, 90, 43, 0.15);
+}
+
+.item-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-color), #c0a080);
+}
+
+/* Image Container (Common) */
+.item-img-container {
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  filter: sepia(20%) brightness(0.95);
+}
+
+/* ==================== */
+/* SPECIAL ITEM STYLES */
+/* ==================== */
+
+/* Media Items (TV Series) */
+.item-card.media-item .item-img-container {
+  height: 280px;
+  background: #f0f0f0;
+}
+
+.item-card.media-item .item-img {
+  object-fit: contain;
+  width: auto;
+  max-width: 90%;
+  max-height: 90%;
+  filter: none;
+}
+
+/* Book Items (Generic) */
+.item-card.book-item .item-img-container {
+  background: #f8f4e8;
+  padding: 15px;
+}
+
+.item-card.book-item .item-img {
+  object-fit: contain;
+  border: 1px solid rgba(139, 90, 43, 0.2);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Antique Book (Haugwitz Specific) */
+.item-card.book-item.antique {
+  border: 1px solid #d2b48c;
+}
+
+.item-card.book-item.antique .item-img-container {
+  padding: 20px;
+  background: #f8f4e8;
+}
+
+.item-card.book-item.antique .item-img {
+  filter: sepia(30%) contrast(1.1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Badges */
+.book-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--accent-color);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.book-edition {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(139, 90, 43, 0.7);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+/* Content Styles */
+.item-content {
+  padding: 22px;
+  background: linear-gradient(to bottom, #fff 0%, #faf6f2 100%);
+}
+
+.item-content h4 {
+  color: var(--heading-color);
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.item-content p {
+  color: var(--default-color);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 15px 0;
+  font-size: 0.9rem;
+}
+
+.item-meta span {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(139, 90, 43, 0.08);
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.item-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.item-link::after {
+  content: '→';
+  margin-left: 6px;
+  transition: transform 0.3s ease;
+}
+
+/* ================= */
+/* HOVER EFFECTS */
+/* ================= */
+
+.item-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(139, 90, 43, 0.15);
+}
+
+.item-card:hover .item-img {
+  transform: scale(1.05);
+  filter: sepia(0%) brightness(1);
+}
+
+.item-card.media-item:hover .item-img {
+  transform: scale(1.03);
+}
+
+.item-card.book-item.antique:hover {
+  box-shadow: 0 10px 25px rgba(139, 90, 43, 0.2);
+}
+
+.item-card.book-item.antique:hover .item-img {
+  transform: scale(1.02);
+  filter: sepia(20%) contrast(1.05);
+}
+
+.item-link:hover {
+  color: #6d4a2a;
+}
+
+.item-link:hover::after {
+  transform: translateX(4px);
+}
+
+/* ================ */
+/* ANIMATIONS */
+/* ================ */
+
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.item-card {
+  animation: cardEntrance 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+/* Sequential Animation Delay */
+.item-card:nth-child(1) { animation-delay: 0.1s; }
+.item-card:nth-child(2) { animation-delay: 0.2s; }
+.item-card:nth-child(3) { animation-delay: 0.3s; }
+.item-card:nth-child(4) { animation-delay: 0.4s; }
+.item-card:nth-child(5) { animation-delay: 0.5s; }
+.item-card:nth-child(6) { animation-delay: 0.6s; }
+.item-card:nth-child(7) { animation-delay: 0.7s; }
+.item-card:nth-child(8) { animation-delay: 0.8s; }
+.item-card:nth-child(9) { animation-delay: 0.9s; }
+.item-card:nth-child(10) { animation-delay: 1s; }
+
+/* ==================== */
+/* RESPONSIVE ADJUSTMENTS */
+/* ==================== */
+
+@media (max-width: 1200px) {
+  .items-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .items-section h3 {
+    font-size: 1.8rem;
+  }
+  
+  .items-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .item-img-container {
+    height: 200px;
+  }
+
+  .item-card.media-item .item-img-container,
+  .item-card.book-item .item-img-container {
+    height: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-content {
+    padding: 18px;
+  }
+  
+  .item-content h4 {
+    font-size: 1.2rem;
+  }
+
+  .item-meta {
+    gap: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+.team .member-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.team .member-card:hover {
+  transform: translateY(-10px);
+}
+
+.team .member-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.team .member-card p {
+  color: var(--default-color);
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  background: var(--surface-color);
+  padding: 30px 0;
+  font-size: 14px;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .navmenu ul {
+    display: none;
+    position: absolute;
+    inset: 60px 20px 20px 20px;
+    padding: 10px 0;
+    margin: 0;
+    background-color: var(--surface-color);
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+  }
+
+  .navmenu a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .home h1 {
+    font-size: 36px;
+  }
+  
+  .home p {
+    font-size: 18px;
+  }
+}
