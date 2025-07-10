@@ -7,7 +7,7 @@
   --background-color: #ffffff;
   --default-color: #212529;
   --heading-color: #2d465e;
-  --accent-color: #8b5a2b; /* Brown color for sword theme */
+  --accent-color: #8b5a2b;
   --surface-color: #f8f9fa;
   --contrast-color: #ffffff;
 }
@@ -41,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
   background-color: var(--background-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .header .logo h1 {
@@ -77,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -95,6 +100,8 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .section-title h2::after {
@@ -109,14 +116,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Home Section (con immagine di sfondo)
+# Home Section
 --------------------------------------------------------------*/
 .home {
   width: 100%;
   min-height: 100vh;
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), /* Overlay nero al 60% per contrasto */
-    url("../img/foto.jpg") center 75%/cover no-repeat; /* Immagine abbassata (75% dal top) */
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/foto.jpg") center 75%/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,7 +141,7 @@ section {
   margin-bottom: 20px;
   text-shadow: 
     2px 2px 4px rgba(0, 0, 0, 0.8),
-    -1px -1px 0 rgba(0, 0, 0, 0.5); /* Doppia ombra per massima leggibilità */
+    -1px -1px 0 rgba(0, 0, 0, 0.5);
   letter-spacing: 1px;
   padding: 0 20px;
 }
@@ -149,24 +156,6 @@ section {
   padding: 0 20px;
 }
 
-@media (max-width: 768px) {
-  .home {
-    margin-top: -60px; /* Regola per mobile */
-    padding-top: 60px;
-  }
-  
-  .home h1 {
-    font-size: 2.5rem;
-    padding: 0 15px; /* Aggiunge spazio ai lati */
-  }
-  
-  .home p {
-    font-size: 1.2rem;
-    padding: 0 15px;
-  }
-}
-
-
 /*--------------------------------------------------------------
 # Study of the Domain
 --------------------------------------------------------------*/
@@ -175,38 +164,50 @@ section {
   background-color: var(--surface-color);
 }
 
-/* IDEA Section */
-.idea-section {
-  margin-bottom: 60px;
-}
-
-.idea-section h3 {
-  color: var(--accent-color);
-  font-size: 2rem;
-  margin-bottom: 30px;
+.domain-subsection {
+  margin: 50px 0 30px;
   position: relative;
 }
 
-.idea-section h3::after {
+.domain-subsection h3 {
+  color: var(--accent-color);
+  font-size: 2rem;
+  margin-bottom: 25px;
+  position: relative;
+  font-family: var(--heading-font);
+}
+
+.domain-subsection h3::after {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -15px;
-  width: 80px;
+  bottom: -12px;
+  width: 60px;
   height: 3px;
   background: var(--accent-color);
+}
+
+.quote-with-image {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.quote-with-image blockquote {
+  flex: 1;
+  font-style: italic;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 20px;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .idea-content {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-@media (min-width: 992px) {
-  .idea-content {
-    flex-direction: row;
-  }
 }
 
 .idea-text {
@@ -216,60 +217,87 @@ section {
 }
 
 .idea-gallery {
-  flex: 1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .idea-img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s;
+}
+
+/* Immagine Excalibur - centrata normalmente */
+.gallery-item:first-child .idea-img {
+  object-position: center;
+}
+
+/* Immagine Camelot - mostra la parte alta */
+.gallery-item:nth-child(2) .idea-img {
+  object-position: top;
 }
 
 .idea-img:hover {
   transform: scale(1.03);
 }
 
-/* ============================================= */
-/* STUDY OF THE DOMAIN - ITEMS SECTION (COMPLETE) */
-/* ============================================= */
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  color: var(--text-color-light);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
 
+/* Aggiungi queste regole al tuo CSS esistente */
+.idea-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: start; /* Allinea le immagini in alto */
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.idea-img {
+  width: 100%;
+  height: 300px; /* Altezza fissa per entrambe le immagini */
+  object-fit: cover; /* Mantiene le proporzioni coprendo l'area */
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  color: var(--text-color-light);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/*--------------------------------------------------------------
+# Items Section
+--------------------------------------------------------------*/
 .items-section {
-  margin-top: 60px;
-  padding: 40px 0;
+  padding: 80px 0;
+  background-color: var(--background-color);
 }
 
-.items-section h3 {
-  color: var(--accent-color);
-  font-size: 2.2rem;
-  text-align: center;
-  margin-bottom: 10px;
-  position: relative;
-  font-family: var(--heading-font);
-}
-
-.items-section h3::after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 3px;
-  background: var(--accent-color);
-  margin: 15px auto 30px;
-}
-
-.items-intro {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto 40px;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: var(--default-color);
-}
-
-/* Grid Layout */
 .items-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -277,7 +305,7 @@ section {
   padding: 20px 0;
 }
 
-/* Card Styles - GENERIC */
+/* CARD BASE */
 .item-card {
   background: white;
   border-radius: 10px;
@@ -286,8 +314,12 @@ section {
   transition: all 0.4s ease;
   position: relative;
   border: 1px solid rgba(139, 90, 43, 0.15);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
+/* LINEA SUPERIORE */
 .item-card::before {
   content: '';
   position: absolute;
@@ -298,97 +330,34 @@ section {
   background: linear-gradient(90deg, var(--accent-color), #c0a080);
 }
 
-/* Image Container (Common) */
+/* CONTAINER IMMAGINE - DIMENSIONI FISSE */
 .item-img-container {
-  height: 220px;
+  width: 100%;
+  height: 220px; /* Altezza fissa per uniformità */
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #f5f5f5; /* Colore di fallback */
 }
 
+/* IMMAGINE PRINCIPALE - RIEMPIMENTO ORIZZONTALE */
 .item-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Riempie tutto lo spazio */
+  object-position: center; /* Centra il soggetto */
   transition: transform 0.5s ease;
-  filter: sepia(20%) brightness(0.95);
 }
 
-/* ==================== */
-/* SPECIAL ITEM STYLES */
-/* ==================== */
-
-/* Media Items (TV Series) */
-.item-card.media-item .item-img-container {
-  height: 280px;
-  background: #f0f0f0;
-}
-
-.item-card.media-item .item-img {
-  object-fit: contain;
-  width: auto;
-  max-width: 90%;
-  max-height: 90%;
-  filter: none;
-}
-
-/* Book Items (Generic) */
-.item-card.book-item .item-img-container {
-  background: #f8f4e8;
-  padding: 15px;
-}
-
-.item-card.book-item .item-img {
-  object-fit: contain;
-  border: 1px solid rgba(139, 90, 43, 0.2);
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-/* Antique Book (Haugwitz Specific) */
-.item-card.book-item.antique {
-  border: 1px solid #d2b48c;
-}
-
-.item-card.book-item.antique .item-img-container {
-  padding: 20px;
-  background: #f8f4e8;
-}
-
-.item-card.book-item.antique .item-img {
-  filter: sepia(30%) contrast(1.1);
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-}
-
-/* Badges */
-.book-badge {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: var(--accent-color);
-  color: white;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 0.7rem;
-  font-weight: bold;
-}
-
-.book-edition {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background: rgba(139, 90, 43, 0.7);
-  color: white;
-  padding: 2px 8px;
-  border-radius: 3px;
-  font-size: 0.7rem;
-}
-
-/* Content Styles */
+/* CONTENUTO TESTO */
 .item-content {
-  padding: 22px;
+  padding: 20px;
   background: linear-gradient(to bottom, #fff 0%, #faf6f2 100%);
+  flex: 1; /* Occupa tutto lo spazio rimanente */
+  display: flex;
+  flex-direction: column;
 }
 
 .item-content h4 {
@@ -406,6 +375,7 @@ section {
   margin-bottom: 18px;
 }
 
+/* META INFO */
 .item-meta {
   display: flex;
   flex-wrap: wrap;
@@ -422,6 +392,7 @@ section {
   border-radius: 20px;
 }
 
+/* LINK */
 .item-link {
   display: inline-flex;
   align-items: center;
@@ -430,7 +401,7 @@ section {
   font-size: 0.9rem;
   text-decoration: none;
   transition: all 0.3s ease;
-  margin-top: 10px;
+  margin-top: auto; /* Spinge il link in fondo */
 }
 
 .item-link::after {
@@ -439,10 +410,50 @@ section {
   transition: transform 0.3s ease;
 }
 
-/* ================= */
-/* HOVER EFFECTS */
-/* ================= */
+/* STILI SPECIFICI PER TIPOLOGIE */
+/* Libri/Manoscritti */
+.item-card.book-item .item-img-container {
+  background: #f8f4e8;
+  padding: 15px;
+}
 
+.item-card.book-item .item-img {
+  object-fit: contain; /* Mostra l'intero documento */
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* Poster */
+.item-card.poster-item .item-img-container {
+  padding: 0;
+  background: #000;
+}
+
+.item-card.poster-item .item-img {
+  object-fit: cover;
+}
+
+/* Media/Film */
+.item-card.media-item .item-img-container {
+  background: #000;
+}
+
+/* Oggetti lunghi (spade) */
+.item-card.sword-item .item-img {
+  object-fit: contain;
+  width: auto;
+  max-width: 90%;
+  height: 90%;
+}
+
+/* Tappezzerie */
+.item-card.tapestry-item .item-img-container {
+  background: #f0e8e0;
+}
+
+/* EFFETTI HOVER */
 .item-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(139, 90, 43, 0.15);
@@ -450,34 +461,17 @@ section {
 
 .item-card:hover .item-img {
   transform: scale(1.05);
-  filter: sepia(0%) brightness(1);
 }
 
-.item-card.media-item:hover .item-img {
-  transform: scale(1.03);
-}
-
-.item-card.book-item.antique:hover {
-  box-shadow: 0 10px 25px rgba(139, 90, 43, 0.2);
-}
-
-.item-card.book-item.antique:hover .item-img {
-  transform: scale(1.02);
-  filter: sepia(20%) contrast(1.05);
-}
-
-.item-link:hover {
+.item-card:hover .item-link {
   color: #6d4a2a;
 }
 
-.item-link:hover::after {
+.item-card:hover .item-link::after {
   transform: translateX(4px);
 }
 
-/* ================ */
-/* ANIMATIONS */
-/* ================ */
-
+/* ANIMAZIONI */
 @keyframes cardEntrance {
   from {
     opacity: 0;
@@ -494,7 +488,6 @@ section {
   opacity: 0;
 }
 
-/* Sequential Animation Delay */
 .item-card:nth-child(1) { animation-delay: 0.1s; }
 .item-card:nth-child(2) { animation-delay: 0.2s; }
 .item-card:nth-child(3) { animation-delay: 0.3s; }
@@ -506,56 +499,83 @@ section {
 .item-card:nth-child(9) { animation-delay: 0.9s; }
 .item-card:nth-child(10) { animation-delay: 1s; }
 
-/* ==================== */
-/* RESPONSIVE ADJUSTMENTS */
-/* ==================== */
-
-@media (max-width: 1200px) {
-  .items-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  }
+/*--------------------------------------------------------------
+# Knowledge Organization & Representation Sections
+--------------------------------------------------------------*/
+.knowledge-organization {
+  padding: 80px 0;
+  background-color: var(--surface-color);
 }
 
-@media (max-width: 768px) {
-  .items-section h3 {
-    font-size: 1.8rem;
-  }
-  
-  .items-grid {
-    grid-template-columns: 1fr;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .item-img-container {
-    height: 200px;
-  }
-
-  .item-card.media-item .item-img-container,
-  .item-card.book-item .item-img-container {
-    height: 240px;
-  }
+.knowledge-representation {
+  padding: 80px 0;
+  background-color: var(--background-color);
 }
 
-@media (max-width: 480px) {
-  .item-content {
-    padding: 18px;
-  }
-  
-  .item-content h4 {
-    font-size: 1.2rem;
-  }
+.knowledge-organization .row,
+.knowledge-representation .row {
+  margin-top: 40px;
+}
 
-  .item-meta {
-    gap: 8px;
-    font-size: 0.8rem;
-  }
+.knowledge-organization h3,
+.knowledge-representation h3 {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.knowledge-organization h3::after,
+.knowledge-representation h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background: var(--accent-color);
+}
+
+.knowledge-organization p,
+.knowledge-representation p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.knowledge-representation ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.knowledge-representation li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.knowledge-representation li::before {
+  content: '•';
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: -3px;
 }
 
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
-.team .member-card {
+/*--------------------------------------------------------------
+# Team Section
+--------------------------------------------------------------*/
+.team {
+  padding: 80px 0;
+  background-color: var(--surface-color);
+}
+
+.member-card {
   background: white;
   padding: 30px;
   border-radius: 8px;
@@ -565,23 +585,15 @@ section {
   transition: transform 0.3s;
 }
 
-.team .member-card:hover {
+.member-card:hover {
   transform: translateY(-10px);
 }
 
-.team .member-card h3 {
+.member-card h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 15px;
-  color: var(--heading-color);
+  margin-bottom: 15
 }
-
-.team .member-card p {
-  color: var(--default-color);
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
