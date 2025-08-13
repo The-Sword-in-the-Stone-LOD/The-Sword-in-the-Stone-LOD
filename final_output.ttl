@@ -1,0 +1,93 @@
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <https://cidoc-crm.org/html/cidoc_crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf1: <https://xlmns.com/foaf/0.1/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix metadigit: <http://www.iccu.sbn.it/metaAG1> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rda: <http://rdaregistry.info/Elements/a/> .
+@prefix schema: <https://schema.org/> .
+@prefix sits: <https://github.com/The-Sword-in-the-Stone-LOD/The-Sword-in-the-Stone-LOD/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
+@prefix viaf: <https://viaf.org/en> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sits:item_book a crm:E24_Physical_Human-Made_Thing ;
+    bf:shelfmark "P.o.rel. 713"^^xsd:string ;
+    dcterms:extent "LV, 359 S."^^xsd:string ;
+    dcterms:identifier "urn:nbn:de:bvb:12-bsb10035504-6"^^xsd:string ;
+    dcterms:issued 1865 ;
+    dcterms:publisher "Corradetti"^^xsd:string ;
+    dcterms:source "https://www.digitale-sammlungen.de/en/details/bsb10035504"^^xsd:string ;
+    dcterms:subject sits:person_Merlin ;
+    dcterms:title "Il mago Merlino: Memorie, traduzioni, leggende. Raccolte da Carlo Haugwitz, aggiuntavi la tregenda di Merlino, la notte del 19 marzo 1865. Tre tomi in uno"^^xsd:string ;
+    bibo:oclcnum 163260542 ;
+    rda:placeOfPublication gn:3173435 ;
+    rda:publicationStatement "Milano: Corradetti 1865"^^xsd:string ;
+    gndo:preferredName viaf:70474651 .
+
+sits:item_poster a bf:Monograph,
+        tgm:tgm008104,
+        crm:E24_Physical_Human-Made_Thing ;
+    dcterms:date 1967 ;
+    dcterms:identifier "FOG420723"^^xsd:string ;
+    dcterms:language sits:language_Italian ;
+    dcterms:publisher "[S.I. : s.n.] ; Roma : Rotopress"^^xsd:string ;
+    dcterms:relation "The sword in the stone"^^xsd:string ;
+    dcterms:source "https://www.internetculturale.it/it/16/search/detail?id=oai%3Awww.internetculturale.sbn.it%2FTeca%3A20%3ANT0000%3AFOG420723"^^xsd:string ;
+    dcterms:subject "741.580973 - Disegni d'animazione (cartoni animati). Stati Uniti"^^xsd:string ;
+    dcterms:title "La spada nella roccia"^^xsd:string ;
+    metadigit:access_rights 1 ;
+    metadigit:agency viaf:11159032645401181381 ;
+    metadigit:collection "Manifesti cinematografici dal Secondo dopoguerra agli anni Settanta del Novecento"^^xsd:string ;
+    metadigit:completeness 0 ;
+    metadigit:format "1 poster : litography; color. ; 70x33 cm"^^xsd:string,
+        "tiff ; jpeg"^^xsd:string ;
+    crm:P138_represents "The sword in the stone"^^xsd:string ;
+    foaf1:depicts sits:item_animation,
+        sits:item_sword,
+        sits:person_King_Arthur,
+        sits:person_Merlin .
+
+sits:item_poter metadigit:holdings "Biblioteca provinciale La Magna Capitana - Foggia - IT-FG0046; Inventario : Man 2206 ; segnatura : Man. US Rei SPA m"^^xsd:string .
+
+sits:item_show a crm:E22_Human-Made_Object ;
+    owl:sameAs wd:Q1176076 ;
+    skos:altLabel "The Adventures of Merlin"^^xsd:string ;
+    skos:prefLabel "Merlin"^^xsd:string ;
+    wd:P136 wd:Q1366112,
+        wd:Q56064758,
+        wd:Q98526245 ;
+    wd:P138 sits:person_Merlin ;
+    wd:P144 sits:thing_Arthurian_Romance ;
+    wd:P2437 5 ;
+    wd:P31 wd:Q5398426 ;
+    wd:P345 "tt1199099"^^xsd:string ;
+    wd:P364 sits:language_English ;
+    wd:P449 wd:Q191472 ;
+    wd:P495 sits:country_UK ;
+    wd:P580 "20 September 2008"^^xsd:string ;
+    wd:P582 "24 December 2012"^^xsd:string .
+
+sits:item_animation a crm:E22_Human-Made_Object ;
+    dcterms:contributor sits:corporate_DisneyCo,
+        sits:person_WaltDisney,
+        viaf:263845595 ;
+    dcterms:creator viaf:54346645 ;
+    dcterms:format wd:Q747779 ;
+    dcterms:identifier "IT-DDS0000016223000000"^^xsd:string ;
+    dcterms:isPartOf "Grandi classici Walt Disney"^^xsd:string ;
+    dcterms:language wd:Q652 ;
+    dcterms:provenance "Milano BUENA VISTA HOME ENTERTAINMENT 1986"^^xsd:string ;
+    dcterms:source "http://opac2.icbsa.it/vufind/Record/IT-DDS0000016223000000/Details#tabnav"^^xsd:string ;
+    crm:P138_represents sits:item_sword,
+        sits:person_King_Arthur,
+        sits:person_Merlin,
+        "The sword in the stone"^^xsd:string ;
+    schema:soundtrack sits:item_music ;
+    wd:P144 sits:thing_Arthurian_Romance .
+
