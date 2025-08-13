@@ -1,0 +1,13 @@
+Subject,Predicate,Objectsits:item_book,
+dcterms:source,https://www.digitale-sammlungen.de/en/details/bsb10035504
+sits:item_book,gndo:preferredName,viaf:70474651
+sits:item_book,dcterms:identifier,urn:nbn:de:bvb:12-bsb10035504-6
+sits:item_book,bibo:oclcnum,163260542
+sits:item_book,rda:placeOfPublication,gn:3173435
+sits:item_book,dcterms:title,"Il mago Merlino: Memorie, traduzioni, leggende. Raccolte da Carlo Haugwitz, aggiuntavi la tregenda di Merlino, la notte del 19 marzo 1865. Tre tomi in uno"
+sits:item_book,dcterms:issued,1865
+sits:item_book,bf:shelfmark,P.o.rel. 713
+sits:item_book,dcterms:extent,"LV, 359 S."
+sits:item_book,rda:publicationStatement,Milano: Corradetti 1865
+sits:item_book,dcterms:publisher,Corradetti
+sits:item_book,dcterms:subject,wd:Q188044

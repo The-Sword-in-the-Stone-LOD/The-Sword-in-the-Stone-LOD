@@ -1,0 +1,18 @@
+Subject,Predicate,Object
+sits:item_show,dcterms:source,https://www.imdb.com/it/title/tt1199099/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_merlin
+sits:item_show,owl:sameAs,wd:Q1176076
+sits:item_show,skos:prefLabel,Merlin
+sits:item_show,skos:altLabel,The Adventures of Merlin
+sits:item_show,wd:P31,wd:Q5398426
+sits:item_show,wd:P449,wd:Q191472
+sits:item_show,wd:P345,tt1199099
+sits:item_show,wd:P138,wd:Q188044
+sits:item_show,wd:P144,wd:Q715768
+sits:item_show,wd:P136,wd:Q98526245
+sits:item_show,wd:P136,wd:Q56064758
+sits:item_show,wd:P136,wd:Q1366112
+sits:item_show,wd:P495,wd:Q145
+sits:item_show,wd:P364,wd:Q1860
+sits:item_show,wd:P2437,5
+sits:item_show,wd:P580,20 September 2008
+sits:item_show,wd:P582,24 December 2012

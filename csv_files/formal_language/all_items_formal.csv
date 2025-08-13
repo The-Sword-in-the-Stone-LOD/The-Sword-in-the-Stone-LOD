@@ -1,0 +1,78 @@
+Subject,Predicate,Object
+sits:item_show,dcterms:source,https://www.imdb.com/it/title/tt1199099/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_merlin
+sits:item_show,owl:sameAs,wd:Q1176076
+sits:item_show,skos:prefLabel,Merlin
+sits:item_show,skos:altLabel,The Adventures of Merlin
+sits:item_show,wd:P31,wd:Q5398426
+sits:item_show,wd:P449,wd:Q191472
+sits:item_show,wd:P345,tt1199099
+sits:item_show,wd:P138,sits:person_Merlin
+sits:item_show,wd:P144,sits:thing_Arthurian_Romance
+sits:item_show,wd:P136,wd:Q98526245
+sits:item_show,wd:P136,wd:Q56064758
+sits:item_show,wd:P136,wd:Q1366112
+sits:item_show,wd:P495,sits:country_UK
+sits:item_show,wd:P364,sits:language_English
+sits:item_show,wd:P2437,5
+sits:item_show,wd:P580,20 September 2008
+sits:item_show,wd:P582,24 December 2012
+
+
+sits:item_book,dcterms:source,https://www.digitale-sammlungen.de/en/details/bsb10035504
+sits:item_book,gndo:preferredName,viaf:70474651
+sits:item_book,dcterms:identifier,urn:nbn:de:bvb:12-bsb10035504-6
+sits:item_book,bibo:oclcnum,163260542
+sits:item_book,rda:placeOfPublication,gn:3173435
+sits:item_book,dcterms:title,"Il mago Merlino: Memorie, traduzioni, leggende. Raccolte da Carlo Haugwitz, aggiuntavi la tregenda di Merlino, la notte del 19 marzo 1865. Tre tomi in uno"
+sits:item_book,dcterms:issued,1865
+sits:item_book,bf:shelfmark,P.o.rel. 713
+sits:item_book,dcterms:extent,"LV, 359 S."
+sits:item_book,rda:publicationStatement,Milano: Corradetti 1865
+sits:item_book,dcterms:publisher,Corradetti
+sits:item_book,dcterms:subject,sits:person_Merlin
+
+
+sits:item_poster,dcterms:source,https://www.internetculturale.it/it/16/search/detail?id=oai%3Awww.internetculturale.sbn.it%2FTeca%3A20%3ANT0000%3AFOG420723
+sits:item_poster,crm:P138_represents,The sword in the stone
+sits:item_poster,dcterms:title,La spada nella roccia
+sits:item_poster,dcterms:relation,The sword in the stone
+sits:item_poster,dcterms:identifier,FOG420723
+sits:item_poster,metadigit:format,tiff ; jpeg
+sits:item_poster,metadigit:completeness,0
+sits:item_poster,metadigit:access_rights,1
+sits:item_poster,metadigit:agency,viaf:11159032645401181381
+sits:item_poster,metadigit:collection,Manifesti cinematografici dal Secondo dopoguerra agli anni Settanta del Novecento
+sits:item_poter,metadigit:holdings,Biblioteca provinciale La Magna Capitana - Foggia - IT-FG0046; Inventario : Man 2206 ; segnatura : Man. US Rei SPA m
+sits:item_poster,dcterms:subject,741.580973 - Disegni d'animazione (cartoni animati). Stati Uniti
+sits:item_poster,dcterms:language,sits:language_Italian
+sits:item_poster,metadigit:format,1 poster : litography, color. ; 70x33 cm
+sits:item_poster,rdf:type,bf:Monograph
+sits:item_poster,rdf:type,tgm:tgm008104
+sits:item_poster,dcterms:date,1967
+sits:item_poster,dcterms:publisher,[S.I. : s.n.] ; Roma : Rotopress
+sits:item_poster,foaf:depicts,sits:item_animation
+sits:item_poster,foaf:depicts,sits:person_King_Arthur
+sits:item_poster,foaf:depicts,sits:person_Merlin
+sits:item_poster,foaf:depicts,sits:item_sword
+sits:item_poster,crm:P138_represents,The sword in the stone
+
+
+sits:item_animation,dcterms:source,http://opac2.icbsa.it/vufind/Record/IT-DDS0000016223000000/Details#tabnav
+sits:item_animation,dcterms:creator,viaf:54346645
+sits:item_animation,dcterms:identifier,IT-DDS0000016223000000
+sits:item_animation,dcterms:contributor,viaf:263845595
+sits:item_animation,dcterms:contributor,sits:person_WaltDisney
+sits:item_animation,dcterms:format,wd:Q747779
+sits:item_animation,dcterms:language,wd:Q652
+sits:item_animation,dcterms:provenance,Milano BUENA VISTA HOME ENTERTAINMENT 1986
+sits:item_animation,dcterms:isPartOf,Grandi classici Walt Disney
+sits:item_animation,dcterms:contributor,sits;corporate_DisneyCo
+sits:item_animation,schema:soundtrack,sits:item_music
+sits:item_animation,wd:P144,sits:thing_Arthurian_Romance
+sits:item_animation,crm:P138_represents,The sword in the stone
+sits:item_animation,crm:P138_represents,sits:person_King_Arthur
+sits:item_animation,crm:P138_represents,sits:person_Merlin
+sits:item_animation,crm:P138_represents,sits:item_sword
+
+
+

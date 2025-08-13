@@ -1,11 +1,15 @@
 Subject,Predicate,Object
-Merlin (tv show),is also known as,The Adventure of Merlin
+Merlin (tv show),taken from,https://www.imdb.com/it/title/tt1199099/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_merlin
+Merlin (tv show),has title,Merlin
+Merlin (tv show),is also known as,The Adventures of Merlin
 Merlin (tv show),is instance of,television series
 Merlin (tv show),has original broadcaster,BBC One
 Merlin (tb show),has IMDb identifier,tt1199099
 Merlin (tv show),is named after,Merlin
 Merlin (tv show),is based on,Arthurian romance
-Merlin (tv show),has genre,"fantasy television series,adventure television series,drama television series"
+Merlin (tv show),has genre,fantasy television series
+Merlin (tv show),has genre,adventure television series
+Merlin (tv show),has genre,drama television series
 Merlin (tv show),has country of origin,United Kingdom
 Merlin (tv show),has original language,English
 Merlin (tv show),has number of seasons,5
