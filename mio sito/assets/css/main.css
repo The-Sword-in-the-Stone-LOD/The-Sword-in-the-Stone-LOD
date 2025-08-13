@@ -116,46 +116,141 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Home Section
+# Home Section - Complete Rewrite
 --------------------------------------------------------------*/
 .home {
   width: 100%;
   min-height: 100vh;
   background: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../img/foto.jpg") center 75%/cover no-repeat;
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../img/wood2.jpg") center 30%/cover no-repeat; 
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  color: var(--contrast-color);
   text-align: center;
-  padding: 0;
-  margin-top: -80px;
-  padding-top: 80px;
+  position: relative;
+  padding: 120px 0 80px;
 }
 
-.home h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-shadow: 
-    2px 2px 4px rgba(0, 0, 0, 0.8),
-    -1px -1px 0 rgba(0, 0, 0, 0.5);
-  letter-spacing: 1px;
+
+.home-content {
+  max-width: 1200px;
   padding: 0 20px;
 }
 
-.home p {
-  font-size: 1.5rem;
+/* Title Styles */
+.home-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 30px;
-  text-shadow: 
-    1px 1px 3px rgba(0, 0, 0, 0.8),
-    -1px -1px 0 rgba(0, 0, 0, 0.3);
-  max-width: 800px;
-  padding: 0 20px;
 }
 
+.home-title-line {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Marcellus', serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 700;
+  color: #2d465e; /* Dark blue from your palette */
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+  line-height: 1.2;
+  border-right: 4px solid #8b5a2b; /* Brown cursor */
+  margin: 0 auto;
+}
+
+.home-title-line:first-child {
+  animation: 
+    typing-first 1.8s steps(20, end),
+    blink-caret 0.8s step-end infinite;
+}
+
+.home-title-line:last-child {
+  animation: 
+    typing-second 1.5s steps(15, end),
+    blink-caret 0.8s step-end infinite;
+  animation-delay: 1.8s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+/* Animations */
+@keyframes typing-first {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes typing-second {
+  from { 
+    width: 0;
+    opacity: 0;
+  }
+  to { 
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #8b5a2b }
+}
+
+/* Subtitle */
+.home-subtitle {
+  font-size: 1.25rem;
+  color: white;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Button */
+.home-btn {
+  display: inline-block;
+  background-color: #8b5a2b; /* Brown from your palette */
+  color: white;
+  font-family: 'Marcellus', serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 14px 35px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.home-btn:hover {
+  background-color: #6d4a2a;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home {
+    padding: 100px 0 60px;
+  }
+  
+  .home-title-line {
+    font-size: clamp(2rem, 6vw, 3rem);
+    border-right-width: 3px;
+  }
+  
+  .home-subtitle {
+    font-size: 1.1rem;
+    padding: 0 15px;
+  }
+  
+  .home-btn {
+    font-size: 1rem;
+    padding: 12px 30px;
+  }
+}
 /*--------------------------------------------------------------
 # Study of the Domain
 --------------------------------------------------------------*/
@@ -340,13 +435,14 @@ section {
   align-items: center;
   justify-content: center;
   background: #f5f5f5; /* Colore di fallback */
+  padding: 20px; /* Aggiunto per un po' di spazio */
 }
 
 /* IMMAGINE PRINCIPALE - RIEMPIMENTO ORIZZONTALE */
 .item-img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Riempie tutto lo spazio */
+  object-fit: contain; /* Rimpicciolisce l'immagine per farla entrare interamente */
   object-position: center; /* Centra il soggetto */
   transition: transform 0.5s ease;
 }
@@ -409,6 +505,10 @@ section {
   margin-left: 6px;
   transition: transform 0.3s ease;
 }
+/*--------------------------------------------------------------
+# Items Section - Specific Types
+--------------------------------------------------------------*/
+/* Non c'è più bisogno di regole specifiche per l'altezza di spada e statua */
 
 /* STILI SPECIFICI PER TIPOLOGIE */
 /* Libri/Manoscritti */
@@ -417,35 +517,15 @@ section {
   padding: 15px;
 }
 
-.item-card.book-item .item-img {
-  object-fit: contain; /* Mostra l'intero documento */
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  max-height: 100%;
-}
-
 /* Poster */
 .item-card.poster-item .item-img-container {
   padding: 0;
   background: #000;
 }
 
-.item-card.poster-item .item-img {
-  object-fit: cover;
-}
-
 /* Media/Film */
 .item-card.media-item .item-img-container {
   background: #000;
-}
-
-/* Oggetti lunghi (spade) */
-.item-card.sword-item .item-img {
-  object-fit: contain;
-  width: auto;
-  max-width: 90%;
-  height: 90%;
 }
 
 /* Tappezzerie */
@@ -642,4 +722,183 @@ section {
   .home p {
     font-size: 18px;
   }
+}
+
+/*--------------------------------------------------------------
+# CSV Items
+--------------------------------------------------------------*/
+.csv-item .item-img-container {
+  background: #f0f7ff;
+}
+
+.csv-item .item-img {
+  object-fit: contain;
+  padding: 20px;
+  background: white;
+}
+
+.csv-item .item-content {
+  background: linear-gradient(to bottom, #fff 0%, #f0f7ff 100%);
+}
+
+.csv-item .item-link {
+  color: #2c6ecb;
+}
+
+.csv-item:hover .item-link {
+  color: #1a4d9e;
+}
+
+/*--------------------------------------------------------------
+# Knowledge Representation - Tables
+--------------------------------------------------------------*/
+.table-container {
+  margin-bottom: 50px;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.table-container h4 {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 10px;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table th {
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: 600;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-container {
+  margin: 40px 0;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.table th {
+  background-color: var(--accent-color);
+  color: white;
+  font-family: var(--heading-font);
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.text-muted.small {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+/*--------------------------------------------------------------
+# CSV Selector
+--------------------------------------------------------------*/
+.csv-selector {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.csv-item {
+  background: white;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.csv-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(139, 90, 43, 0.2);
+}
+
+.csv-item.active {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.csv-item i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.csv-item span {
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
+
+/* CSV Tables Container */
+.csv-table-container {
+  position: relative;
+  min-height: 400px;
+}
+
+.csv-table {
+  display: none;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.csv-table.active {
+  display: block;
+}
+
+.placeholder-table {
+  background: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.placeholder-table i {
+  font-size: 3rem;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.placeholder-table h4 {
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
