@@ -47,13 +47,12 @@ sits:item_poster a bf:Monograph,
     metadigit:completeness 0 ;
     metadigit:format "1 poster : litography; color. ; 70x33 cm"^^xsd:string,
         "tiff ; jpeg"^^xsd:string ;
+    metadigit:holdings "Biblioteca provinciale La Magna Capitana - Foggia - IT-FG0046; Inventario : Man 2206 ; segnatura : Man. US Rei SPA m"^^xsd:string ;
     crm:P138_represents "The sword in the stone"^^xsd:string ;
     foaf1:depicts sits:item_animation,
         sits:item_sword,
         sits:person_King_Arthur,
         sits:person_Merlin .
-
-sits:item_poter metadigit:holdings "Biblioteca provinciale La Magna Capitana - Foggia - IT-FG0046; Inventario : Man 2206 ; segnatura : Man. US Rei SPA m"^^xsd:string .
 
 sits:item_show a crm:E22_Human-Made_Object ;
     owl:sameAs wd:Q1176076 ;
