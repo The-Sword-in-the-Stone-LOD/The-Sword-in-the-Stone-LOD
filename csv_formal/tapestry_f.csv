@@ -10,7 +10,7 @@ sits:item_tapestry,schema:width,297.2 cm
 sits:item_tapestry,crm:P45_consists_of,aat:300243430
 sits:item_tapestry,bf:temporalCoverage,wd:Q12554
 sits:item_tapestry,bf:originPlace,wd:Q6581823
-sits:item_tapestry,bf:creationDate,1400–1410
+sits:item_tapestry,schema:dateCreated,1400–1410
 sits:item_tapestry,crm:P32_used_general_technique,aat:300020786
 sits:item_tapestry,schema:isPartOf,wd:Q77603420
 sits:item_tapestry,crm:P51_has_former_or_current_owner,viaf:102321347
@@ -19,3 +19,4 @@ sits:item_tapestry,schema:isPartOf,The Cloisters collection
 sits:item_tapestry,bf:AccessionNumber,32.130.3a
 
 sits:item_tapestry,crm:P23_surrendered_title_through,viaf:74660028
+
