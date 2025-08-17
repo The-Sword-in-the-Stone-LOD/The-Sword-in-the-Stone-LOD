@@ -1,7 +1,7 @@
 subject,predicate,object
 sits:item_music,dcterms:title,"The Sword in the Stone"
-sits:item_music,rdf:type,mo:soundtrack
-sits:item_music,mo:ReleaseType,mo:album
+sits:item_music,rdf:type,aat:300263865
+sits:item_music,mo:ReleaseType,aat:300440467
 sits:item_music,mo:media_type,wd:Q178588
 sits:item_music,mo:publishingLocation,gn:6252001
 sits:item_music,dcterms:issued,"1963"
