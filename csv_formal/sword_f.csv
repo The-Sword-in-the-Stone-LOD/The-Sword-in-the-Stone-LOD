@@ -1,18 +1,16 @@
 subject,predicate,object
 sits:item_sword,dcterms:source,https://www.metmuseum.org/art/collection/search/2560
-sits:item_sword,rdf:type,crm:E22_Human-Made_Object
-sits:item_sword,dc:title,Sword
+sits:item_sword,crm:P102_has_title,Sword
 sits:item_sword,crm:P130_shows_features_of,wd:Q187880
-sits:item_sword,crm:P2_has_type,aat:300265421
+sits:item_sword,rdf:type,aat:300265421
 sits:item_sword,schema:height,95.3 cm
 sits:item_sword,schema:width,11.4 cm
 sits:item_sword,schema:weight,1190 g
 sits:item_sword,crm:P45_consists_of,aat:300010904
-sits:item_sword,bf:temporalCoverage,wd:Q12554
-sits:item_sword,bf:creationDate,12th–13th century
-sits:item_sword,bf:originPlace,gn:9408659
+sits:item_sword,crm:P4_has_time-span,wd:Q12554
+sits:item_sword,schema:dateCreated,12th–13th century
+sits:item_sword,schema:locationCreated,gn:9408659
 sits:item_sword,crm:P50_has_current_keeper,viaf:126238294
-sits:item_sword,schema:isPartOf,Arms and Armor Collection
-sits:item_sword,bf:AccessionNumber,07.53.2
-
+sits:item_sword,crm:P46i_forms_part_of,Arms and Armor Collection
+sits:item_sword,dcterms:identifier,07.53.2
 sits:item_sword,crm:P23_surrendered_title_through,viaf:56494607
