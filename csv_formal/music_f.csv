@@ -12,5 +12,6 @@ sits:item_music,crm:P15_was_influenced_by,wd:Q1771297
 sits:item_music,schema:catalogNumber,"ST 4901"
 sits:item_music,mo:composer,viaf:64197728
 sits:item_music,mo:composer,viaf:88077600
-sits:item_music,mo:producer,wd:Q122950077
+sits:item_music,mo:producer,viaf:125399337
+
 
