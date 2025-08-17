@@ -9,10 +9,11 @@ sits:item_sword,schema:width,11.4 cm
 sits:item_sword,schema:weight,1190 g
 sits:item_sword,crm:P45_consists_of,aat:300010904
 sits:item_sword,bf:temporalCoverage,wd:Q12554
-sits:item_sword,bf:creationDate,12th–13th century
+sits:item_sword,schema:dateCreated,12th–13th century
 sits:item_sword,bf:originPlace,gn:9408659
 sits:item_sword,crm:P50_has_current_keeper,viaf:126238294
 sits:item_sword,schema:isPartOf,Arms and Armor Collection
 sits:item_sword,bf:AccessionNumber,07.53.2
 
 sits:item_sword,crm:P23_surrendered_title_through,viaf:56494607
+
