@@ -1,21 +1,21 @@
 subject,predicate,object
-sits:item_tapestry,dcterms:source,	https://www.metmuseum.org/art/collection/search/467528
-sits:item_tapestry,rdf:type,crm:E22_Human-Made_Object
+sits:item_tapestry,dcterms:source,https://www.metmuseum.org/art/collection/search/467528
 sits:item_tapestry,crm:P138_represents,wd:Q45792
-sits:item_tapestry,dc:title,King Arthur (from the Heroes Tapestries)
-sits:item_tapestry,crm:P2_has_type,aat:300205002
-sits:item_tapestry,crm:P2_has_type,aat:300386843
+sits:item_tapestry,crm:P102_has_title,King Arthur (from the Heroes Tapestries)
+sits:item_tapestry,rdf:type,aat:300205002
+sits:item_tapestry,rdf:type,aat:300386843
 sits:item_tapestry,schema:height,426.7 cm
 sits:item_tapestry,schema:width,297.2 cm
 sits:item_tapestry,crm:P45_consists_of,aat:300243430
-sits:item_tapestry,bf:temporalCoverage,wd:Q12554
-sits:item_tapestry,bf:originPlace,wd:Q6581823
-sits:item_tapestry,bf:creationDate,1400–1410
+sits:item_tapestry,crm:P4_has_time-span,wd:Q12554
+sits:item_tapestry,schema:dateCreated,1400–1410
+sits:item_tapestry,schema:locationCreated,wd:Q6581823
 sits:item_tapestry,crm:P32_used_general_technique,aat:300020786
-sits:item_tapestry,schema:isPartOf,wd:Q77603420
+sits:item_tapestry,crm:P46i_forms_part_of,wd:Q77603420
 sits:item_tapestry,crm:P51_has_former_or_current_owner,viaf:102321347
 sits:item_tapestry,crm:P50_has_current_keeper,viaf:126238294 
-sits:item_tapestry,schema:isPartOf,The Cloisters collection
-sits:item_tapestry,bf:AccessionNumber,32.130.3a
-
+sits:item_tapestry,crm:P46i_forms_part_of,The Cloisters collection
+sits:item_tapestry,dcterms:identifier,32.130.3a
 sits:item_tapestry,crm:P23_surrendered_title_through,viaf:74660028
+
+
