@@ -1,5 +1,5 @@
 subject,predicate,object
-sits:item_sword,dcterms:source,https://www.metmuseum.org/art/collection/search/2560
+sits:item_sword,dcterms:source,https://www.metmuseum.org/art/collection/search/25601
 sits:item_sword,crm:P102_has_title,Sword
 sits:item_sword,crm:P130_shows_features_of,wd:Q187880
 sits:item_sword,rdf:type,aat:300265421
@@ -14,5 +14,6 @@ sits:item_sword,crm:P50_has_current_keeper,viaf:126238294
 sits:item_sword,crm:P46i_forms_part_of,Arms and Armor Collection
 sits:item_sword,dcterms:identifier,07.53.2
 sits:item_sword,crm:P23_surrendered_title_through,viaf:56494607
+
 
 
