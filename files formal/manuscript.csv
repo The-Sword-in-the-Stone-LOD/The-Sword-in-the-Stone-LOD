@@ -1,0 +1,15 @@
+Subject,Predicate,Object
+sits:item_fragment,dcterms:source,https://manus.iccu.sbn.it/risultati-ricerca-manoscritti/-/manus-search/detail/804304?struct%3A1016=ricerca.parole_tutte%3A4%3D6&item%3A1016%3AKeywords=Ciclo+Arturiano&fieldstruct%5B0%5D=ricerca.parole_tutte%3A4%3D6&fieldaccess%5B0%5D=nome_t%3A1003&struct%3A5003=ricerca.parole_tutte%3A4%3D6&struct%3A7007=ricerca.parole_tutte%3A4%3D6&struct%3A20044=ricerca.parole_tutte%3A4%3D6&struct%3A4=ricerca.parole_tutte%3A4%3D6&struct%3A5005=ricerca.parole_tutte%3A4%3D6&struct%3A5004=ricerca.parole_tutte%3A4%3D6&struct%3A20046=ricerca.parole_tutte%3A4%3D6&struct%3A4091=ricerca.parole_tutte%3A4%3D6&struct%3A5091=ricerca.parole_tutte%3A4%3D6&struct%3A9041=ricerca.parole_tutte%3A4%3D6&struct%3A3041=ricerca.parole_tutte%3A4%3D6&struct%3A5041=ricerca.parole_tutte%3A4%3D6&&item%3A4088%3Afondi%5B%5D=Archivio+di+Stato+di+Bologna%7C%7C%7CIT-BO0514%7C%7C%7CBologna%7C%7C%7CFrammenti+manoscritti&struct:4088=ricerca.frase:4=1
+sits:item_fragment,dct:identifier,CNMD\0000291388
+sits:item_fragment,rdf:type,bf:Manuscript
+sits:item_fragment,crm:P4_has_time_span,1300-1400
+sits:item_fragment,crm:P45_consists_of,aat:300011851
+sits:item_fragment,bf:partOf,sits:thing_Arthurian_Romance
+sits:item_fragment,bf:language,got
+sits:item_fragment,crm:P148i_is_part_of-the_object,"fondo: ASBo, Tribunale del Torrone, Libri mandatorum, 5.2.1613-20.12.1613"
+sits:item_fragment,bf:heldBy,viaf:154202136
+sits:item_fragment,bf:partOf,"""Prophecies de Merlin"""
+sits:item_fragment,schema:height,H. 350 mm
+sits:item_fragment,schema:width,W. 160 mm
+sits:item_fragment,bf:shelfMark,"""Bologna, Archivio di Stato, Raccolta di manoscritti, Busta 1, n. 4, frammento b"""
+sits:item_fragment,crm:P4_has_time_span,sits:period_Middle_Ages
