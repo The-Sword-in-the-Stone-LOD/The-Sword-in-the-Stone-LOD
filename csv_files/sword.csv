@@ -1,5 +1,4 @@
-subject,predicate,object
-Sword,taken from,https://www.metmuseum.org/art/collection/search/25601
+Subject,Predicate,Object
 Sword,is possible representation of,Excalibur
 Sword,has title,"Sword"
 Sword,has type,artifact
@@ -16,4 +15,3 @@ Sword,is part of,Arms and Armor Collection
 Sword,has accession year,1907
 Sword,has accession number,07.53.2
 Sword,donated by,Jacob S. Rogers
-
