@@ -12,7 +12,7 @@ sits:language_Italian,owl:sameAs,wd:Q652
 sits:thing_Metropolitan,owl:sameAs,wd:Q160236
 sits:person_Walt_Disney,owl:sameAs,viaf:64197728
 sits:corporate_DisneyCo,owl:sameAs,viaf:125399337
-sits:corporate_DisneyProd,owl:equivalentClass,sits:corporate_Disney_Co
+sits:corporate_DisneyProd,owl:sameAs,sits:corporate_DisneyCo
 sits:corporate_DisneylandRec,owl:sameAs,wd:Q3710134
 sits:legend_the_sword_in_the_stone,dcterms:subject,sits:thing_Arthurian_Romance
 sits:thing_Arthurian_Romance,dcterms:created,sits:period_Middle_Ages
@@ -20,14 +20,13 @@ sits:thing_Arthurian_Romance,dcterms:spatial,sits:country_UK
 sits:person_King_Arthur,dcterms:isPartOf,sits:thing_Arthurian_Romance
 sits:person_King_Arthur,dcterms:provenance,sits:thing_Excalibur
 sits:person_King_Arthur,dcterms:isPartOf,sits:item_show
-sits:thing_Excalibur,dcterms:isPartOf,The sword in the stone
+sits:thing_Excalibur,dcterms:isPartOf,sits:legend_the_sword_in_the_stone
 sits:language_English,wd:P2936,sits:country_UK
 sits:city_NY,gn:locatedIn,sits:country_USA
 sits:thing_Metropolitan,rdf:type,wd:Q207694
 sits:thing_Metropolitan,dcterms:spatial,sits:city_NY
-sits:corporate_DisneyCo,wd:P17,cits:country_USA
+sits:corporate_DisneyCo,wd:P17,sits:country_USA
 sits:corporate_DisneyCo,wd:P112,sits:person_Walt_Disney
-sits:corporate_DisneyProd,owl:equivalentClass,sits:corporate_DisneyCo
 sits:corporate_DisneylandRec,wd:P112,sits:person_Walt_Disney
 sits:corporate_DisneylandRec,wd:P17,sits:country_USA
 viaf:64197728,foaf:knows,viaf:88077600 
