@@ -3,7 +3,7 @@ sits:item_music,dcterms:title,The Sword in the Stone
 sits:item_music,rdf:type,aat:300263865
 sits:item_music,mo:release_type,aat:300440467
 sits:item_music,mo:media_type,wd:Q178588
-sits:item_music,mo:publishingLocation,sits:country_USA
+sits:item_music,mo:publishing_location,sits:country_USA
 sits:item_music,dcterms:issued,1963
 sits:item_music,dcterms:language,sits:language_English
 sits:item_music,mo:producer,sits:corporate_DisneylandRec
@@ -13,4 +13,5 @@ sits:item_music,schema:catalogNumber,ST 4901
 sits:item_music,mo:composer,viaf:64197728
 sits:item_music,mo:composer,viaf:88077600
 sits:item_music,mo:producer,sits:corporate_DisneyCo
+
 
