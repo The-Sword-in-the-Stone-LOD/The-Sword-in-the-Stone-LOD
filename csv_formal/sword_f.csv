@@ -13,7 +13,8 @@ sits:item_sword,schema:locationCreated,gn:9408659
 sits:item_sword,crm:P50_has_current_keeper,sits:thing_Metropolitan
 sits:item_sword,crm:P46i_forms_part_of,Arms and Armor Collection
 sits:item_sword,dcterms:identifier,07.53.2
-sits:item_sword,crm:P23_surrendered_title_through,viaf:56494607
+sits:item_sword,crm:P23_transferred_title_from,viaf:56494607
+
 
 
 
