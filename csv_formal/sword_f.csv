@@ -10,11 +10,13 @@ sits:item_sword,crm:P45_consists_of,aat:300010904
 sits:item_sword,crm:P4_has_time-span,sits:period_Middle_Ages
 sits:item_sword,schema:dateCreated,12th–13th century
 sits:item_sword,schema:locationCreated,gn:9408659
+sits:item_sword,crm:P2_has_type,Oakeshott Type XII
 sits:item_sword,crm:P50_has_current_keeper,sits:thing_Metropolitan
 sits:item_sword,crm:P46i_forms_part_of,Arms and Armor Collection
 sits:item_sword,dcterms:identifier,07.53.2
 sits:item_sword,dcterms:dateAccepted,1907
 sits:item_sword,crm:P23_transferred_title_from,viaf:56494607
+
 
 
 
