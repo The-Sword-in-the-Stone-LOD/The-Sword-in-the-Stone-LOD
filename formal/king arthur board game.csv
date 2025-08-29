@@ -1,0 +1,24 @@
+Subject,Predicate,Object
+sits:item_board_game,dcterms:source,https://boardgamegeek.com/boardgame/177807/king-arthur
+sits:item_board_game,dct:subject,sits:legend_the_sword_in_the_stone
+sits:item_board_game,dct:subject,wd:Q45792
+sits:item_board_game,dct:subject,viaf:236816373
+sits:item_board_game,dct:subject,wd:Q1644266
+sits:item_board_game,schema:numberOfPlayers,1-4
+sits:item_board_game,schema:duration,30-45 min.
+sits:item_board_game,schema:suggestedMinAge,8
+sits:item_board_game,rdf:type,schema:BoardGame
+sits:item_board_game,schema:gamePlatform,Digital/Hybrid - App/Website
+sits:item_board_game,schema:datePublished,2014
+sits:item_board_game,schema:inLanguage,schema:Language
+sits:item_board_game,schema:author,viaf:305814544
+sits:item_board_game,schema:author,viaf:42900774
+sits:item_board_game,schema:publisher,viaf:172960455
+sits:item_board_game,schema:isPartOfSeries,schema:CreativeWorkSeries
+sits:item_board_game,schema:genre,https://boardgamegeek.com/boardgamecategory/1022/adventure
+sits:item_board_game,schema:genre,https://boardgamegeek.com/boardgamecategory/1072/electronic
+sits:item_board_game,schema:genre,https://boardgamegeek.com/boardgamecategory/1020/exploration
+sits:item_board_game,schema:genre,https://boardgamegeek.com/boardgamecategory/1010/fantasy
+sits:item_board_game,schema:genre,https://boardgamegeek.com/boardgamecategory/1035/medieval
+sits:item_board_game,schema:genre,https://boardgamegeek.com/boardgamecategory/1082/mythology
+sits:item_board_game,crm:P45_consists_of,aat:300014109
