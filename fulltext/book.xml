@@ -402,11 +402,13 @@
             L'avolo del neonato volle farlo battezzare
             <pb n="247"/>
             sotto il nome d'<persName>Enrico</persName> che egli portava, ma<lb/>
-            i <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name> vi si opposero vivamente: " Vo-<lb/>
-            gliamo, gridarono, che si chiami <persName ref="#A">Arturo</persName>. "
+            i <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name> vi si opposero vivamente:
+            <q>
+              "Vo-<lb/>gliamo, gridarono, che si chiami <persName ref="#A">Arturo</persName>. "
+           </q>
           </p>
         </div>
       </div>
     </body>
-</text>
+  </text>
 </TEI>
