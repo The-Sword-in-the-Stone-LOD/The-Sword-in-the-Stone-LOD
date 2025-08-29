@@ -1,0 +1,22 @@
+Subject,Predicate,Object
+sits:item_sword,dcterms:source,https://www.metmuseum.org/art/collection/search/25601
+sits:item_sword,crm:P102_has_title,Sword
+sits:item_sword,crm:P130_shows_features_of,sits:thing_Excalibur
+sits:item_sword,rdf:type,aat:300265421
+sits:item_sword,schema:height,95.3 cm
+sits:item_sword,schema:width,11.4 cm
+sits:item_sword,schema:weight,1190 g
+sits:item_sword,crm:P45_consists_of,aat:300010904
+sits:item_sword,crm:P4_has_time-span,sits:period_Middle_Ages
+sits:item_sword,schema:dateCreated,12th–13th century
+sits:item_sword,schema:locationCreated,gn:940865
+sits:item_sword,crm:P2_has_type,Oakeshott Type XII
+sits:item_sword,crm:P50_has_current_keeper,sits:thing_Metropolitan
+sits:item_sword,crm:P46i_forms_part_of,Arms and Armor Collection
+sits:item_sword,dcterms:identifier,07.53.2
+sits:item_sword,dcterms:dateAccepted,1907
+sits:item_sword,crm:P23_surrendered_title_through,viaf:56494607
+
+
+
+
