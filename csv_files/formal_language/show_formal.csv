@@ -1,0 +1,27 @@
+Subject,Predicate,Object
+sits:item_show,dcterms:source,https://www.imdb.com/it/title/tt1199099/?ref_=nv_sr_srsg_0_tt_3_nm_5_in_0_q_merlin
+sits:item_show,rdf:type,dbo:TelevisionShow
+sits:item_show,owl:sameAs,wd:Q1176076
+sits:item_show,skos:prefLabel,Merlin
+sits:item_show,skos:altLabel,The Adventures of Merlin
+sits:item_show,schema:identifier,tt1199099
+sits:item_show,schema:creator,wd:Q108552386
+sits:item_show,schema:creator,wd:Q26885409
+sits:item_show,schema:creator,viaf:132794210
+sits:item_show,schema:producer,wd:Q23837644
+sits:item_show,schema:producer,wd:Q2000845
+sits:item_show,schema:producer,wd:Q24039192
+sits:item_show,schema:about,sits:person_Merlin
+sits:item_show,schema:isBasedOn,sits:thing_Arthurian_Romance
+sits:item_show,schema:genre,wd:Q98526245
+sits:item_show,schema:genre,wd:Q56064758
+sits:item_show,schema:genre,wd:Q1366112
+sits:item_show,schema:countryOfOrigin,sits:country_UK
+sits:item_show,schema:inLanguage,sits:language_English
+sits:item_show,schema:inLanguage,wd:Q42365
+sits:item_show,schema:numberOfSeasons,5
+sits:item_show,schema:datePublished,20 September 2008
+sits:item_show,schema:about,sits:person_King_Arthur
+sits:item_show,schema:actor,wd:Q200405
+sits:item_show,schema:actor,wd:Q313657
+sits:item_show,schema:actor,wd:Q362224

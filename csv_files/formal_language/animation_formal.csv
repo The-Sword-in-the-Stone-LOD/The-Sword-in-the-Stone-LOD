@@ -1,0 +1,17 @@
+Subject,Predicate,Object
+sits:item_animation,dcterms:source,http://opac2.icbsa.it/vufind/Record/IT-DDS0000016223000000/Details#tabnav
+sits:item_animation,dcterms:creator,viaf:54346645
+sits:item_animation,dcterms:identifier,IT-DDS0000016223000000
+sits:item_animation,dcterms:contributor,viaf:263845595
+sits:item_animation,dcterms:contributor,sits:person_Walt_Disney
+sits:item_animation,dcterms:format,wd:Q747779
+sits:item_animation,dcterms:language,wd:Q652
+sits:item_animation,dcterms:provenance,Milano BUENA VISTA HOME ENTERTAINMENT 1986
+sits:item_animation,dcterms:isPartOf,Grandi classici Walt Disney
+sits:item_animation,dcterms:contributor,sits:corporate_DisneyCo
+sits:item_animation,schema:audio,sits:item_music
+sits:item_animation,schema:isBasedOn,sits:thing_Arthurian_Romance
+sits:item_animation,schema:about,The sword in the stone
+sits:item_animation,crm:P138_represents,sits:person_King_Arthur
+sits:item_animation,crm:P138_represents,sits:person_Merlin
+sits:item_animation,crm:P138_represents,sits:item_sword
