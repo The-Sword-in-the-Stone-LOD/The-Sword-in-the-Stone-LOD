@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- namespace declaration.-->
+    <teiHeader xml:lang="en">
+        <!-- metadata about the digital edition of the text.-->
+        <fileDesc>
+            <!-- mandatory-->
+            <!-- describes the current electronic file.-->
+            <titleStmt>
+                <title xml:lang="it" type="main" rend="italic">Il mago Merlino: Memorie, traduzioni, leggende</title>
+                <title xml:lang="it" type="sub">A digital edition.</title>
+                <author>
+                    <persName xml:lang="it" ref="#CH">
+                        <forename>Carlo</forename>
+                        <surname>Haugwitz</surname>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp>Digital encoding by</resp>
+                    <persName xml:lang="it" ref="#SAP">
+                        <forename>Silvia Antonella</forename>
+                        <surname>Pellicano</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <!--information about the current edition of the digital text.-->
+                <edition>The sword in the stone in LOD project's edition, <date when="2025-09">September 2025</date></edition>
+                <respStmt>
+                    <resp>Annotations by</resp>
+                    <persName xml:lang="it" ref="#SAP">
+                        <forename>Silvia Antonella</forename>
+                        <surname>Pellicano</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <!-- mandatory-->
+                <!--information about the publisher of the digital edition and the rights/licenses under which the resource is available. -->
+                <publisher>University of Bologna</publisher>
+                <pubPlace>
+                    <placeName key="Bologna" sameAs="https://www.geonames.org/3181928">Bologna</placeName>
+                </pubPlace>
+                <date when="2025"/>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- mandatory-->
+                <!--describes the original source. -->
+                <bibl>
+                    <title type="main" xml:lang="it">Il mago Merlino: Memorie, traduzioni, leggende</title>
+                    <title type="sub" xml:lang="it">Raccolte da Carlo Haugwitz</title>
+                    <author>
+                        <persName xml:lang="it" ref="#CH">
+                            <forename>Carlo</forename>
+                            <surname>Haugwitz</surname>
+                        </persName>
+                    </author>
+                    <publisher xml:lang="it" ref="#CR">C.Corradetti e C.</publisher>
+                    <date type="publication" when="1865">1865</date>
+                    <pubPlace key="Milano" sameAs="https://www.geonames.org/3173435">Milano</pubPlace>
+                    <settlement>Milano</settlement>
+                    <country key="IT">Italia</country>
+                    <ref target="https://www.digitale-sammlungen.de/en/view/bsb10035504?page=,1">Online access</ref>
+                    <idno type="OCLC">163260542</idno>
+                    <idno type="WorldCat">163260542</idno>
+                    <citedRange unit="page" from="VII" to="VIII">pp. VII-VIII</citedRange>
+                    and
+                    <citedRange unit="page" from="106" to="106">p. 106</citedRange>
+                    and
+                    <citedRange unit="page" from="125" to="126">pp. 125-126</citedRange>
+                    and
+                    <citedRange unit="page" from="246" to="247">pp. 246-247</citedRange>
+                    and
+                    <citedRange unit="page" from="275" to="277">pp. 275-277</citedRange>
+                </bibl>
+                <listBibl type="cited-works">
+                    <bibl xml:id="OF" sameAs="https://www.wikidata.org/wiki/Q48922">
+                        <author>
+                            <persName xml:lang="it" ref="#LA">Lodovico Ariosto</persName>
+                        </author>
+                        <title xml:lang="it">Orlando Furioso</title>
+                        <date when="1516"/>
+                    </bibl>
+                    <bibl xml:id="OS" sameAs="https://www.wikidata.org/wiki/Q503756">
+                        <author>
+                            <persName xml:lang="en" ref="#MC">James Macpherson</persName>
+                        </author>
+                        <title xml:lang="en">The Works of Ossian</title>
+                        <date when="1760"/>
+                    </bibl>
+                    <bibl xml:id="MT" sameAs="https://www.wikidata.org/wiki/Q184742">
+                        <author>
+                            <persName xml:lang="it" ref="#OV">Ovidio</persName>
+                        </author>
+                        <title xml:lang="it">Le Metamorfosi</title>
+                        <date when="0008"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- editorial principles which guided the transcription or encoding of the text-->
+            <projectDesc>
+                <p>Text encoded in XML/TEI for the project "The sword in the stone in LOD", developed for the course "Information Science and Cultural Heritage" of the Digital Humanities and Digital Knowledge master degree at University of Bologna.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>This digital edition includes selected excerpts from the original work.</p>
+                <p>In our project, we selected the parts of the text that focus specifically on Merlin and his relationship with Arthur. We gave particular importance to the sections that deal with Merlin's prophecies about Arthur, excluding those that mention Merlin in contexts not directly related to the king.</p>
+                <p>We have tried to keep page breaks (<pb/>) and line breaks (<lb/>) to preserve the formatting of the original source.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <!--description of the non-bibliographic aspects of a text.-->
+            <langUsage>
+                <language ident="it">Italian</language>
+            </langUsage>
+            <textDesc n="essay">
+                <!--description of a text in terms of situational parameters-->
+                <channel mode="w">print</channel>
+                <constitution type="single"/>
+                <derivation type="original"/>
+                <domain type="art"/>
+                <factuality type="mixed"/>
+                <interaction type="none"/>
+                <preparedness type="revised"/>
+                <purpose type="inform"/>
+            </textDesc>
+            <particDesc>
+                <!--describes speakers, voices, or other identifiable speakers in a linguistic interaction-->
+                <listOrg type="source-publisher">
+                    <org xml:id="CR">
+                        <orgName xml:lang="it" role="publisher">C.Corradetti e C.</orgName>
+                    </org>
+                </listOrg>
+                <listPerson type="source-responsible">
+                    <person xml:id="CH" sameAs="https://viaf.org/en/viaf/19727523">
+                        <persName xml:lang="it" role="author">
+                            <forename>Carlo</forename>
+                            <surname>Haugwitz</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="SAP">
+                        <persName xml:lang="it" role="editor">
+                            <forename>Silvia Antonella</forename>
+                            <surname>Pellicano</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listPerson type="cited-historical-person">
+                    <person xml:id="LA" sameAs="https://viaf.org/en/viaf/71386455">
+                        <persName xml:lang="it" role="italian poet">Lodovico Ariosto</persName>
+                        <note>Italian poet, author of the romantic epic <title xml:lang="it" ref="#OF">Orlando Furioso</title>, lived <date from="1474" to="1533" type="year">1474–1533</date>.</note>
+                    </person>
+                    <person xml:id="AT" sameAs="https://viaf.org/en/viaf/61540536">
+                        <persName xml:lang="en" role="english poet">Alfred Tennyson</persName>
+                        <note>English poet, Poet Laureate during the Victorian era, lived <date from="1809" to="1892" type="year">1809–1892</date>.</note>
+                    </person>
+                    <person xml:id="NI" sameAs="https://viaf.org/en/viaf/24724345">
+                        <persName xml:lang="de" role="german historian">Barthold Georg Niebuhr</persName>
+                        <note>German historian, a pioneer of the modern critical examination of historical sources, lived <date from="1776" to="1831" type="year">1776–1831</date>.</note>
+                    </person>
+                    <person xml:id="VI" sameAs="https://viaf.org/en/viaf/49227556">
+                        <persName xml:lang="fr" role="french scholar">Théodore Hersart Villemarqué</persName>
+                        <note>French scholar and folklorist, collector and publisher of Breton oral traditions, lived <date from="1815" to="1895" type="year">1815–1895</date></note>
+                    </person>
+                    <person xml:id="EM" sameAs="https://viaf.org/en/viaf/73970033">
+                        <persName xml:lang="fr" role="french critic">Émile Montégut</persName>
+                        <note>French critic and essayist, known for his works on English and American literature, lived <date from="1825" to="1895" type="year">1825–1895</date>.</note>
+                    </person>
+                    <person xml:id="MC" sameAs="https://viaf.org/en/viaf/100201047">
+                        <persName xml:lang="en" role="scottish poet">James Macpherson</persName>
+                        <note>Scottish writer, poet, and politician, known for his cycle of epic poems presented as <title xml:lang="en" ref="#OS">The Works of Ossian</title>, lived <date from="1736" to="1796" type="year">1736–1796</date>.</note>
+                    </person>
+                    <person xml:id="DO" sameAs="https://viaf.org/en/viaf/69276384">
+                        <persName xml:lang="it" role="latin poet">Domizio Marso</persName>
+                        <note>Latin poet, contemporary of <persName ref="#OV">Ovid</persName>, known for elegiac works, active ca <date from="-0046" to="-0019" type="year">46 BC–19 BC</date>.</note>
+                    </person>
+                    <person xml:id="OV" sameAs="https://viaf.org/en/viaf/88342447">
+                        <persName xml:lang="it" role="latin poet">Ovidio</persName>
+                        <note>Roman poet famous for the <title xml:lang="en" ref="#MT">Metamorphoses</title> and other mythological works, lived ca <date from="-0043" to="0017" type="year">43 BC–17 AD</date>.</note>
+                    </person>
+                    <person xml:id="AL" sameAs="https://viaf.org/en/viaf/72187470">
+                        <persName xml:lang="fr" role="french poet">Alain de Lille</persName>
+                        <note>French theologian and poet, lived ca <date from="1115" to="1202" type="year">1115-1202</date>.</note>
+                    </person>
+                    <person xml:id="KA" sameAs="https://www.wikidata.org/wiki/Q2454699">
+                        <persName xml:lang="en" role="welsh king">Cadwaladr</persName>
+                        <note>King of Gwynedd and Welsh saint, lived ca <date from="0655" to="0682" type="year">655-682 AD</date>.</note>
+                    </person>
+                </listPerson>
+                <listPerson type="cited-fictional-character">
+                    <person xml:id="DA">
+                        <persName xml:lang="it">Dante gaelico</persName>
+                        <note>Definition used by <persName ref="#EM">Montégut</persName> for a celtic poet.</note>
+                    </person>
+                    <person xml:id="MA" sameAs="https://www.wikidata.org/wiki/Q112">
+                        <persName xml:lang="it">Marso</persName>
+                        <note>Roman god of war, a major figure in classical mythology.</note>
+                    </person>
+                    <person xml:id="AA" sameAs="https://www.wikidata.org/wiki/Q459606">
+                        <persName xml:lang="it">Ambrogio Aureliano</persName>
+                        <note>Semi-legendary figure of the Arthurian tradition, leader of post-Roman <placeName ref="#britannia">Britain</placeName>, active ca <date from="0400" to="0500" type="century">5th century</date>.</note>
+                    </person>
+                    <person xml:id="M" sameAs="https://www.wikidata.org/wiki/Q188044">
+                        <persName xml:lang="it">Merlino</persName>
+                        <note>Legendary wizard of King Arthur's court, adviser and royal bard.</note>
+                    </person>
+                    <person xml:id="A" sameAs="https://www.wikidata.org/wiki/Q45792">
+                        <persName xml:lang="it">Arturo</persName>
+                        <note>Legendary king of Britain, central figure of Arthurian tales.</note>
+                    </person>
+                    <person xml:id="EL" sameAs="https://www.wikidata.org/wiki/Q133507">
+                        <persName xml:lang="it">Profeta Elia</persName>
+                        <note>Biblical prophet.</note>
+                    </person>
+                    <person xml:id="EN" sameAs="https://www.wikidata.org/wiki/Q213027">
+                        <persName>Enoch</persName>
+                        <note>Biblical figure, son of Jared.</note>
+                    </person>
+                    <person xml:id="KO" sameAs="https://www.wikidata.org/wiki/Q979146">
+                        <persName xml:lang="en">Conan Meriadoc</persName>
+                        <note>Legendary king of Britain.</note>
+                    </person>
+                    <person xml:id="COS" sameAs="https://www.wikidata.org/wiki/Q3695471">
+                        <persName>Costantino Corneu</persName>
+                        <note>Legendary king of Britain.</note>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="caledonia">
+                        <placeName xml:lang="it">Caledonia</placeName>
+                        <idno type="pleiades">https://pleiades.stoa.org/places/89132</idno>
+                        <note>Historical region in what is now northern Scotland.</note>
+                    </place>
+                    <place xml:id="britannia">
+                        <placeName xml:lang="it">Britannia</placeName>
+                        <idno type="pleiades">https://pleiades.stoa.org/places/981513</idno>
+                        <note>Roman province.</note>
+                    </place>
+                    <place xml:id="bretagna">
+                        <placeName xml:lang="it">Bretagna</placeName>
+                        <idno type="geonames">https://www.geonames.org/3030293</idno>
+                        <note>French region.</note>
+                    </place>
+                    <place xml:id="francia">
+                        <placeName xml:lang="it">Francia</placeName>
+                        <idno type="geonames">https://www.geonames.org/3017382</idno>
+                        <note>European state.</note>
+                    </place>
+                    <place xml:id="avalon">
+                        <placeName>Avalon</placeName>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q216901</idno>
+                        <note>Legendary island featured in the Arthurian legend.</note>
+                    </place>
+                    <place xml:id="armorica">
+                        <placeName xml:lang="it">Armorica</placeName>
+                        <idno type="pleiades">https://pleiades.stoa.org/places/69467</idno>
+                        <note>Name that in ancient times was given to today's Brittany.</note>
+                    </place>
+                    <place xml:id="roma">
+                        <placeName xml:lang="it">Roma</placeName>
+                        <idno type="pleiades">http://pleiades.stoa.org/places/423025</idno>
+                        <note>The capital of the Roman Republic and Empire.</note>
+                    </place>
+                    <place xml:id="inghilterra">
+                        <placeName xml:lang="it">Inghilterra</placeName>
+                        <idno type="geonames">https://www.geonames.org/2648147</idno>
+                        <note>Country in the British Isles.</note>
+                    </place>
+                    <place xml:id="babilonia">
+                        <placeName xml:lang="it">Babilonia</placeName>
+                        <idno type="pleiades">https://pleiades.stoa.org/places/893951</idno>
+                        <note>Capital city of Babylonia and an archaeological site in modern-day Iraq.</note>
+                    </place>
+                </listPlace>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="https://www.wikidata.org/wiki/">
+                    <term xml:lang="it">Tradizioni celtiche</term>
+                    <term xml:lang="en">Celtic traditions</term>
+                    <term xml:lang="it">Romanzi cavallereschi</term>
+                    <term xml:lang="en">Chivalric romances</term>
+                    <term xml:lang="it" sameAs="https://www.wikidata.org/wiki/Q9134">Mitologia</term>
+                    <term xml:lang="en" sameAs="https://www.wikidata.org/wiki/Q9134">Mythology</term>
+                    <term xml:lang="it">Poesie</term>
+                    <term xml:lang="en">Poems</term>
+                    <term xml:lang="it">Battaglia</term>
+                    <term xml:lang="en">Battle</term>
+                    <term xml:lang="it">Spada</term>
+                    <term xml:lang="en">Sword</term>
+                    <term xml:lang="it">Destini</term>
+                    <term xml:lang="en">Fates</term>
+                    <term xml:lang="it">Regno</term>
+                    <term xml:lang="en">Reign</term>
+                    <term xml:lang="it" sameAs="https://www.wikidata.org/wiki/Q120668917">Profezie</term>
+                    <term xml:lang="en" sameAs="https://www.wikidata.org/wiki/Q120668917">Prophecies</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="it">
+        <front>
+            <div type="title_page">
+                <pb n="III"/>
+                <head rend="center">IL MAGO<lb/>
+                    <hi rend="bold">MERLINO</hi><lb/>
+                    MEMORIE, TRADIZIONI, LEGGENDE
+                </head>
+                <p rend="center">Raccolte<lb/>
+                    <hi rend="bold">DA CARLO HAUGWITZ</hi>
+                </p>
+                <p rend="center">AGGIUNTAVI<lb/>
+                    LA TREGENDA DI MERLINO<lb/>
+                    la notte del 19 marzo 1865
+                </p>
+                <p rend="center">
+                    <hi rend="bold">TRE TOMI IN UNO</hi>
+                </p>
+                <p rend="center">MILANO<lb/>
+                    C.CORRADETTI e C.EDITORI<lb/>
+                    M.DCCC.LXV
+                </p>
+            </div>
+            <div type="preface">
+                <pb n="VII"/>
+                <head rend="center">LA TREGENDA DI MERLINO<lb/>
+                    la notte del <date when="1865-03-19">19 marzo 1865</date>.<lb/>
+                    I.
+                </head>
+                <epigraph rend="right">
+                    <quote xml:lang="it">Quel Signor disse lor : Vo' che sappiate<lb/>
+                        Che de le guerre che son qui ritratte,<lb/>
+                        Fin al dì d'oggi poche ne son state;<lb/>
+                        E son prima dipinte, che sian fatte.<lb/>
+                        Chi l'ha dipinte, ancor l'ha indovinate.
+                    </quote>
+                    <bibl>
+                        <persName ref="#LA">Lodovico Ariosto</persName>, 
+                        <title ref="#OF">Orlando Furioso</title> XXXII, 6
+                    </bibl>
+                </epigraph>
+                <p rend="center">
+                    Avevo riveduto l'ultimo foglio di questo<lb/>
+                    libro e mi confortavo nella speranza che non<lb/>
+                    dovesse spiacere. Il titolo ricorda le più vaghe<lb/>
+                    fantasie poetiche da <persName ref="#LA">M. Lodovico Ariosto</persName><lb/>
+                    ad <persName ref="#AT">Alfredo Tennyson</persName>. Per gli scettici,<lb/>
+                    pei crivellatori della storia ho posto innanzi
+                    <pb n="VIII"/>
+                </p>
+                <p rend="center">
+                    uno studio di autore inglese, che tra le neb-<lb/>
+                    bie di <title ref="#OS">Ossian</title> aguzza le ciglia come <persName ref="#NI">Niebuhr</persName>,<lb/>
+                    ed abbassa al possibile il valore delle<lb/>
+                    <term type="concept">tradizioni celtiche</term> de' <name type="socialRole" sameAs="https://www.wikidata.org/wiki/Q131081">Druidi</name> e de' <name type="socialRole">Bardi</name>;<lb/>
+                    pei curiosi ho tratto dall'esperto <persName ref="#VI">Villemarqué</persName><lb/>
+                    quel che v'è di più vero o di più probabile<lb/>
+                    intorno a <persName ref="#M">Merlino</persName>; ho suggellato l'opera con<lb/>
+                    uno scritto di <persName ref="#EM">Emilio Montègut</persName> sopra un<lb/>
+                    <persName ref="#DA">Dante gaelico</persName>; forse l'ultimo gran rappre-<lb/>
+                    sentante di quella singolare letteratura; ora,<lb/>
+                    pare a me, coloro che nei <term type="concept">romanzi cavallere-<lb/>
+                        schi</term> s'innamorarono di <persName ref="#M">Merlino</persName>, e coloro che<lb/>
+                    dei favoleggiamenti celtici son rimasti con se-<lb/>
+                    te, dopo le imposture di <persName ref="#MC">Macpherson</persName>, debbano<lb/>
+                    trovar qui di che acquetarla, e per avventura<lb/>
+                    sapermene grado. [...]
+                </p>
+            </div>
+            <!--other paragraphs omitted-->
+        </front>
+        <body>
+            <div type="chapter" n="2">
+                <head rend="center">Il mago Merlino</head>
+                <div type="section" n="2.2">
+                    <head rend="center">MERLINO, PERSONAGGIO REALE</head>
+                    <p rend="center">
+                        Ne' tempi antichi non eravi cosa tanto co-<lb/>
+                        mune quanto il dar nome di divinità a uomini<lb/>
+                        che supponevano rassomigliassero a taluna di<lb/>
+                        esse. Sappiamo appunto che ad un <persName ref="#DO">Domi-<lb/>
+                        zio</persName>, poeta latino, amico di <persName ref="#OV">Ovidio</persName>, erasi im-<lb/>
+                        posto il nome del piccol nume di cui si è<lb/>
+                        discorso più sopra: sia perchè creduto della<lb/>
+                        stirpe degli incantatori di serpenti, o perchè<lb/>
+                        lo si volesse adulare identificandolo con quel-<lb/>
+                        l'antico tipo della <term type="concept">mitologia</term>, egli veniva so-<lb/>
+                        prannomato <persName ref="#MA">Marso</persName>.
+                        [...]
+                    </p>
+                    <!-- Other paragraphs omitted -->
+                    <p rend="center">
+                        Alla morte d'<persName ref="#AA">Ambrogio Aureliano</persName>, pare con<lb/>
+                        tutta probabilità che <persName ref="#M">Merlino</persName> si affezionasse<lb/>
+                        al suo successore, che vuolsi sia stato il fa-<lb/>
+                        moso <persName ref="#A">Arturo</persName>.
+                    </p>
+                    <p rend="center">
+                        Alla corte di questi aveva <persName ref="#M">Merlino</persName> conti-<lb/>
+                        nuato ad occupare lo stesso posto che aveva<lb/>
+                        all'armata, adempiendovi le stesse funzioni a<lb/>
+                        cui adempiva sotto <persName ref="#AA">l'antecedente re britanno</persName>,<lb/>
+                        voglio dire quale capo di clan, facendo le fun-<lb/>
+                        zioni di bardo reale, e per conseguenza anche<lb/>
+                        quelle di consigliere inerenti alla stessa cari-<lb/>
+                        ca. Volendosi prestar fede ad alcune <term type="concept">poesie</term><lb/>
+                        che gli vengono attribuite, sembrerebbe ch'egli<lb/>
+                        avesse assistito ad una celebre <term type="concept">battaglia</term> contro<lb/>
+                        i <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q101985">Sassoni</name>, in una foresta della <placeName ref="#caledonia">Caledonia</placeName>,<lb/>
+                        collo scudo alla spalla, la <term type="concept">spada</term> sulla coscia,<lb/>
+                        e l'arpa in pugno. Avrebbe anche prima della<lb/>
+                        battaglia dormito il suo sonno magnetico, vale<lb/>
+                        a dire predetta la vittoria .<lb/>
+                        Una volta pertanto vincitore degli stranieri<lb/>
+                        e liberato dal pericolo delle loro scorrerie, <persName ref="#A">Arturo</persName> 
+                        <pb n="126"/>
+                    </p>
+                    <p rend="center">
+                        si vide costretto di combattere i <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni<lb/>
+                        del nord</name>, i quali si erano ribellati alla sua<lb/>
+                        suprema autorità e rinnovavano al mezzodì<lb/>
+                        le devastazioni dei <name type="ethnonym">Pitti</name> e degli <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Scoti</name>.<lb/>
+                        [...]
+                    </p>
+                </div>
+                <!--other paragraphs and sections omitted-->
+                <div type="section" n="2.6">
+                    <head rend="center">LE PROFEZIE DI MERLINO IN ARMONICA</head>
+                    <pb n="246"/>
+                    <p rend="center">
+                        [...]
+                        Or dunque, il <date when="1186-03-29">ventesimo nono giorno del<lb/>
+                        mese di marzo dell'anno 1186</date>, Dio diede un<lb/>
+                        successore al re <persName ref="#A">Arturo</persName>; la vedova del duca<lb/>
+                        di <placeName ref="#bretagna">Brettagna</placeName>, il cui nome pareva il simbolo<lb/>
+                        della Costanza dei <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name>, diede alla luce un<lb/>
+                        principe ch'essi considerarono pel nuovo mes-<lb/>
+                        sia figurato da <persName ref="#M">Merlino</persName> sotto la forma d'un<lb/>
+                        cignale.
+                    </p>
+                    <p rend="center">
+                        Dopo ch' egli avrà fatto in <placeName ref="#francia">Francia</placeName> le prime<lb/>
+                        sue armi, egli umilierà, essi diceano, la potenza<lb/>
+                        orgogliosa degli <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q541508">Anglo-Normanni</name>; egli rialzerà<lb/>
+                        quella dei <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name> e porterà fino all'estremo<lb/>
+                        Oriente la sua <term type="concept">spada</term> conquistatrice; eroe de-<lb/>
+                        gno del vecchio <persName ref="#A">Arturo</persName>, forse egli è <persName ref="#A">Arturo</persName><lb/>
+                        stesso in persona.
+                    </p>
+                    <p rend="center">
+                        « I giovani, osserva uno storico giudizioso,<lb/>
+                        palpitavano di speranza,ed i vecchi sparge-<lb/>
+                        van lagrime di amore al suo nome; per sfug-<lb/>
+                        gire alle amarezze d'un vassallaggio intollera-<lb/>
+                        bile, il paese ripeteva i canti del <persName ref="#M">profeta</persName> che<lb/>
+                        aveva promesso sì grandi <term type="concept">destini</term> al rampollo<lb/>
+                        dei re celto-britanni; esso aspettava con fidu-<lb/>
+                        cia l'imminente vittoria dell' Ermellino sul Leo-<lb/>
+                        pardo. »
+                    </p>
+                    <p rend="center">
+                        L'avolo del neonato volle farlo battezzare
+                        <pb n="247"/>
+                    </p>
+                    <p rend="center">
+                        sotto il nome d'<persName>Enrico</persName> che egli portava, ma<lb/>
+                        i <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name> vi si opposero vivamente:
+                        <q>
+                            Vo-<lb/>gliamo, gridarono, che si chiami <persName ref="#A">Arturo</persName>.
+                        </q>
+                        [...]
+                    </p>
+                </div>
+                <div type="section" n="2.7">
+                    <head rend="center">INFLUENZA STORICA DI MERLINO</head>
+                    <p rend="center">
+                        [...]
+                        <q>
+                            Questo vecchio canuto, del quale <persName ref="#M">Merlino</persName><lb/>
+                            predice l'arrivo, i <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name> suppongono debba<lb/>
+                            essere <persName ref="#A">Arturo</persName> loro antico e possente monarca;<lb/>
+                            <persName ref="#A">Arturo</persName> sì famoso in tutto l'universo, sì degno<lb/>
+                            di essere celebrato dalla penna veritiera della<lb/>
+                            storia, e non dileggiato dalle fiabe di vecchie<lb/>
+                            nutrici, poich'egli restituì alla sua nazione<lb/>
+                            calpestata sotto i piedi dello straniero la prisca<lb/>
+                            sua gloria, e scacciò lungi dalla patria i perfidi<lb/>
+                            invasori. Ora, none uno sa persuadere ai <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Bri-<lb/>
+                            tanni</name> che un uomo simile abbia potuto morire.<lb/>
+                            Mostrateci, essi dicono, un libro che parli della<lb/>
+                            sua morte o sepoltura! E tutti o quasi tutti<lb/>
+                            pensano ch'egli se ne viva ascoso nell'isola<lb/>
+                            d'<placeName ref="#avalon">Avalon</placeName>, dove fu trasportato per curare le<lb/>
+                            ricevute ferite.<lb/>
+                            Nella stessa guisa che <persName ref="#EL">Elia</persName> ed<lb/>
+                            <persName ref="#EN">Enoc</persName> vivi nel paradiso, un giorno de-<lb/>
+                            vono ritornare in aiuto della loro stirpe, secondo le sacre Scritture,<lb/>
+                            così, al dire dei <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name>, il loro famoso re<lb/>
+                            <persName ref="#A">Arturo</persName> dimora pieno di vita nella sua isola,<lb/>
+                            finché la sua nazione venga richiamata sotto i suoi ordini nel<lb/>
+                            <term type="concept">regno</term> de' suoi padri.<lb/>
+                        </q>
+                    </p>
+                    <p rend="center">
+                        Ed il  <persName ref="#AL">dottore universale</persName> termina il libro terzo
+                        de' suoi commenti con un'osservazione la quale<lb/>
+                        addimostra quale impressione facessero le <term type="concept">pro-<lb/>
+                        fezìe</term> di <persName ref="#M">Merlino</persName> sugli uomini più sensati del<lb/>
+                        secolo dodicesimo:<lb/>
+                        <q>
+                            In quanto a me, sebbene io non partecipi<lb/>
+                            per nessun conto la loro credenza, o per dir<lb/>
+                            meglio la loro illusione intorno all'esistenza at-<lb/>
+                            tuale di <persName ref="#A">Arturo</persName>, e bench'io me ne rida, non<lb/>
+                            posso negare che i <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name> siano ritornati<lb/>
+                            in patria; ed essi vi regneranno ancora, se<lb/>
+                            dobbiamo prestar fede alla dichiarazione assai<lb/>
+                            manifesta di <persName ref="#M">Merlino</persName>. Essi vi regneranno per<lb/>
+                            i meriti di <persName ref="#KA">san Kadwalader</persName>, il quale rivelerà<lb/>
+                            al <persName ref="#KO">Konan</persName>, vale a dire al principe britanno<lb/>
+                            d'<placeName ref="#armorica">Armorica</placeName>, il prossimo arrivo delle sue reliquie<lb/>
+                            da <placeName ref="#roma">Roma</placeName>.Appena reduci in patria metteranno<lb/>
+                            a morte gli stranieri <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q42406">Inglesi</name>; restituiranno al-<lb/>
+                            l'<placeName ref="#inghilterra">Inghilterra</placeName> il nome di <placeName ref="#bretagna">Brettagna</placeName>, e per ri-<lb/>
+                            temprare alla stessa sorgente la dinastia bri-<lb/>
+                            tanna, essi prenderanno il primo loro re fra<lb/>
+                            gli <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q776757">Armoricani</name>; poiché <persName ref="#A">Arturo</persName> discendeva ap-
+                            punto dal ramo armoricano per parte di <persName ref="#COS">Co-<lb/>
+                            stantino</persName> suo avolo.
+                        </q>
+                    </p>
+                    <pb n="276"/>
+                    <p rend="center">
+                        <q>Il regno degli <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q42406">Inglesi</name> essendo finito, con-<lb/>
+                            chiude il commentatore, ed essendone stato re-<lb/>
+                            stituito, per l'intervento celeste, il retaggio agli<lb/>
+                            antichi eredi, anch'io finisco questo libro pre-<lb/>
+                            gando Dio acciò ch'Esso renda a noi come<lb/>
+                            ai <name type="ethnonym" sameAs="https://www.wikidata.org/wiki/Q849967">Britanni</name> il <term type="concept">regno</term> che abbiamo perduto per<lb/>
+                            l'invasione del demonio, quand'egli verrà in<lb/>
+                            quel gran giorno di gaudio, nel quale tutti,<lb/>
+                            secondo la legge, sortendo dalla schiavitù di<lb/>
+                           <placeName ref="#babilonia">Babilonia</placeName>, ritroveranno la libertà.
+                        </q>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
