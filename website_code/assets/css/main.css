@@ -726,7 +726,7 @@ section {
   font-size: 0.65rem;
 }
 
-/* Uniformità per tutte le tabelle CSV - MARGINI AGGIUSTATI */
+/* Uniformità per tutte le tabelle CSV */
 .csv-table {
   display: none;
   animation: fadeIn 0.3s ease-out;
