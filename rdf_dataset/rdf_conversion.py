@@ -1,8 +1,6 @@
-import rdflib, csv, os, glob
+import rdflib, csv, glob
 from datetime import datetime
-import pandas as pd
-from rdflib import Graph, URIRef, Literal, Namespace
-from rdflib.namespace import XSD
+from rdflib import Graph, URIRef, Literal, Namespace, XSD, OWL, RDF, FOAF
 from pathlib import Path
 
 g = Graph()
@@ -14,8 +12,8 @@ ns = {
         "dbo" : Namespace("https://dbpedia.org/ontology/"),
         "dcterms" : Namespace("http://purl.org/dc/terms/"),
         "crm" : Namespace("https://cidoc-crm.org/html/cidoc_crm/"),
-        "rdf" : Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
-        "owl" : Namespace("http://www.w3.org/2002/07/owl#"),
+        "rdf" : RDF, #Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+        "owl" : OWL, #Namespace("http://www.w3.org/2002/07/owl#")
         "skos": Namespace("http://www.w3.org/2004/02/skos/core#"),
         "gndo": Namespace("https://d-nb.info/standards/elementset/gnd#"),
         "gn" : Namespace("http://www.geonames.org/ontology#"),
@@ -23,7 +21,7 @@ ns = {
         "bibo": Namespace("http://purl.org/ontology/bibo/"),
         "rda" : Namespace("http://rdaregistry.info/Elements/a/"),
         "metadigit" : Namespace("http://www.iccu.sbn.it/metaAG1"),
-        "foaf": Namespace("https://xlmns.com/foaf/0.1/"),
+        "foaf": FOAF, #Namespace("https://xlmns.com/foaf/0.1/")
         "schema" : Namespace("https://schema.org/"),
         "viaf" : Namespace("https://viaf.org/en"),
         "tgm" : Namespace("http://id.loc.gov/vocabulary/graphicMaterials/"),
@@ -31,8 +29,11 @@ ns = {
         "aat" : Namespace("http://vocab.getty.edu/aat/")
     }
 
+standard_pref = ['foaf','rdf','owl']
+
 for pref, namespace in ns.items():
-    g.bind(pref, namespace)
+    if pref not in standard_pref:
+        g.bind(pref, namespace)
 
 
 # Acessing the csv files of the items to produce a full dataset:
@@ -49,14 +50,18 @@ for filename in glob.glob(str(csv_folder_path / '*.csv')):
 
         for row in reader:
             all_items.append(row)
-
-            s_prefix, s_name = row['Subject'].split(':')
+            
+            # Cleaning data by removing leading/trailing whitespace
+            subj = row['Subject'].strip()
+            pred = row['Predicate'].strip()
+            obj = row['Object'].strip()
+            
+            s_prefix, s_name = subj.split(':')
             s = ns[s_prefix][s_name]
 
-            p_prefix, p_name = row['Predicate'].split(':')
+            p_prefix, p_name = pred.split(':')
             predicate = ns[p_prefix][p_name]
 
-            obj = row['Object']
             o = None
             if ':' in obj:
                 try:
