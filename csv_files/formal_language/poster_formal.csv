@@ -21,4 +21,4 @@ sits:item_poster,foaf:depicts,sits:item_animation
 sits:item_poster,foaf:depicts,wd:Q45792
 sits:item_poster,foaf:depicts,wd:Q188044
 sits:item_poster,foaf:depicts,sits:item_sword
-sits:item_poster,schema:about,The sword in the stone
+sits:item_poster,schema:about,sits:concept_legend

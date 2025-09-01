@@ -11,7 +11,7 @@ sits:item_animation,dcterms:isPartOf,Grandi classici Walt Disney
 sits:item_animation,dcterms:contributor,sits:corporate_DisneyCo
 sits:item_animation,schema:audio,sits:item_music
 sits:item_animation,schema:isBasedOn,sits:thing_Arthurian_Romance
-sits:item_animation,schema:about,The sword in the stone
+sits:item_animation,schema:about,sits:concept_legend
 sits:item_animation,crm:P138_represents,sits:person_King_Arthur
 sits:item_animation,crm:P138_represents,sits:person_Merlin
 sits:item_animation,crm:P138_represents,sits:item_sword
