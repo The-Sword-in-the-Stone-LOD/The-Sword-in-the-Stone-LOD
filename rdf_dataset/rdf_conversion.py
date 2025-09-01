@@ -51,7 +51,7 @@ for filename in glob.glob(str(csv_folder_path / '*.csv')):
         for row in reader:
             all_items.append(row)
             
-            # Cleaning data by removing leading/trailing whitespace
+            # Cleaning data by removing possible whitespace
             subj = row['Subject'].strip()
             pred = row['Predicate'].strip()
             obj = row['Object'].strip()
