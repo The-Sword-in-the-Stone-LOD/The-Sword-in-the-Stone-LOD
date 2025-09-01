@@ -17,6 +17,7 @@ sits:item_tapestry,crm:P50_has_current_keeper,sits:thing_Metropolitan
 sits:item_tapestry,crm:P46i_forms_part_of,The Cloisters collection
 sits:item_tapestry,dcterms:identifier,32.130.3a
 sits:item_tapestry,dcterms:dateAccepted,1932
-sits:item_tapestry,crm:P23_transferred_title_from,viaf:74660028
+sits:item_tapestry,crm:P23_surrendered_title_through,viaf:74660028
+
 
 
