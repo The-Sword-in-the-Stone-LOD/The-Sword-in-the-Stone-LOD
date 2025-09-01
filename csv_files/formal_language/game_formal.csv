@@ -1,6 +1,6 @@
 Subject,Predicate,Object
 sits:item_board_game,dcterms:source,https://boardgamegeek.com/boardgame/177807/king-arthur
-sits:item_board_game,dcterms:subject,sits:legend_the_sword_in_the_stone
+sits:item_board_game,dcterms:subject,sits:concept_legend
 sits:item_board_game,dcterms:subject,wd:Q45792
 sits:item_board_game,dcterms:subject,viaf:236816373
 sits:item_board_game,dcterms:subject,wd:Q1644266
