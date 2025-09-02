@@ -33,7 +33,7 @@ sits:corporate_DisneylandRec,schema:locatedIn,sits:country_USA
 sits:person_Merlin,schema:subjectOf,sits:thing_Arthurian_Romance
 sits:thing_Arthurian_Romance,schema:about,wd:Q1644266
 viaf:70474651,gndo:preferredName,"Haugwitz, Carlo"
-wd:Q120668916,rdf:type,aat:300202580
+wd:Q120668917,rdf:type,aat:300202580
 wd:Q120668917,bf:heldBy,sits:organization_Archive_Bologna
 viaf:64197728,foaf:knows,viaf:88077600
 viaf:88077600,foaf:knows,viaf:64197728
