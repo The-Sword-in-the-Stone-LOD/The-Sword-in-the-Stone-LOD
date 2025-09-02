@@ -4,8 +4,9 @@
 @prefix crm: <https://cidoc-crm.org/html/cidoc_crm/> .
 @prefix dbo: <https://dbpedia.org/ontology/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf1: <https://xlmns.com/foaf/0.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
 @prefix metadigit: <http://www.iccu.sbn.it/metaAG1> .
 @prefix mo: <http://purl.org/ontology/mo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -17,6 +18,8 @@
 @prefix viaf: <https://viaf.org/en> .
 @prefix wd: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sits:corporate_DisneyProd owl:equivalentClass sits:corporate_DisneyCo .
 
 sits:item_board_game a schema:BoardGame ;
     dcterms:subject sits:concept_legend,
@@ -84,12 +87,12 @@ sits:item_poster a bf:Monograph,
     metadigit:format "1 poster : litography; color. ; 70x33 cm",
         "tiff ; jpeg" ;
     metadigit:holdings "Biblioteca provinciale La Magna Capitana - Foggia - IT-FG0046; Inventario : Man 2206 ; segnatura : Man. US Rei SPA m" ;
-    crm:P138_represents "The sword in the stone" ;
-    schema:about sits:concept_legend ;
-    foaf1:depicts sits:item_animation,
+    foaf:depicts sits:item_animation,
         sits:item_sword,
         wd:Q188044,
-        wd:Q45792 .
+        wd:Q45792 ;
+    crm:P138_represents sits:concept_legend ;
+    schema:about sits:concept_legend .
 
 sits:item_sculpture a aat:300047090 ;
     crm:P102_has_title "King Arthur" ;
@@ -147,6 +150,13 @@ sits:item_tapestry a aat:300205002,
     schema:locationCreated wd:Q6581823 ;
     schema:width "297.2 cm" .
 
+sits:language_Italian owl:sameAs wd:Q652 .
+
+wd:Q115055140 crm:P7_took_place_at sits:thing_Metropolitan .
+
+wd:Q120668917 a aat:300202580 ;
+    bf:heldBy sits:organization_Archive_Bologna .
+
 sits:item_animation dcterms:contributor sits:corporate_DisneyCo,
         sits:person_Walt_Disney,
         viaf:263845595 ;
@@ -177,6 +187,26 @@ sits:item_music a aat:300263865 ;
     crm:P15_was_influenced_by wd:Q1771297 ;
     schema:catalogNumber "ST 4901" .
 
+sits:organization_Archive_Bologna owl:sameAs viaf:154202136 .
+
+viaf:102321347 crm:P51i_is_former_or_current_owner_of wd:Q77603420 ;
+    schema:hasOccupation aat:300115251 .
+
+viaf:139431033 schema:locatedIn crm:E53_Place .
+
+viaf:28170084 schema:birthPlace crm:E53_Place .
+
+viaf:56494607 schema:deathPlace sits:city_NY ;
+    schema:funder sits:thing_Metropolitan ;
+    schema:hasOccupation wd:Q43845 .
+
+viaf:70474651 gndo:preferredName "Haugwitz, Carlo" .
+
+viaf:74660028 schema:birthPlace sits:country_USA ;
+    schema:funder sits:thing_Metropolitan ;
+    schema:hasOccupation aat:300115251,
+        wd:Q862571 .
+
 sits:item_sword a aat:300265421 ;
     dcterms:dateAccepted "1907"^^xsd:gYear ;
     dcterms:identifier "07.53.2" ;
@@ -193,4 +223,57 @@ sits:item_sword a aat:300265421 ;
     schema:locationCreated gn:940865 ;
     schema:weight "1190 g" ;
     schema:width "11.4 cm" .
+
+sits:language_English owl:sameAs wd:Q1860 ;
+    dbo:spokenIn sits:country_UK .
+
+sits:thing_Excalibur owl:sameAs wd:Q187880 ;
+    schema:subjectOf sits:concept_legend .
+
+viaf:88077600 foaf:knows viaf:64197728 ;
+    schema:birthPlace sits:city_NY ;
+    schema:hasOccupation aat:300025671 ;
+    schema:worksFor sits:corporate_DisneylandRec .
+
+sits:corporate_DisneyCo owl:sameAs viaf:125399337 ;
+    schema:founder sits:person_Walt_Disney ;
+    schema:locatedIn sits:country_USA .
+
+sits:corporate_DisneylandRec owl:sameAs wd:Q3710134 ;
+    schema:founder sits:person_Walt_Disney ;
+    schema:locatedIn sits:country_USA .
+
+sits:country_UK owl:sameAs gn:2635167 .
+
+sits:person_King_Arthur owl:sameAs wd:Q45792 ;
+    schema:owns sits:thing_Excalibur ;
+    schema:subjectOf sits:thing_Arthurian_Romance .
+
+sits:person_Merlin owl:sameAs wd:Q188044 ;
+    schema:subjectOf sits:thing_Arthurian_Romance .
+
+sits:person_Walt_Disney owl:sameAs viaf:64197728 .
+
+viaf:64197728 foaf:knows viaf:88077600 ;
+    schema:birthPlace sits:city_NY ;
+    schema:hasOccupation aat:300025671 ;
+    schema:worksFor sits:corporate_DisneylandRec .
+
+sits:city_NY gn:locatedIn sits:country_USA ;
+    owl:sameAs gn:5128581 .
+
+sits:period_Middle_Ages owl:sameAs wd:Q12554 .
+
+sits:concept_legend dcterms:subject sits:thing_Arthurian_Romance .
+
+sits:country_USA owl:sameAs gn:6252001 .
+
+sits:thing_Metropolitan a wd:Q207694 ;
+    owl:sameAs wd:Q160236 ;
+    schema:locatedIn sits:city_NY .
+
+sits:thing_Arthurian_Romance dcterms:created sits:period_Middle_Ages ;
+    dcterms:spatial sits:country_UK ;
+    owl:sameAs wd:Q715768 ;
+    schema:about wd:Q1644266 .
 
