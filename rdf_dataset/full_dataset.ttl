@@ -155,7 +155,8 @@ sits:language_Italian owl:sameAs wd:Q652 .
 wd:Q115055140 crm:P7_took_place_at sits:thing_Metropolitan .
 
 wd:Q120668917 a aat:300202580 ;
-    bf:heldBy sits:organization_Archive_Bologna .
+    bf:heldBy sits:organization_Archive_Bologna ;
+    dcterms:subject sits:person_Merlin .
 
 sits:item_animation dcterms:contributor sits:corporate_DisneyCo,
         sits:person_Walt_Disney,
@@ -249,9 +250,6 @@ sits:person_King_Arthur owl:sameAs wd:Q45792 ;
     schema:owns sits:thing_Excalibur ;
     schema:subjectOf sits:thing_Arthurian_Romance .
 
-sits:person_Merlin owl:sameAs wd:Q188044 ;
-    schema:subjectOf sits:thing_Arthurian_Romance .
-
 sits:person_Walt_Disney owl:sameAs viaf:64197728 .
 
 viaf:64197728 foaf:knows viaf:88077600 ;
@@ -263,6 +261,9 @@ sits:city_NY gn:locatedIn sits:country_USA ;
     owl:sameAs gn:5128581 .
 
 sits:period_Middle_Ages owl:sameAs wd:Q12554 .
+
+sits:person_Merlin owl:sameAs wd:Q188044 ;
+    schema:subjectOf sits:thing_Arthurian_Romance .
 
 sits:concept_legend dcterms:subject sits:thing_Arthurian_Romance .
 
