@@ -1,7 +1,7 @@
 Subject,Predicate,Object
 sits:item_board_game,dcterms:source,https://boardgamegeek.com/boardgame/177807/king-arthur
 sits:item_board_game,dcterms:subject,sits:concept_legend
-sits:item_board_game,dcterms:subject,wd:Q45792
+sits:item_board_game,dcterms:subject,sits:person_King_Arthur
 sits:item_board_game,dcterms:subject,viaf:236816373
 sits:item_board_game,dcterms:subject,wd:Q1644266
 sits:item_board_game,schema:numberOfPlayers,1-4
@@ -10,7 +10,7 @@ sits:item_board_game,schema:suggestedMinAge,8
 sits:item_board_game,rdf:type,dbo:BoardGame
 sits:item_board_game,schema:gamePlatform,Digital/Hybrid - App/Website
 sits:item_board_game,schema:datePublished,2014
-sits:item_board_game,schema:inLanguage,schema:Language
+sits:item_board_game,schema:inLanguage,sits:language_English
 sits:item_board_game,schema:author,viaf:305814544
 sits:item_board_game,schema:author,viaf:42900774
 sits:item_board_game,schema:publisher,viaf:172960455

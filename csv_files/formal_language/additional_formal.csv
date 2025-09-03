@@ -21,7 +21,10 @@ sits:thing_Arthurian_Romance,dcterms:created,sits:period_Middle_Ages
 sits:thing_Arthurian_Romance,dcterms:spatial,sits:country_UK
 sits:person_King_Arthur,schema:subjectOf,sits:thing_Arthurian_Romance
 sits:person_King_Arthur,schema:owns,sits:thing_Excalibur
+sits:person_King_Arthur,schema:subjectOf,sits:concept_legend
 sits:thing_Excalibur,schema:subjectOf,sits:concept_legend
+sits:person_Merlin,schema:subjectOf,sits:thing_Arthurian_Romance
+sits:person_Merlin,schema:subjectOf,sits:concept_legend
 sits:language_English,dbo:spokenIn,sits:country_UK
 sits:city_NY,gn:locatedIn,sits:country_USA
 sits:thing_Metropolitan,rdf:type,wd:Q207694
@@ -30,7 +33,6 @@ sits:corporate_DisneyCo,schema:locatedIn,sits:country_USA
 sits:corporate_DisneyCo,schema:founder,sits:person_Walt_Disney
 sits:corporate_DisneylandRec,schema:founder,sits:person_Walt_Disney
 sits:corporate_DisneylandRec,schema:locatedIn,sits:country_USA
-sits:person_Merlin,schema:subjectOf,sits:thing_Arthurian_Romance
 sits:thing_Arthurian_Romance,schema:about,wd:Q1644266
 viaf:70474651,gndo:preferredName,"Haugwitz, Carlo"
 wd:Q120668917,rdf:type,aat:300202580

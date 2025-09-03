@@ -5,10 +5,10 @@ sits:item_fragment,rdf:type,bf:Manuscript
 sits:item_fragment,schema:dateCreated,1300-1400
 sits:item_fragment,crm:P45_consists_of,aat:300011851
 sits:item_fragment,bf:partOf,sits:thing_Arthurian_Romance
-sits:item_fragment,dcterms:language,schema:Language
+sits:item_fragment,dcterms:language,wd:Q35722
 sits:item_fragment,crm:P46i_forms_part_of,crm:E78_Curated_Holding
 sits:item_fragment,bf:heldBy,viaf:154202136
-sits:item_fragment,bf:partOf,bf:Work
+sits:item_fragment,bf:partOf,wd:Q120668917
 sits:item_fragment,schema:height,H. 350 mm
 sits:item_fragment,schema:width,W. 160 mm
 sits:item_fragment,bf:shelfMark,"Bologna, Archivio di Stato, Raccolta di manoscritti, Busta 1, n. 4, frammento b"
