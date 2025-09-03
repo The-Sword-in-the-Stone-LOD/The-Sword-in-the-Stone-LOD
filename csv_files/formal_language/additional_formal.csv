@@ -35,6 +35,7 @@ sits:thing_Arthurian_Romance,schema:about,wd:Q1644266
 viaf:70474651,gndo:preferredName,"Haugwitz, Carlo"
 wd:Q120668917,rdf:type,aat:300202580
 wd:Q120668917,bf:heldBy,sits:organization_Archive_Bologna
+wd:Q120668917,dcterms:subject,sits:person_Merlin
 viaf:64197728,foaf:knows,viaf:88077600
 viaf:88077600,foaf:knows,viaf:64197728
 viaf:64197728,schema:hasOccupation,aat:300025671
