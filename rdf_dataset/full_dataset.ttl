@@ -1,0 +1,282 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix crm: <https://cidoc-crm.org/html/cidoc_crm/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix metadigit: <http://www.iccu.sbn.it/metaAG1> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rda: <http://rdaregistry.info/Elements/a/> .
+@prefix schema: <https://schema.org/> .
+@prefix sits: <https://github.com/The-Sword-in-the-Stone-LOD/The-Sword-in-the-Stone-LOD/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tgm: <http://id.loc.gov/vocabulary/graphicMaterials/> .
+@prefix viaf: <https://viaf.org/en> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sits:corporate_DisneyProd owl:equivalentClass sits:corporate_DisneyCo .
+
+sits:item_board_game a dbo:BoardGame ;
+    dcterms:subject sits:concept_legend,
+        sits:person_King_Arthur,
+        viaf:236816373,
+        wd:Q1644266 ;
+    crm:P45_consists_of aat:300014109 ;
+    schema:author viaf:305814544,
+        viaf:42900774 ;
+    schema:datePublished "2014"^^xsd:gYear ;
+    schema:duration "30-45 min." ;
+    schema:gamePlatform "Digital/Hybrid - App/Website" ;
+    schema:genre "https://boardgamegeek.com/boardgamecategory/1010/fantasy",
+        "https://boardgamegeek.com/boardgamecategory/1020/exploration",
+        "https://boardgamegeek.com/boardgamecategory/1022/adventure",
+        "https://boardgamegeek.com/boardgamecategory/1035/medieval",
+        "https://boardgamegeek.com/boardgamecategory/1072/electronic",
+        "https://boardgamegeek.com/boardgamecategory/1082/mythology" ;
+    schema:inLanguage sits:language_English ;
+    schema:isPartOfSeries schema:CreativeWorkSeries ;
+    schema:numberOfPlayers "1-4" ;
+    schema:publisher viaf:172960455 ;
+    schema:suggestedMinAge 8 .
+
+sits:item_book a bf:Text ;
+    bf:shelfMark "P.o.rel. 713" ;
+    dcterms:creator viaf:70474651 ;
+    dcterms:extent "LV, 359 S." ;
+    dcterms:identifier "urn:nbn:de:bvb:12-bsb10035504-6" ;
+    dcterms:issued "1865"^^xsd:gYear ;
+    dcterms:publisher "Corradetti" ;
+    dcterms:subject sits:person_Merlin ;
+    dcterms:title "Il mago Merlino: Memorie, traduzioni, leggende. Raccolte da Carlo Haugwitz, aggiuntavi la tregenda di Merlino, la notte del 19 marzo 1865. Tre tomi in uno" ;
+    bibo:oclcnum 163260542 ;
+    rda:placeOfPublication gn:3173435 ;
+    rda:publicationStatement "Milano: Corradetti 1865" .
+
+sits:item_fragment a bf:Manuscript ;
+    bf:heldBy viaf:154202136 ;
+    bf:partOf sits:thing_Arthurian_Romance,
+        wd:Q120668917 ;
+    bf:shelfMark "Bologna, Archivio di Stato, Raccolta di manoscritti, Busta 1, n. 4, frammento b" ;
+    dcterms:identifier "CNMD\\0000291388" ;
+    dcterms:language wd:Q35722 ;
+    crm:P45_consists_of aat:300011851 ;
+    crm:P46i_forms_part_of crm:E78_Curated_Holding ;
+    crm:P4_has_time-span sits:period_Middle_Ages ;
+    schema:dateCreated "1300-1400" ;
+    schema:height "H. 350 mm" ;
+    schema:width "W. 160 mm" .
+
+sits:item_poster a bf:Monograph,
+        tgm:tgm008104 ;
+    dcterms:date "1967"^^xsd:gYear ;
+    dcterms:identifier "FOG420723" ;
+    dcterms:language wd:Q652 ;
+    dcterms:publisher "[S.I. : s.n.] ; Roma : Rotopress" ;
+    dcterms:relation "The sword in the stone" ;
+    dcterms:subject "741.580973 - Disegni d'animazione (cartoni animati). Stati Uniti" ;
+    dcterms:title "La spada nella roccia" ;
+    metadigit:access_rights 1 ;
+    metadigit:agency viaf:11159032645401181381 ;
+    metadigit:collection "Manifesti cinematografici dal Secondo dopoguerra agli anni Settanta del Novecento" ;
+    metadigit:completeness 0 ;
+    metadigit:format "1 poster : litography; color. ; 70x33 cm",
+        "tiff ; jpeg" ;
+    metadigit:holdings "Biblioteca provinciale La Magna Capitana - Foggia - IT-FG0046; Inventario : Man 2206 ; segnatura : Man. US Rei SPA m" ;
+    foaf:depicts sits:item_animation,
+        sits:item_sword,
+        wd:Q188044,
+        wd:Q45792 ;
+    crm:P138_represents sits:concept_legend ;
+    schema:about sits:concept_legend .
+
+sits:item_sculpture a aat:300047090 ;
+    crm:P102_has_title "King Arthur" ;
+    crm:P12i_was_present_at wd:Q115055140 ;
+    crm:P45_consists_of aat:300010957 ;
+    crm:P49_has_former_or_current_keeper viaf:139431033 ;
+    crm:P62_depicts sits:person_King_Arthur ;
+    schema:creator viaf:28170084 ;
+    schema:dateCreated "1891"^^xsd:gYear ;
+    schema:height "H. 23 3/16 in (59 cm)" ;
+    schema:locationCreated gn:2782113 .
+
+sits:item_show a dbo:TelevisionShow ;
+    owl:sameAs wd:Q1176076 ;
+    skos:altLabel "The Adventures of Merlin" ;
+    skos:prefLabel "Merlin" ;
+    schema:about sits:person_King_Arthur,
+        sits:person_Merlin ;
+    schema:actor wd:Q200405,
+        wd:Q313657,
+        wd:Q362224 ;
+    schema:countryOfOrigin sits:country_UK ;
+    schema:creator viaf:132794210,
+        wd:Q108552386,
+        wd:Q26885409 ;
+    schema:datePublished "20 September 2008" ;
+    schema:genre wd:Q1366112,
+        wd:Q56064758,
+        wd:Q98526245 ;
+    schema:identifier "tt1199099" ;
+    schema:inLanguage sits:language_English,
+        wd:Q42365 ;
+    schema:isBasedOn sits:thing_Arthurian_Romance ;
+    schema:numberOfSeasons 5 ;
+    schema:producer wd:Q2000845,
+        wd:Q23837644,
+        wd:Q24039192 .
+
+sits:item_tapestry a aat:300205002,
+        aat:300386843 ;
+    dcterms:dateAccepted "1932"^^xsd:gYear ;
+    dcterms:identifier "32.130.3a" ;
+    crm:P102_has_title "King Arthur (from the Heroes Tapestries)" ;
+    crm:P138_represents sits:person_King_Arthur ;
+    crm:P23_transferred_title_from viaf:74660028 ;
+    crm:P32_used_general_technique aat:300020786 ;
+    crm:P45_consists_of aat:300243430 ;
+    crm:P46i_forms_part_of wd:Q77603420,
+        "The Cloisters collection" ;
+    crm:P4_has_time-span sits:period_Middle_Ages ;
+    crm:P50_has_current_keeper sits:thing_Metropolitan ;
+    crm:P51_has_former_or_current_owner viaf:102321347 ;
+    schema:dateCreated "1400–1410" ;
+    schema:height "426.7 cm" ;
+    schema:locationCreated wd:Q6581823 ;
+    schema:width "297.2 cm" .
+
+sits:language_Italian owl:sameAs wd:Q652 .
+
+sits:item_animation dcterms:contributor sits:corporate_DisneyCo,
+        sits:person_Walt_Disney,
+        viaf:263845595 ;
+    dcterms:creator viaf:54346645 ;
+    dcterms:format wd:Q747779 ;
+    dcterms:identifier "IT-DDS0000016223000000" ;
+    dcterms:isPartOf "Grandi classici Walt Disney" ;
+    dcterms:language wd:Q652 ;
+    dcterms:provenance "Milano BUENA VISTA HOME ENTERTAINMENT 1986" ;
+    crm:P138_represents sits:item_sword,
+        sits:person_King_Arthur,
+        sits:person_Merlin ;
+    schema:about sits:concept_legend ;
+    schema:audio sits:item_music ;
+    schema:isBasedOn sits:thing_Arthurian_Romance .
+
+sits:item_music a aat:300263865 ;
+    dcterms:issued "1963"^^xsd:gYear ;
+    dcterms:language sits:language_English ;
+    mo:ReleaseType aat:300440467 ;
+    mo:composer viaf:64197728,
+        viaf:88077600 ;
+    mo:genre wd:Q3328774 ;
+    mo:media_type wd:Q178588 ;
+    mo:producer sits:corporate_DisneyCo,
+        sits:corporate_DisneylandRec ;
+    mo:publishingLocation sits:country_USA ;
+    crm:P15_was_influenced_by wd:Q1771297 ;
+    schema:catalogNumber "ST 4901" .
+
+sits:organization_Archive_Bologna owl:sameAs viaf:154202136 .
+
+viaf:102321347 crm:P51i_is_former_or_current_owner_of wd:Q77603420 ;
+    schema:hasOccupation aat:300115251 .
+
+viaf:139431033 schema:locatedIn crm:E53_Place .
+
+viaf:28170084 schema:birthPlace crm:E53_Place .
+
+viaf:56494607 schema:deathPlace sits:city_NY ;
+    schema:funder sits:thing_Metropolitan ;
+    schema:hasOccupation wd:Q43845 .
+
+viaf:70474651 gndo:preferredName "Haugwitz, Carlo" .
+
+viaf:74660028 schema:birthPlace sits:country_USA ;
+    schema:funder sits:thing_Metropolitan ;
+    schema:hasOccupation aat:300115251,
+        wd:Q862571 .
+
+wd:Q115055140 crm:P7_took_place_at sits:thing_Metropolitan .
+
+wd:Q120668917 a aat:300202580 ;
+    bf:heldBy sits:organization_Archive_Bologna ;
+    dcterms:subject sits:person_Merlin .
+
+sits:item_sword a aat:300265421 ;
+    dcterms:dateAccepted "1907"^^xsd:gYear ;
+    dcterms:identifier "07.53.2" ;
+    crm:P102_has_title "Sword" ;
+    crm:P130_shows_features_of sits:thing_Excalibur ;
+    crm:P23_surrendered_title_through viaf:56494607 ;
+    crm:P2_has_type "Oakeshott Type XII" ;
+    crm:P45_consists_of aat:300010904 ;
+    crm:P46i_forms_part_of "Arms and Armor Collection" ;
+    crm:P4_has_time-span sits:period_Middle_Ages ;
+    crm:P50_has_current_keeper sits:thing_Metropolitan ;
+    schema:dateCreated "12th–13th century" ;
+    schema:height "95.3 cm" ;
+    schema:locationCreated gn:940865 ;
+    schema:weight "1190 g" ;
+    schema:width "11.4 cm" .
+
+sits:thing_Excalibur owl:sameAs wd:Q187880 ;
+    schema:subjectOf sits:concept_legend .
+
+viaf:88077600 foaf:knows viaf:64197728 ;
+    schema:birthPlace sits:city_NY ;
+    schema:hasOccupation aat:300025671 ;
+    schema:worksFor sits:corporate_DisneylandRec .
+
+sits:corporate_DisneyCo owl:sameAs viaf:125399337 ;
+    schema:founder sits:person_Walt_Disney ;
+    schema:locatedIn sits:country_USA .
+
+sits:corporate_DisneylandRec owl:sameAs wd:Q3710134 ;
+    schema:founder sits:person_Walt_Disney ;
+    schema:locatedIn sits:country_USA .
+
+sits:country_UK owl:sameAs gn:2635167 .
+
+sits:language_English owl:sameAs wd:Q1860 ;
+    dbo:spokenIn sits:country_UK .
+
+sits:person_Walt_Disney owl:sameAs viaf:64197728 .
+
+viaf:64197728 foaf:knows viaf:88077600 ;
+    schema:birthPlace sits:city_NY ;
+    schema:hasOccupation aat:300025671 ;
+    schema:worksFor sits:corporate_DisneylandRec .
+
+sits:city_NY gn:locatedIn sits:country_USA ;
+    owl:sameAs gn:5128581 .
+
+sits:period_Middle_Ages owl:sameAs wd:Q12554 .
+
+sits:person_Merlin owl:sameAs wd:Q188044 ;
+    schema:subjectOf sits:concept_legend,
+        sits:thing_Arthurian_Romance .
+
+sits:country_USA owl:sameAs gn:6252001 .
+
+sits:person_King_Arthur owl:sameAs wd:Q45792 ;
+    schema:owns sits:thing_Excalibur ;
+    schema:subjectOf sits:concept_legend,
+        sits:thing_Arthurian_Romance .
+
+sits:thing_Metropolitan a wd:Q207694 ;
+    owl:sameAs wd:Q160236 ;
+    schema:locatedIn sits:city_NY .
+
+sits:thing_Arthurian_Romance dcterms:created sits:period_Middle_Ages ;
+    dcterms:spatial sits:country_UK ;
+    owl:sameAs wd:Q715768 ;
+    schema:about wd:Q1644266 .
+
+sits:concept_legend dcterms:subject sits:thing_Arthurian_Romance .
+
