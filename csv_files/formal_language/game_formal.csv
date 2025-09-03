@@ -7,7 +7,7 @@ sits:item_board_game,dcterms:subject,wd:Q1644266
 sits:item_board_game,schema:numberOfPlayers,1-4
 sits:item_board_game,schema:duration,30-45 min.
 sits:item_board_game,schema:suggestedMinAge,8
-sits:item_board_game,rdf:type,schema:BoardGame
+sits:item_board_game,rdf:type,dbo:BoardGame
 sits:item_board_game,schema:gamePlatform,Digital/Hybrid - App/Website
 sits:item_board_game,schema:datePublished,2014
 sits:item_board_game,schema:inLanguage,schema:Language
