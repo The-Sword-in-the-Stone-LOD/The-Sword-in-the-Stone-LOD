@@ -21,7 +21,7 @@
 
 sits:corporate_DisneyProd owl:equivalentClass sits:corporate_DisneyCo .
 
-sits:item_board_game a schema:BoardGame ;
+sits:item_board_game a dbo:BoardGame ;
     dcterms:subject sits:concept_legend,
         viaf:236816373,
         wd:Q1644266,
