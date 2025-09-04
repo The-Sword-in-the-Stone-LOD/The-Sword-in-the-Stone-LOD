@@ -19,8 +19,6 @@
 @prefix wd: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sits:corporate_DisneyProd owl:equivalentClass sits:corporate_DisneyCo .
-
 sits:item_board_game a dbo:BoardGame ;
     dcterms:subject sits:concept_legend,
         sits:person_King_Arthur,
@@ -39,7 +37,7 @@ sits:item_board_game a dbo:BoardGame ;
         "https://boardgamegeek.com/boardgamecategory/1072/electronic",
         "https://boardgamegeek.com/boardgamecategory/1082/mythology" ;
     schema:inLanguage sits:language_English ;
-    schema:isPartOfSeries schema:CreativeWorkSeries ;
+    schema:isPartOfSeries "SmartPLAY" ;
     schema:numberOfPlayers "1-4" ;
     schema:publisher viaf:172960455 ;
     schema:suggestedMinAge 8 .
@@ -91,8 +89,7 @@ sits:item_poster a bf:Monograph,
         sits:item_sword,
         wd:Q188044,
         wd:Q45792 ;
-    crm:P138_represents sits:concept_legend ;
-    schema:about sits:concept_legend .
+    crm:P138_represents sits:concept_legend .
 
 sits:item_sculpture a aat:300047090 ;
     crm:P102_has_title "King Arthur" ;
@@ -208,6 +205,10 @@ wd:Q120668917 a aat:300202580 ;
     bf:heldBy sits:organization_Archive_Bologna ;
     dcterms:subject sits:person_Merlin .
 
+sits:corporate_DisneyCo owl:sameAs viaf:125399337 ;
+    schema:founder sits:person_Walt_Disney ;
+    schema:locatedIn sits:country_USA .
+
 sits:item_sword a aat:300265421 ;
     dcterms:dateAccepted "1907"^^xsd:gYear ;
     dcterms:identifier "07.53.2" ;
@@ -232,10 +233,6 @@ viaf:88077600 foaf:knows viaf:64197728 ;
     schema:birthPlace sits:city_NY ;
     schema:hasOccupation aat:300025671 ;
     schema:worksFor sits:corporate_DisneylandRec .
-
-sits:corporate_DisneyCo owl:sameAs viaf:125399337 ;
-    schema:founder sits:person_Walt_Disney ;
-    schema:locatedIn sits:country_USA .
 
 sits:corporate_DisneylandRec owl:sameAs wd:Q3710134 ;
     schema:founder sits:person_Walt_Disney ;
@@ -273,10 +270,10 @@ sits:thing_Metropolitan a wd:Q207694 ;
     owl:sameAs wd:Q160236 ;
     schema:locatedIn sits:city_NY .
 
+sits:concept_legend dcterms:subject sits:thing_Arthurian_Romance .
+
 sits:thing_Arthurian_Romance dcterms:created sits:period_Middle_Ages ;
     dcterms:spatial sits:country_UK ;
     owl:sameAs wd:Q715768 ;
     schema:about wd:Q1644266 .
-
-sits:concept_legend dcterms:subject sits:thing_Arthurian_Romance .
 
