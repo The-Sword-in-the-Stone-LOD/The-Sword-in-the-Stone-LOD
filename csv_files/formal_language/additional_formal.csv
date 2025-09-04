@@ -13,7 +13,6 @@ sits:language_Italian,owl:sameAs,wd:Q652
 sits:thing_Metropolitan,owl:sameAs,wd:Q160236
 sits:person_Walt_Disney,owl:sameAs,viaf:64197728
 sits:corporate_DisneyCo,owl:sameAs,viaf:125399337
-sits:corporate_DisneyProd,owl:equivalentClass,sits:corporate_DisneyCo
 sits:organization_Archive_Bologna,owl:sameAs,viaf:154202136
 sits:corporate_DisneylandRec,owl:sameAs,wd:Q3710134
 sits:concept_legend,dcterms:subject,sits:thing_Arthurian_Romance
