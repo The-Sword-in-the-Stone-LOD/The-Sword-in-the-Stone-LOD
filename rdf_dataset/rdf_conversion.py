@@ -1,6 +1,7 @@
 import rdflib, csv, glob
 from datetime import datetime
-from rdflib import Graph, URIRef, Literal, Namespace, XSD, OWL, RDF, FOAF
+from rdflib import Graph, URIRef, Literal, Namespace
+from rdflib.namespace import XSD, OWL, RDF, FOAF
 from pathlib import Path
 
 g = Graph()
