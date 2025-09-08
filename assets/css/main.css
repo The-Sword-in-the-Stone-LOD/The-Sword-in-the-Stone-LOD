@@ -674,6 +674,8 @@ section {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # CSV Files Section - MARGINI AGGIUSTATI
 --------------------------------------------------------------*/
@@ -726,7 +728,7 @@ section {
   font-size: 0.65rem;
 }
 
-/* Uniformità per tutte le tabelle CSV */
+/* Uniformità per tutte le tabelle CSV - MARGINI AGGIUSTATI */
 .csv-table {
   display: none;
   animation: fadeIn 0.3s ease-out;
@@ -997,6 +999,57 @@ section {
   background: var(--accent-color);
 }
 
+/* Stile per la sezione Text Analysis - stile simile a RDF Production */
+.text-analysis-section {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  margin: 50px 0;
+  border-left: 4px solid var(--accent-color);
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-analysis-section h3 {
+  color: var(--accent-color);
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eaeaea;
+  font-family: var(--heading-font);
+}
+
+.text-analysis-section .idea-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--default-color);
+  margin-bottom: 25px;
+}
+
+.text-analysis-section .embed-container {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  margin: 20px 0;
+}
+
+/* Responsive per schermi piccoli */
+@media (max-width: 768px) {
+  .text-analysis-section {
+    padding: 20px 15px;
+    margin: 30px auto;
+    width: 95%;
+  }
+  
+  .text-analysis-section h3 {
+    font-size: 1.5rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
@@ -1230,5 +1283,53 @@ section {
 
   .idea-gallery {
     grid-template-columns: 1fr;
+  }
+}
+/* Stile per SVG zoommabile */
+.svg-zoom {
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .svg-zoom {
+    height: 400px;
+  }
+}
+
+
+/* Stile per SVG zoommabile */
+.svg-zoom {
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .svg-zoom {
+    height: 400px;
+  }
+}
+
+.small-legend {
+  max-width: 400px; /* Imposta una larghezza massima per l'immagine */
+  height: auto; /* Mantiene le proporzioni originali */
+  display: block; /* La rende un elemento a blocco per centrarla */
+  margin: 0 auto; /* Centra l'immagine orizzontalmente */
+}
+
+/* Regola la larghezza per schermi più piccoli, se necessario */
+@media (max-width: 768px) {
+  .small-legend {
+    max-width: 300px;
   }
 }
