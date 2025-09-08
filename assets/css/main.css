@@ -520,7 +520,7 @@ section {
   background-color: var(--background-color);
 }
 
-/* Stile per le sottosezioni di Knowledge Representation */
+
 .knowledge-representation .domain-subsection {
   background: white;
   padding: 40px;
@@ -677,7 +677,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# CSV Files Section - MARGINI AGGIUSTATI
+# CSV Files Section - 
 --------------------------------------------------------------*/
 .csv-files-section {
   margin: 20px 0;
@@ -728,7 +728,6 @@ section {
   font-size: 0.65rem;
 }
 
-/* Uniformità per tutte le tabelle CSV - MARGINI AGGIUSTATI */
 .csv-table {
   display: none;
   animation: fadeIn 0.3s ease-out;
@@ -757,7 +756,7 @@ section {
   text-align: center;
 }
 
-/* Tabella responsive uniforme per tutti i CSV - MARGINI AGGIUSTATI */
+
 .csv-table .table-responsive {
   overflow-x: auto;
   width: 100%;
@@ -812,7 +811,7 @@ section {
   color: #6d4a2a;
 }
 
-/* Responsive per schermi piccoli */
+
 @media (max-width: 768px) {
   .csv-table {
     padding: 20px 15px;
@@ -999,7 +998,7 @@ section {
   background: var(--accent-color);
 }
 
-/* Stile per la sezione Text Analysis - stile simile a RDF Production */
+/* Style for Text Analysis */
 .text-analysis-section {
   background: white;
   padding: 40px;
@@ -1124,7 +1123,7 @@ section {
   font-style: italic;
 }
 
-/* Effetto sovrapposizione al hover */
+
 .member-card::before {
   content: '';
   position: absolute;
@@ -1142,7 +1141,7 @@ section {
   opacity: 1;
 }
 
-/* Responsive per team section */
+/* Responsive for team section */
 @media (max-width: 992px) {
   .member-img-container {
     width: 180px;
@@ -1190,7 +1189,7 @@ section {
   }
 }
 
-/* Animazione di entrata per le card del team */
+
 @keyframes teamCardEntrance {
   from {
     opacity: 0;
@@ -1285,7 +1284,7 @@ section {
     grid-template-columns: 1fr;
   }
 }
-/* Stile per SVG zoommabile */
+/* SVG zoom */
 .svg-zoom {
   width: 100%;
   max-width: 900px;
@@ -1303,7 +1302,7 @@ section {
 }
 
 
-/* Stile per SVG zoommabile */
+
 .svg-zoom {
   width: 100%;
   max-width: 900px;
@@ -1321,13 +1320,12 @@ section {
 }
 
 .small-legend {
-  max-width: 400px; /* Imposta una larghezza massima per l'immagine */
-  height: auto; /* Mantiene le proporzioni originali */
-  display: block; /* La rende un elemento a blocco per centrarla */
-  margin: 0 auto; /* Centra l'immagine orizzontalmente */
-}
+  max-width: 400px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
 
-/* Regola la larghezza per schermi più piccoli, se necessario */
+
 @media (max-width: 768px) {
   .small-legend {
     max-width: 300px;
