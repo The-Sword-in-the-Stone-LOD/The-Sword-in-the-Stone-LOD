@@ -1,0 +1,2732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema1="http://schema.org/"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://sits.org/book/person/ov">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ovidio Roman poet famous for the Metamorphoses and other mythological works, lived ca 43 BC–17 AD .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/88342447"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/ovidio"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/roman-poet-famous-for-the-meta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/fileDesc/il-mago-merlino-memorie-trad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/titleStmt/il-mago-merlino-memorie-trad"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/editionStmt/the-sword-in-the-stone-in-lod"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/publicationStmt/university-of-bologna-bologna"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/sourceDesc/il-mago-merlino-memorie-trad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/roma">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Roma</rdfs:label>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#roma</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/-i-giovani-osserva-uno-stori">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">« I giovani, osserva uno storico giudizioso,
+
+                        palpitavano di speranza,ed i vecchi sparge-
+
+                        van lagrime di amore al suo nome; per sfug-
+
+                        gire alle amarezze d'un vassallaggio intollera-
+
+                        bile, il paese ripeteva i canti del profeta che
+
+                        aveva promesso sì grandi destini al rampollo
+
+                        dei re celto-britanni; esso aspettava con fidu-
+
+                        cia l'imminente vittoria dell' Ermellino sul Leo-
+
+                        pardo. »</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/profeta"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/destini"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/anglo-normanni">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q541508"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/q/questo-vecchio-canuto-del-qua">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Questo vecchio canuto, del quale Merlino
+
+                            predice l'arrivo, i Britanni suppongono debba
+
+                            essere Arturo loro antico e possente monarca;
+
+                            Arturo sì famoso in tutto l'universo, sì degno
+
+                            di essere celebrato dalla penna veritiera della
+
+                            storia, e non dileggiato dalle fiabe di vecchie
+
+                            nutrici, poich'egli restituì alla sua nazione
+
+                            calpestata sotto i piedi dello straniero la prisca
+
+                            sua gloria, e scacciò lungi dalla patria i perfidi
+
+                            invasori. Ora, none uno sa persuadere ai Bri-
+
+                            tanni che un uomo simile abbia potuto morire.
+
+                            Mostrateci, essi dicono, un libro che parli della
+
+                            sua morte o sepoltura! E tutti o quasi tutti
+
+                            pensano ch'egli se ne viva ascoso nell'isola
+
+                            d'Avalon, dove fu trasportato per curare le
+
+                            ricevute ferite.
+
+                            Nella stessa guisa che Elia ed
+
+                            Enoc vivi nel paradiso, un giorno de-
+
+                            vono ritornare in aiuto della loro stirpe, secondo le sacre Scritture,
+
+                            così, al dire dei Britanni, il loro famoso re
+
+                            Arturo dimora pieno di vita nella sua isola,
+
+                            finché la sua nazione venga richiamata sotto i suoi ordini nel
+
+                            regno de' suoi padri.</schema1:text>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/britanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/bri--tanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/avalon"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/elia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/enoc"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/regno"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/dottore-universale">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>dottore universale</foaf:name>
+    <skos:note>ref=#AL</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/resp/digital-encoding-by">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/preparedness/preparedness">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=revised</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/listPerson/carlo-haugwitz-silvia-antonell">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=source-responsible</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/ch"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/sap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/keywords/tradizioni-celtiche-celtic-tra">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>scheme=https://www.wikidata.org/wiki/</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/tradizioni-celtiche"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/celtic-traditions"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/romanzi-cavallereschi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/chivalric-romances"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/mitologia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/mythology"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/poesie"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/poems"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/battaglia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/battle"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/spada"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/sword"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/destini"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/fates"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/regno"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/reign"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/profezie"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/prophecies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/licence/cc-by">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>target=https://creativecommons.org/licenses/by/4.0/</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/teiHeader/il-mago-merlino-memorie-trad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/fileDesc/il-mago-merlino-memorie-trad"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/encodingDesc/text-encoded-in-xmltei-for-th"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/profileDesc/italian-print-c.corradetti-e-c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/ka">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Cadwaladr King of Gwynedd and Welsh saint, lived ca 655-682 AD .</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2454699"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/cadwaladr"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/king-of-gwynedd-and-welsh-sain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/div/influenza-storica-di-merlino-">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">INFLUENZA STORICA DI MERLINO
+                    
+                        [...]
+                        
+                            Questo vecchio canuto, del quale Merlino
+
+                            predice l'arrivo, i Britanni suppongono debba
+
+                            essere Arturo loro antico e possente monarca;
+
+                            Arturo sì famoso in tutto l'universo, sì degno
+
+                            di essere celebrato dalla penna veritiera della
+
+                            storia, e non dileggiato dalle fiabe di vecchie
+
+                            nutrici, poich'egli restituì alla sua nazione
+
+                            calpestata sotto i piedi dello straniero la prisca
+
+                            sua gloria, e scacciò lungi dalla patria i perfidi
+
+                            invasori. Ora, none uno sa persuadere ai Bri-
+
+                            tanni che un uomo simile abbia potuto morire.
+
+                            Mostrateci, essi dicono, un libro che parli della
+
+                            sua morte o sepoltura! E tutti o quasi tutti
+
+                            pensano ch'egli se ne viva ascoso nell'isola
+
+                            d'Avalon, dove fu trasportato per curare le
+
+                            ricevute ferite.
+
+                            Nella stessa guisa che Elia ed
+
+                            Enoc vivi nel paradiso, un giorno de-
+
+                            vono ritornare in aiuto della loro stirpe, secondo le sacre Scritture,
+
+                            così, al dire dei Britanni, il loro famoso re
+
+                            Arturo dimora pieno di vita nella sua isola,
+
+                            finché la sua nazione venga richiamata sotto i suoi ordini nel
+
+                            regno de' suoi padri.
+
+                        
+                    
+                    
+                        Ed il  dottore universale termina il libro terzo
+                        de' suoi commenti con un'osservazione la quale
+
+                        addimostra quale impressione facessero le pro-
+
+                        fezìe di Merlino sugli uomini più sensati del
+
+                        secolo dodicesimo:
+
+                        
+                            In quanto a me, sebbene io non partecipi
+
+                            per nessun conto la loro credenza, o per dir
+
+                            meglio la loro illusione intorno all'esistenza at-
+
+                            tuale di Arturo, e bench'io me ne rida, non
+
+                            posso negare che i Britanni siano ritornati
+
+                            in patria; ed essi vi regneranno ancora, se
+
+                            dobbiamo prestar fede alla dichiarazione assai
+
+                            manifesta di Merlino. Essi vi regneranno per
+
+                            i meriti di san Kadwalader, il quale rivelerà
+
+                            al Konan, vale a dire al principe britanno
+
+                            d'Armorica, il prossimo arrivo delle sue reliquie
+
+                            da Roma.Appena reduci in patria metteranno
+
+                            a morte gli stranieri Inglesi; restituiranno al-
+
+                            l'Inghilterra il nome di Brettagna, e per ri-
+
+                            temprare alla stessa sorgente la dinastia bri-
+
+                            tanna, essi prenderanno il primo loro re fra
+
+                            gli Armoricani; poiché Arturo discendeva ap-
+                            punto dal ramo armoricano per parte di Co-
+
+                            stantino suo avolo.
+                        
+                    
+                    
+[page 276]
+
+                    
+                        Il regno degli Inglesi essendo finito, con-
+
+                            chiude il commentatore, ed essendone stato re-
+
+                            stituito, per l'intervento celeste, il retaggio agli
+
+                            antichi eredi, anch'io finisco questo libro pre-
+
+                            gando Dio acciò ch'Esso renda a noi come
+
+                            ai Britanni il regno che abbiamo perduto per
+
+                            l'invasione del demonio, quand'egli verrà in
+
+                            quel gran giorno di gaudio, nel quale tutti,
+
+                            secondo la legge, sortendo dalla schiavitù di
+
+                           Babilonia, ritroveranno la libertà.</schema1:text>
+    <skos:note>type=section</skos:note>
+    <skos:note>n=2.7</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/head/influenza-storica-di-merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/...-questo-vecchio-canuto-d"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/ed-il-dottore-universale-termi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/il-regno-degli-inglesi-essendo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/bibl/il-mago-merlino-memorie-trad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/il-mago-merlino-memorie-trad"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/raccolte-da-carlo-haugwitz"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/author/carlo-haugwitz"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/publisher/c.corradetti-e-c."/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/1865"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pubPlace/milano"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/settlement/milano"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/country/italia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/ref/online-access"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/163260542"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/citedRange/pp.-vii-viii"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/citedRange/p.-106"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/citedRange/pp.-125-126"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/citedRange/pp.-246-247"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/citedRange/pp.-275-277"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/montgut">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Montégut</foaf:name>
+    <skos:note>ref=#EM</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/da">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Dante gaelico Definition used by Montégut for a celtic poet.</foaf:name>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/dante-gaelico"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/definition-used-by-montgut-fo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/inghilterra">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Inghilterra</rdfs:label>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#inghilterra</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/barthold-georg-niebuhr">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Barthold Georg Niebuhr</foaf:name>
+    <skos:note>lang=de</skos:note>
+    <skos:note>role=german historian</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/bibl/mt">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q184742"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/author/ovidio"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/le-metamorfosi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/head/merlino-personaggio-reale">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">MERLINO, PERSONAGGIO REALE</schema1:text>
+    <skos:note>rend=center</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/citedRange/pp.-125-126">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>unit=page</skos:note>
+    <skos:note>from=125</skos:note>
+    <skos:note>to=126</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/q/in-quanto-a-me-sebbene-io-non">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">In quanto a me, sebbene io non partecipi
+
+                            per nessun conto la loro credenza, o per dir
+
+                            meglio la loro illusione intorno all'esistenza at-
+
+                            tuale di Arturo, e bench'io me ne rida, non
+
+                            posso negare che i Britanni siano ritornati
+
+                            in patria; ed essi vi regneranno ancora, se
+
+                            dobbiamo prestar fede alla dichiarazione assai
+
+                            manifesta di Merlino. Essi vi regneranno per
+
+                            i meriti di san Kadwalader, il quale rivelerà
+
+                            al Konan, vale a dire al principe britanno
+
+                            d'Armorica, il prossimo arrivo delle sue reliquie
+
+                            da Roma.Appena reduci in patria metteranno
+
+                            a morte gli stranieri Inglesi; restituiranno al-
+
+                            l'Inghilterra il nome di Brettagna, e per ri-
+
+                            temprare alla stessa sorgente la dinastia bri-
+
+                            tanna, essi prenderanno il primo loro re fra
+
+                            gli Armoricani; poiché Arturo discendeva ap-
+                            punto dal ramo armoricano per parte di Co-
+
+                            stantino suo avolo.</schema1:text>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/britanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/san-kadwalader"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/konan"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/armorica"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/roma"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/inglesi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/inghilterra"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/brettagna"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/armoricani"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/co--stantino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/bologna">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Bologna</rdfs:label>
+    <skos:note>key=Bologna</skos:note>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3181928"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/babilonia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Babilonia</rdfs:label>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#babilonia</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/textDesc/print">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>n=essay</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/channel/print"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/constitution/constitution"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/derivation/derivation"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/domain/domain"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/factuality/factuality"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/interaction/interaction"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/preparedness/preparedness"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/purpose/purpose"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/merlino">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Merlino</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#M</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/il-mago-merlino-memorie-trad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>Il mago Merlino: Memorie, traduzioni, leggende</dcterms:title>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=main</skos:note>
+    <skos:note>rend=italic</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/work/edizione-digitale">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/teiHeader/il-mago-merlino-memorie-trad"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/text/il-mago-merlino-memorie-tradi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/la">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Lodovico Ariosto Italian poet, author of the romantic epic Orlando Furioso , lived 1474–1533 .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/71386455"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/lodovico-ariosto"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/italian-poet-author-of-the-ro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/le-metamorfosi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>Le Metamorfosi</dcterms:title>
+    <skos:note>lang=it</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/alla-morte-d-ambrogio-aurelia">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Alla morte d'Ambrogio Aureliano, pare con
+
+                        tutta probabilità che Merlino si affezionasse
+
+                        al suo successore, che vuolsi sia stato il fa-
+
+                        moso Arturo.</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/ambrogio-aureliano"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/sotto-il-nome-d-enrico-che-eg">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">sotto il nome d'Enrico che egli portava, ma
+
+                        i Britanni vi si opposero vivamente:
+                        
+                            Vo-
+gliamo, gridarono, che si chiami Arturo.
+                        
+                        [...]</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/enrico"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/britanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/q/vo--gliamo-gridarono-che-si"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/settlement/milano">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/ne-tempi-antichi-non-eravi-co">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Ne' tempi antichi non eravi cosa tanto co-
+
+                        mune quanto il dar nome di divinità a uomini
+
+                        che supponevano rassomigliassero a taluna di
+
+                        esse. Sappiamo appunto che ad un Domi-
+
+                        zio, poeta latino, amico di Ovidio, erasi im-
+
+                        posto il nome del piccol nume di cui si è
+
+                        discorso più sopra: sia perchè creduto della
+
+                        stirpe degli incantatori di serpenti, o perchè
+
+                        lo si volesse adulare identificandolo con quel-
+
+                        l'antico tipo della mitologia, egli veniva so-
+
+                        prannomato Marso.
+                        [...]</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/domi--zio"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/ovidio"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/mitologia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/marso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/a-digital-edition.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>A digital edition.</dcterms:title>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=sub</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/britanni">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q849967"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/aa">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ambrogio Aureliano Semi-legendary figure of the Arthurian tradition, leader of post-Roman Britain , active ca 5th century .</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q459606"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/ambrogio-aureliano"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/semi-legendary-figure-of-the-a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/the-works-of-ossian">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>The Works of Ossian</dcterms:title>
+    <skos:note>lang=en</skos:note>
+    <skos:note>ref=#OS</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/profileDesc/italian-print-c.corradetti-e-c">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/langUsage/italian"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/textDesc/print"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/particDesc/c.corradetti-e-c.-carlo-haugwi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/settingDesc/caledonia-httpspleiades.sto"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/textClass/tradizioni-celtiche-celtic-tra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/bibl/of">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q48922"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/author/lodovico-ariosto"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/orlando-furioso"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/bardi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=socialRole</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/dopo-ch-egli-avr-fatto-in-fr">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Dopo ch' egli avrà fatto in Francia le prime
+
+                        sue armi, egli umilierà, essi diceano, la potenza
+
+                        orgogliosa degli Anglo-Normanni; egli rialzerà
+
+                        quella dei Britanni e porterà fino all'estremo
+
+                        Oriente la sua spada conquistatrice; eroe de-
+
+                        gno del vecchio Arturo, forse egli è Arturo
+
+                        stesso in persona.</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/francia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/anglo-normanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/britanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/spada"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/mitologia">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=concept</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q9134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/roman-province.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/hi/da-carlo-haugwitz">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>rend=bold</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/ch">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Carlo Haugwitz</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/19727523"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/carlo-haugwitz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/regno">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=concept</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/roman-poet-famous-for-the-meta">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/metamorphoses"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/43-bc17-ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/carlo-haugwitz">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Carlo Haugwitz</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#CH</skos:note>
+    <skos:note>role=author</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/forename/carlo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/surname/haugwitz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/...">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">[...]
+                        Or dunque, il ventesimo nono giorno del
+
+                        mese di marzo dell'anno 1186, Dio diede un
+
+                        successore al re Arturo; la vedova del duca
+
+                        di Brettagna, il cui nome pareva il simbolo
+
+                        della Costanza dei Britanni, diede alla luce un
+
+                        principe ch'essi considerarono pel nuovo mes-
+
+                        sia figurato da Merlino sotto la forma d'un
+
+                        cignale.</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/ventesimo-nono-giorno-del-mese"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/brettagna"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/britanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/idno/httpswww.geonames.org30173">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=geonames</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/q/il-regno-degli-inglesi-essendo">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Il regno degli Inglesi essendo finito, con-
+
+                            chiude il commentatore, ed essendone stato re-
+
+                            stituito, per l'intervento celeste, il retaggio agli
+
+                            antichi eredi, anch'io finisco questo libro pre-
+
+                            gando Dio acciò ch'Esso renda a noi come
+
+                            ai Britanni il regno che abbiamo perduto per
+
+                            l'invasione del demonio, quand'egli verrà in
+
+                            quel gran giorno di gaudio, nel quale tutti,
+
+                            secondo la legge, sortendo dalla schiavitù di
+
+                           Babilonia, ritroveranno la libertà.</schema1:text>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/inglesi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/britanni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/regno"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/babilonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/div/il-mago-merlino-merlino-perso">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Il mago Merlino
+                
+                    MERLINO, PERSONAGGIO REALE
+                    
+                        Ne' tempi antichi non eravi cosa tanto co-
+
+                        mune quanto il dar nome di divinità a uomini
+
+                        che supponevano rassomigliassero a taluna di
+
+                        esse. Sappiamo appunto che ad un Domi-
+
+                        zio, poeta latino, amico di Ovidio, erasi im-
+
+                        posto il nome del piccol nume di cui si è
+
+                        discorso più sopra: sia perchè creduto della
+
+                        stirpe degli incantatori di serpenti, o perchè
+
+                        lo si volesse adulare identificandolo con quel-
+
+                        l'antico tipo della mitologia, egli veniva so-
+
+                        prannomato Marso.
+                        [...]
+                    
+                     Other paragraphs omitted 
+                    
+                        Alla morte d'Ambrogio Aureliano, pare con
+
+                        tutta probabilità che Merlino si affezionasse
+
+                        al suo successore, che vuolsi sia stato il fa-
+
+                        moso Arturo.
+                    
+                    
+                        Alla corte di questi aveva Merlino conti-
+
+                        nuato ad occupare lo stesso posto che aveva
+
+                        all'armata, adempiendovi le stesse funzioni a
+
+                        cui adempiva sotto l'antecedente re britanno,
+
+                        voglio dire quale capo di clan, facendo le fun-
+
+                        zioni di bardo reale, e per conseguenza anche
+
+                        quelle di consigliere inerenti alla stessa cari-
+
+                        ca. Volendosi prestar fede ad alcune poesie
+
+                        che gli vengono attribuite, sembrerebbe ch'egli
+
+                        avesse assistito ad una celebre battaglia contro
+
+                        i Sassoni, in una foresta della Caledonia,
+
+                        collo scudo alla spalla, la spada sulla coscia,
+
+                        e l'arpa in pugno. Avrebbe anche prima della
+
+                        battaglia dormito il suo sonno magnetico, vale
+
+                        a dire predetta la vittoria .
+
+                        Una volta pertanto vincitore degli stranieri
+
+                        e liberato dal pericolo delle loro scorrerie, Arturo 
+                        
+[page 126]
+
+                    
+                    
+                        si vide costretto di combattere i Britanni
+
+                        del nord, i quali si erano ribellati alla sua
+
+                        suprema autorità e rinnovavano al mezzodì
+
+                        le devastazioni dei Pitti e degli Scoti.
+
+                        [...]
+                    
+                
+                other paragraphs and sections omitted
+                
+                    LE PROFEZIE DI MERLINO IN ARMONICA
+                    
+[page 246]
+
+                    
+                        [...]
+                        Or dunque, il ventesimo nono giorno del
+
+                        mese di marzo dell'anno 1186, Dio diede un
+
+                        successore al re Arturo; la vedova del duca
+
+                        di Brettagna, il cui nome pareva il simbolo
+
+                        della Costanza dei Britanni, diede alla luce un
+
+                        principe ch'essi considerarono pel nuovo mes-
+
+                        sia figurato da Merlino sotto la forma d'un
+
+                        cignale.
+                    
+                    
+                        Dopo ch' egli avrà fatto in Francia le prime
+
+                        sue armi, egli umilierà, essi diceano, la potenza
+
+                        orgogliosa degli Anglo-Normanni; egli rialzerà
+
+                        quella dei Britanni e porterà fino all'estremo
+
+                        Oriente la sua spada conquistatrice; eroe de-
+
+                        gno del vecchio Arturo, forse egli è Arturo
+
+                        stesso in persona.
+                    
+                    
+                        « I giovani, osserva uno storico giudizioso,
+
+                        palpitavano di speranza,ed i vecchi sparge-
+
+                        van lagrime di amore al suo nome; per sfug-
+
+                        gire alle amarezze d'un vassallaggio intollera-
+
+                        bile, il paese ripeteva i canti del profeta che
+
+                        aveva promesso sì grandi destini al rampollo
+
+                        dei re celto-britanni; esso aspettava con fidu-
+
+                        cia l'imminente vittoria dell' Ermellino sul Leo-
+
+                        pardo. »
+                    
+                    
+                        L'avolo del neonato volle farlo battezzare
+                        
+[page 247]
+
+                    
+                    
+                        sotto il nome d'Enrico che egli portava, ma
+
+                        i Britanni vi si opposero vivamente:
+                        
+                            Vo-
+gliamo, gridarono, che si chiami Arturo.
+                        
+                        [...]
+                    
+                
+                
+                    INFLUENZA STORICA DI MERLINO
+                    
+                        [...]
+                        
+                            Questo vecchio canuto, del quale Merlino
+
+                            predice l'arrivo, i Britanni suppongono debba
+
+                            essere Arturo loro antico e possente monarca;
+
+                            Arturo sì famoso in tutto l'universo, sì degno
+
+                            di essere celebrato dalla penna veritiera della
+
+                            storia, e non dileggiato dalle fiabe di vecchie
+
+                            nutrici, poich'egli restituì alla sua nazione
+
+                            calpestata sotto i piedi dello straniero la prisca
+
+                            sua gloria, e scacciò lungi dalla patria i perfidi
+
+                            invasori. Ora, none uno sa persuadere ai Bri-
+
+                            tanni che un uomo simile abbia potuto morire.
+
+                            Mostrateci, essi dicono, un libro che parli della
+
+                            sua morte o sepoltura! E tutti o quasi tutti
+
+                            pensano ch'egli se ne viva ascoso nell'isola
+
+                            d'Avalon, dove fu trasportato per curare le
+
+                            ricevute ferite.
+
+                            Nella stessa guisa che Elia ed
+
+                            Enoc vivi nel paradiso, un giorno de-
+
+                            vono ritornare in aiuto della loro stirpe, secondo le sacre Scritture,
+
+                            così, al dire dei Britanni, il loro famoso re
+
+                            Arturo dimora pieno di vita nella sua isola,
+
+                            finché la sua nazione venga richiamata sotto i suoi ordini nel
+
+                            regno de' suoi padri.
+
+                        
+                    
+                    
+                        Ed il  dottore universale termina il libro terzo
+                        de' suoi commenti con un'osservazione la quale
+
+                        addimostra quale impressione facessero le pro-
+
+                        fezìe di Merlino sugli uomini più sensati del
+
+                        secolo dodicesimo:
+
+                        
+                            In quanto a me, sebbene io non partecipi
+
+                            per nessun conto la loro credenza, o per dir
+
+                            meglio la loro illusione intorno all'esistenza at-
+
+                            tuale di Arturo, e bench'io me ne rida, non
+
+                            posso negare che i Britanni siano ritornati
+
+                            in patria; ed essi vi regneranno ancora, se
+
+                            dobbiamo prestar fede alla dichiarazione assai
+
+                            manifesta di Merlino. Essi vi regneranno per
+
+                            i meriti di san Kadwalader, il quale rivelerà
+
+                            al Konan, vale a dire al principe britanno
+
+                            d'Armorica, il prossimo arrivo delle sue reliquie
+
+                            da Roma.Appena reduci in patria metteranno
+
+                            a morte gli stranieri Inglesi; restituiranno al-
+
+                            l'Inghilterra il nome di Brettagna, e per ri-
+
+                            temprare alla stessa sorgente la dinastia bri-
+
+                            tanna, essi prenderanno il primo loro re fra
+
+                            gli Armoricani; poiché Arturo discendeva ap-
+                            punto dal ramo armoricano per parte di Co-
+
+                            stantino suo avolo.
+                        
+                    
+                    
+[page 276]
+
+                    
+                        Il regno degli Inglesi essendo finito, con-
+
+                            chiude il commentatore, ed essendone stato re-
+
+                            stituito, per l'intervento celeste, il retaggio agli
+
+                            antichi eredi, anch'io finisco questo libro pre-
+
+                            gando Dio acciò ch'Esso renda a noi come
+
+                            ai Britanni il regno che abbiamo perduto per
+
+                            l'invasione del demonio, quand'egli verrà in
+
+                            quel gran giorno di gaudio, nel quale tutti,
+
+                            secondo la legge, sortendo dalla schiavitù di
+
+                           Babilonia, ritroveranno la libertà.</schema1:text>
+    <skos:note>type=chapter</skos:note>
+    <skos:note>n=2</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/head/il-mago-merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/div/merlino-personaggio-reale-ne"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/div/le-profezie-di-merlino-in-armo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/div/influenza-storica-di-merlino-"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/epigraph/quel-signor-disse-lor--vo-ch">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>rend=right</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/quote/quel-signor-disse-lor--vo-ch"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/bibl/lodovico-ariosto--orlando-fur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/listPlace/caledonia-httpspleiades.sto">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/caledonia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/britannia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/bretagna"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/francia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/avalon"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/armorica"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/roma"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/inghilterra"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/place/babilonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/quote/quel-signor-disse-lor--vo-ch">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Quel Signor disse lor : Vo' che sappiate
+
+                        Che de le guerre che son qui ritratte,
+
+                        Fin al dì d'oggi poche ne son state;
+
+                        E son prima dipinte, che sian fatte.
+
+                        Chi l'ha dipinte, ancor l'ha indovinate.</schema1:text>
+    <skos:note>lang=it</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/scottish-writer-poet-and-pol">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/the-works-of-ossian"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/17361796"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/britanni-del-nord">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q849967"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/listPerson/dante-gaelico-definition-used">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=cited-fictional-character</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/da"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/ma"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/aa"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/m"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/a"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/el"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/en"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/ko"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/cos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/thodore-hersart-villemarqu">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Théodore Hersart Villemarqué</foaf:name>
+    <skos:note>lang=fr</skos:note>
+    <skos:note>role=french scholar</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/marso">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Marso</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#MA</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/druidi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=socialRole</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q131081"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/conan-meriadoc">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Conan Meriadoc</foaf:name>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/language/italian">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>ident=it</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/ambrogio-aureliano">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ambrogio Aureliano</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#AA</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/textClass/tradizioni-celtiche-celtic-tra">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/keywords/tradizioni-celtiche-celtic-tra"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/italian-poet-author-of-the-ro">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/orlando-furioso"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/14741533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/king-of-gwynedd-and-welsh-sain">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/655-682-ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/armorica">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Armorica</rdfs:label>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#armorica</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/constitution/constitution">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=single</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/em">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Émile Montégut French critic and essayist, known for his works on English and American literature, lived 1825–1895 .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/73970033"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/mile-montgut"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/french-critic-and-essayist-kn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/idno/httpswww.geonames.org26481">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=geonames</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/ko">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Conan Meriadoc Legendary king of Britain.</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q979146"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/conan-meriadoc"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/legendary-king-of-britain."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/we-have-tried-to-keep-page-bre">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="en">We have tried to keep page breaks (
+[page]
+) and line breaks (
+) to preserve the formatting of the original source.</schema1:text>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/milano-c.corradetti-e-c.editor">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">MILANO
+
+                    C.CORRADETTI e C.EDITORI
+
+                    M.DCCC.LXV</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/div/le-profezie-di-merlino-in-armo">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">LE PROFEZIE DI MERLINO IN ARMONICA
+                    
+[page 246]
+
+                    
+                        [...]
+                        Or dunque, il ventesimo nono giorno del
+
+                        mese di marzo dell'anno 1186, Dio diede un
+
+                        successore al re Arturo; la vedova del duca
+
+                        di Brettagna, il cui nome pareva il simbolo
+
+                        della Costanza dei Britanni, diede alla luce un
+
+                        principe ch'essi considerarono pel nuovo mes-
+
+                        sia figurato da Merlino sotto la forma d'un
+
+                        cignale.
+                    
+                    
+                        Dopo ch' egli avrà fatto in Francia le prime
+
+                        sue armi, egli umilierà, essi diceano, la potenza
+
+                        orgogliosa degli Anglo-Normanni; egli rialzerà
+
+                        quella dei Britanni e porterà fino all'estremo
+
+                        Oriente la sua spada conquistatrice; eroe de-
+
+                        gno del vecchio Arturo, forse egli è Arturo
+
+                        stesso in persona.
+                    
+                    
+                        « I giovani, osserva uno storico giudizioso,
+
+                        palpitavano di speranza,ed i vecchi sparge-
+
+                        van lagrime di amore al suo nome; per sfug-
+
+                        gire alle amarezze d'un vassallaggio intollera-
+
+                        bile, il paese ripeteva i canti del profeta che
+
+                        aveva promesso sì grandi destini al rampollo
+
+                        dei re celto-britanni; esso aspettava con fidu-
+
+                        cia l'imminente vittoria dell' Ermellino sul Leo-
+
+                        pardo. »
+                    
+                    
+                        L'avolo del neonato volle farlo battezzare
+                        
+[page 247]
+
+                    
+                    
+                        sotto il nome d'Enrico che egli portava, ma
+
+                        i Britanni vi si opposero vivamente:
+                        
+                            Vo-
+gliamo, gridarono, che si chiami Arturo.
+                        
+                        [...]</schema1:text>
+    <skos:note>type=section</skos:note>
+    <skos:note>n=2.6</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/head/le-profezie-di-merlino-in-armo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/..."/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/dopo-ch-egli-avr-fatto-in-fr"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/-i-giovani-osserva-uno-stori"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/lavolo-del-neonato-volle-farl"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/sotto-il-nome-d-enrico-che-eg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/en">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Enoch Biblical figure, son of Jared.</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q213027"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/enoch"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/biblical-figure-son-of-jared."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/ed-il-dottore-universale-termi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Ed il  dottore universale termina il libro terzo
+                        de' suoi commenti con un'osservazione la quale
+
+                        addimostra quale impressione facessero le pro-
+
+                        fezìe di Merlino sugli uomini più sensati del
+
+                        secolo dodicesimo:
+
+                        
+                            In quanto a me, sebbene io non partecipi
+
+                            per nessun conto la loro credenza, o per dir
+
+                            meglio la loro illusione intorno all'esistenza at-
+
+                            tuale di Arturo, e bench'io me ne rida, non
+
+                            posso negare che i Britanni siano ritornati
+
+                            in patria; ed essi vi regneranno ancora, se
+
+                            dobbiamo prestar fede alla dichiarazione assai
+
+                            manifesta di Merlino. Essi vi regneranno per
+
+                            i meriti di san Kadwalader, il quale rivelerà
+
+                            al Konan, vale a dire al principe britanno
+
+                            d'Armorica, il prossimo arrivo delle sue reliquie
+
+                            da Roma.Appena reduci in patria metteranno
+
+                            a morte gli stranieri Inglesi; restituiranno al-
+
+                            l'Inghilterra il nome di Brettagna, e per ri-
+
+                            temprare alla stessa sorgente la dinastia bri-
+
+                            tanna, essi prenderanno il primo loro re fra
+
+                            gli Armoricani; poiché Arturo discendeva ap-
+                            punto dal ramo armoricano per parte di Co-
+
+                            stantino suo avolo.</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/dottore-universale"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/pro--feze"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/q/in-quanto-a-me-sebbene-io-non"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/domizio-marso">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Domizio Marso</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>role=latin poet</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/cadwaladr">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Cadwaladr</foaf:name>
+    <skos:note>lang=en</skos:note>
+    <skos:note>role=welsh king</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/sassoni">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q101985"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/poesie">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=concept</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/legendary-king-of-britain.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/silvia-antonella-pellicano">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Silvia Antonella Pellicano</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#SAP</skos:note>
+    <skos:note>role=editor</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/forename/silvia-antonella"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/surname/pellicano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/editionStmt/the-sword-in-the-stone-in-lod">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/edition/the-sword-in-the-stone-in-lod"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/respStmt/annotations-by-silvia-antonell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/availability/cc-by">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>status=free</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/licence/cc-by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/div/merlino-personaggio-reale-ne">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">MERLINO, PERSONAGGIO REALE
+                    
+                        Ne' tempi antichi non eravi cosa tanto co-
+
+                        mune quanto il dar nome di divinità a uomini
+
+                        che supponevano rassomigliassero a taluna di
+
+                        esse. Sappiamo appunto che ad un Domi-
+
+                        zio, poeta latino, amico di Ovidio, erasi im-
+
+                        posto il nome del piccol nume di cui si è
+
+                        discorso più sopra: sia perchè creduto della
+
+                        stirpe degli incantatori di serpenti, o perchè
+
+                        lo si volesse adulare identificandolo con quel-
+
+                        l'antico tipo della mitologia, egli veniva so-
+
+                        prannomato Marso.
+                        [...]
+                    
+                     Other paragraphs omitted 
+                    
+                        Alla morte d'Ambrogio Aureliano, pare con
+
+                        tutta probabilità che Merlino si affezionasse
+
+                        al suo successore, che vuolsi sia stato il fa-
+
+                        moso Arturo.
+                    
+                    
+                        Alla corte di questi aveva Merlino conti-
+
+                        nuato ad occupare lo stesso posto che aveva
+
+                        all'armata, adempiendovi le stesse funzioni a
+
+                        cui adempiva sotto l'antecedente re britanno,
+
+                        voglio dire quale capo di clan, facendo le fun-
+
+                        zioni di bardo reale, e per conseguenza anche
+
+                        quelle di consigliere inerenti alla stessa cari-
+
+                        ca. Volendosi prestar fede ad alcune poesie
+
+                        che gli vengono attribuite, sembrerebbe ch'egli
+
+                        avesse assistito ad una celebre battaglia contro
+
+                        i Sassoni, in una foresta della Caledonia,
+
+                        collo scudo alla spalla, la spada sulla coscia,
+
+                        e l'arpa in pugno. Avrebbe anche prima della
+
+                        battaglia dormito il suo sonno magnetico, vale
+
+                        a dire predetta la vittoria .
+
+                        Una volta pertanto vincitore degli stranieri
+
+                        e liberato dal pericolo delle loro scorrerie, Arturo 
+                        
+[page 126]
+
+                    
+                    
+                        si vide costretto di combattere i Britanni
+
+                        del nord, i quali si erano ribellati alla sua
+
+                        suprema autorità e rinnovavano al mezzodì
+
+                        le devastazioni dei Pitti e degli Scoti.
+
+                        [...]</schema1:text>
+    <skos:note>type=section</skos:note>
+    <skos:note>n=2.2</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/head/merlino-personaggio-reale"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/ne-tempi-antichi-non-eravi-co"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/alla-morte-d-ambrogio-aurelia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/alla-corte-di-questi-aveva-mer"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/si-vide-costretto-di-combatter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/listBibl/lodovico-ariosto-orlando-furio">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=cited-works</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/bibl/of"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/bibl/os"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/bibl/mt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/brettagna">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Brettagna</rdfs:label>
+    <skos:note>ref=#bretagna</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/ovid">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ovid</foaf:name>
+    <skos:note>ref=#OV</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/enoc">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Enoc</foaf:name>
+    <skos:note>ref=#EN</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/mythology">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q9134"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/bretagna">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Bretagna https://www.geonames.org/3030293 French region.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/bretagna"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpswww.geonames.org30302"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/french-region."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/orgName/c.corradetti-e-c.">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>C.Corradetti e C.</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>role=publisher</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/caledonia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Caledonia</rdfs:label>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#caledonia</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/uno-studio-di-autore-inglese">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">uno studio di autore inglese, che tra le neb-
+
+                    bie di Ossian aguzza le ciglia come Niebuhr,
+
+                    ed abbassa al possibile il valore delle
+
+                    tradizioni celtiche de' Druidi e de' Bardi;
+
+                    pei curiosi ho tratto dall'esperto Villemarqué
+
+                    quel che v'è di più vero o di più probabile
+
+                    intorno a Merlino; ho suggellato l'opera con
+
+                    uno scritto di Emilio Montègut sopra un
+
+                    Dante gaelico; forse l'ultimo gran rappre-
+
+                    sentante di quella singolare letteratura; ora,
+
+                    pare a me, coloro che nei romanzi cavallere-
+
+                        schi s'innamorarono di Merlino, e coloro che
+
+                    dei favoleggiamenti celtici son rimasti con se-
+
+                    te, dopo le imposture di Macpherson, debbano
+
+                    trovar qui di che acquetarla, e per avventura
+
+                    sapermene grado. [...]</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/ossian"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/niebuhr"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/tradizioni-celtiche"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/druidi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/bardi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/villemarqu"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/emilio-montgut"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/dante-gaelico"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/romanzi-cavallere--schi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/macpherson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/domi--zio">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Domi- zio</foaf:name>
+    <skos:note>ref=#DO</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/vi">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Théodore Hersart Villemarqué French scholar and folklorist, collector and publisher of Breton oral traditions, lived 1815–1895</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/49227556"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/thodore-hersart-villemarqu"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/french-scholar-and-folklorist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/18151895">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=1815</skos:note>
+    <skos:note>to=1895</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/div/la-tregenda-di-merlino-la-nott">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">[page VII]
+
+                LA TREGENDA DI MERLINO
+
+                    la notte del 19 marzo 1865.
+
+                    I.
+                
+                
+                    Quel Signor disse lor : Vo' che sappiate
+
+                        Che de le guerre che son qui ritratte,
+
+                        Fin al dì d'oggi poche ne son state;
+
+                        E son prima dipinte, che sian fatte.
+
+                        Chi l'ha dipinte, ancor l'ha indovinate.
+                    
+                    
+                        Lodovico Ariosto, 
+                        Orlando Furioso XXXII, 6
+                    
+                
+                
+                    Avevo riveduto l'ultimo foglio di questo
+
+                    libro e mi confortavo nella speranza che non
+
+                    dovesse spiacere. Il titolo ricorda le più vaghe
+
+                    fantasie poetiche da M. Lodovico Ariosto
+
+                    ad Alfredo Tennyson. Per gli scettici,
+
+                    pei crivellatori della storia ho posto innanzi
+                    
+[page VIII]
+
+                
+                
+                    uno studio di autore inglese, che tra le neb-
+
+                    bie di Ossian aguzza le ciglia come Niebuhr,
+
+                    ed abbassa al possibile il valore delle
+
+                    tradizioni celtiche de' Druidi e de' Bardi;
+
+                    pei curiosi ho tratto dall'esperto Villemarqué
+
+                    quel che v'è di più vero o di più probabile
+
+                    intorno a Merlino; ho suggellato l'opera con
+
+                    uno scritto di Emilio Montègut sopra un
+
+                    Dante gaelico; forse l'ultimo gran rappre-
+
+                    sentante di quella singolare letteratura; ora,
+
+                    pare a me, coloro che nei romanzi cavallere-
+
+                        schi s'innamorarono di Merlino, e coloro che
+
+                    dei favoleggiamenti celtici son rimasti con se-
+
+                    te, dopo le imposture di Macpherson, debbano
+
+                    trovar qui di che acquetarla, e per avventura
+
+                    sapermene grado. [...]</schema1:text>
+    <skos:note>type=preface</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/head/la-tregenda-di-merlino-la-nott"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/epigraph/quel-signor-disse-lor--vo-ch"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/avevo-riveduto-lultimo-foglio"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/uno-studio-di-autore-inglese"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/orlando-furioso">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>Orlando Furioso</dcterms:title>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#OF</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/in-our-project-we-selected-th">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="en">In our project, we selected the parts of the text that focus specifically on Merlin and his relationship with Arthur. We gave particular importance to the sections that deal with Merlin's prophecies about Arthur, excluding those that mention Merlin in contexts not directly related to the king.</schema1:text>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/alla-corte-di-questi-aveva-mer">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Alla corte di questi aveva Merlino conti-
+
+                        nuato ad occupare lo stesso posto che aveva
+
+                        all'armata, adempiendovi le stesse funzioni a
+
+                        cui adempiva sotto l'antecedente re britanno,
+
+                        voglio dire quale capo di clan, facendo le fun-
+
+                        zioni di bardo reale, e per conseguenza anche
+
+                        quelle di consigliere inerenti alla stessa cari-
+
+                        ca. Volendosi prestar fede ad alcune poesie
+
+                        che gli vengono attribuite, sembrerebbe ch'egli
+
+                        avesse assistito ad una celebre battaglia contro
+
+                        i Sassoni, in una foresta della Caledonia,
+
+                        collo scudo alla spalla, la spada sulla coscia,
+
+                        e l'arpa in pugno. Avrebbe anche prima della
+
+                        battaglia dormito il suo sonno magnetico, vale
+
+                        a dire predetta la vittoria .
+
+                        Una volta pertanto vincitore degli stranieri
+
+                        e liberato dal pericolo delle loro scorrerie, Arturo 
+                        
+[page 126]</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/lantecedente-re-britanno"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/poesie"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/battaglia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/sassoni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/caledonia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/term/spada"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/bibl/lodovico-ariosto--orlando-fur">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/lodovico-ariosto"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/orlando-furioso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/enrico">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Enrico</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/bretagna">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Bretagna</rdfs:label>
+    <skos:note>lang=it</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/pubPlace/milano">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>key=Milano</skos:note>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3173435"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/avalon">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Avalon</rdfs:label>
+    <skos:note>ref=#avalon</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/raccolte-da-carlo-haugwitz">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Raccolte
+
+                    DA CARLO HAUGWITZ</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/hi/da-carlo-haugwitz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/cos">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Costantino Corneu Legendary king of Britain.</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3695471"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/costantino-corneu"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/legendary-king-of-britain."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/il-regno-degli-inglesi-essendo">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Il regno degli Inglesi essendo finito, con-
+
+                            chiude il commentatore, ed essendone stato re-
+
+                            stituito, per l'intervento celeste, il retaggio agli
+
+                            antichi eredi, anch'io finisco questo libro pre-
+
+                            gando Dio acciò ch'Esso renda a noi come
+
+                            ai Britanni il regno che abbiamo perduto per
+
+                            l'invasione del demonio, quand'egli verrà in
+
+                            quel gran giorno di gaudio, nel quale tutti,
+
+                            secondo la legge, sortendo dalla schiavitù di
+
+                           Babilonia, ritroveranno la libertà.</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/q/il-regno-degli-inglesi-essendo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/projectDesc/text-encoded-in-xmltei-for-th">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/text-encoded-in-xmltei-for-th"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/battaglia">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=concept</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/lavolo-del-neonato-volle-farl">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">L'avolo del neonato volle farlo battezzare
+                        
+[page 247]</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/17761831">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=1776</skos:note>
+    <skos:note>to=1831</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/1865">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=publication</skos:note>
+    <skos:note>when=1865</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/al">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Alain de Lille French theologian and poet, lived ca 1115-1202 .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/72187470"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/alain-de-lille"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/french-theologian-and-poet-li"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/listPerson/lodovico-ariosto-italian-poet">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=cited-historical-person</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/la"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/at"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/ni"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/vi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/em"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/mc"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/do"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/ov"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/al"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/person/ka"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/ventesimo-nono-giorno-del-mese">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>when=1186-03-29</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/armoricani">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q776757"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/reign">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/prophecies">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q120668917"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/text-encoded-in-xmltei-for-th">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="en">Text encoded in XML/TEI for the project "The sword in the stone in LOD", developed for the course "Information Science and Cultural Heritage" of the Digital Humanities and Digital Knowledge master degree at University of Bologna.</schema1:text>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/ref/online-access">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>target=https://www.digitale-sammlungen.de/en/view/bsb10035504?page=,1</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/el">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Profeta Elia Biblical prophet.</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q133507"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/profeta-elia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/biblical-prophet."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/pb/pb">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>n=III</skos:note>
+    <skos:note>n=VII</skos:note>
+    <skos:note>n=VIII</skos:note>
+    <skos:note>n=126</skos:note>
+    <skos:note>n=246</skos:note>
+    <skos:note>n=247</skos:note>
+    <skos:note>n=276</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/publicationStmt/university-of-bologna-bologna">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/publisher/university-of-bologna"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pubPlace/bologna"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/date"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/availability/cc-by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/si-vide-costretto-di-combatter">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">si vide costretto di combattere i Britanni
+
+                        del nord, i quali si erano ribellati alla sua
+
+                        suprema autorità e rinnovavano al mezzodì
+
+                        le devastazioni dei Pitti e degli Scoti.
+
+                        [...]</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/britanni-del-nord"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/pitti"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/name/scoti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/romanzi-cavallereschi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/head/influenza-storica-di-merlino">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">INFLUENZA STORICA DI MERLINO</schema1:text>
+    <skos:note>rend=center</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/country-in-the-british-isles.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/sap">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Silvia Antonella Pellicano</foaf:name>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/silvia-antonella-pellicano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/francia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Francia https://www.geonames.org/3017382 European state.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/francia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpswww.geonames.org30173"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/european-state."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/43-bc17-ad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=-0043</skos:note>
+    <skos:note>to=0017</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/francia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Francia</rdfs:label>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#francia</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/interaction/interaction">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=none</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/niebuhr">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Niebuhr</foaf:name>
+    <skos:note>ref=#NI</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/mile-montgut">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Émile Montégut</foaf:name>
+    <skos:note>lang=fr</skos:note>
+    <skos:note>role=french critic</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/dante-gaelico">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Dante gaelico</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#DA</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/avevo-riveduto-lultimo-foglio">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Avevo riveduto l'ultimo foglio di questo
+
+                    libro e mi confortavo nella speranza che non
+
+                    dovesse spiacere. Il titolo ricorda le più vaghe
+
+                    fantasie poetiche da M. Lodovico Ariosto
+
+                    ad Alfredo Tennyson. Per gli scettici,
+
+                    pei crivellatori della storia ho posto innanzi
+                    
+[page VIII]</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/m.-lodovico-ariosto"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/alfredo-tennyson"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/respStmt/digital-encoding-by-silvia-ant">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/resp/digital-encoding-by"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/silvia-antonella-pellicano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/ni">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Barthold Georg Niebuhr German historian, a pioneer of the modern critical examination of historical sources, lived 1776–1831 .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/24724345"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/barthold-georg-niebuhr"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/german-historian-a-pioneer-of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/lodovico-ariosto">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Lodovico Ariosto</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#LA</skos:note>
+    <skos:note>role=italian poet</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/babilonia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Babilonia https://pleiades.stoa.org/places/893951 Capital city of Babylonia and an archaeological site in modern-day Iraq.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/babilonia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpspleiades.stoa.orgplac"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/capital-city-of-babylonia-and"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/q/vo--gliamo-gridarono-che-si">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Vo-
+gliamo, gridarono, che si chiami Arturo.</schema1:text>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/do">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Domizio Marso Latin poet, contemporary of Ovid , known for elegiac works, active ca 46 BC–19 BC .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/69276384"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/domizio-marso"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/latin-poet-contemporary-of-ov"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/idno/httpswww.wikidata.orgwiki">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=wikidata</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/roma">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Roma http://pleiades.stoa.org/places/423025 The capital of the Roman Republic and Empire.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/roma"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httppleiades.stoa.orgplace"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/the-capital-of-the-roman-repub"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/mc">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>James Macpherson Scottish writer, poet, and politician, known for his cycle of epic poems presented as The Works of Ossian , lived 1736–1796 .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/100201047"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/james-macpherson"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/scottish-writer-poet-and-pol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/profeta">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>profeta</foaf:name>
+    <skos:note>ref=#M</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/settingDesc/caledonia-httpspleiades.sto">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/listPlace/caledonia-httpspleiades.sto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/celtic-traditions">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/bibl/os">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q503756"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/author/james-macpherson"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/the-works-of-ossian"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/alfred-tennyson">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Alfred Tennyson</foaf:name>
+    <skos:note>lang=en</skos:note>
+    <skos:note>role=english poet</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/18091892">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=1809</skos:note>
+    <skos:note>to=1892</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/19-marzo-1865">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>when=1865-03-19</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/tre-tomi-in-uno">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">TRE TOMI IN UNO</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/hi/tre-tomi-in-uno"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/destini">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=concept</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/date">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>when=2025</skos:note>
+    <skos:note>when=1516</skos:note>
+    <skos:note>when=1760</skos:note>
+    <skos:note>when=0008</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/m">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Merlino Legendary wizard of King Arthur's court, adviser and royal bard.</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q188044"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/merlino"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/legendary-wizard-of-king-arthu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/5th-century">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=0400</skos:note>
+    <skos:note>to=0500</skos:note>
+    <skos:note>type=century</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/bri--tanni">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q849967"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/ovidio">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Ovidio</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#OV</skos:note>
+    <skos:note>role=latin poet</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/britannia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Britannia https://pleiades.stoa.org/places/981513 Roman province.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/britannia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpspleiades.stoa.orgplac"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/roman-province."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/avalon">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Avalon https://www.wikidata.org/wiki/Q216901 Legendary island featured in the Arthurian legend.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/avalon"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpswww.wikidata.orgwiki"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/legendary-island-featured-in-t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/text/il-mago-merlino-memorie-tradi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/front/il-mago-merlino-memorie-tradi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/body/il-mago-merlino-merlino-perso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/raccolte-da-carlo-haugwitz">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>Raccolte da Carlo Haugwitz</dcterms:title>
+    <skos:note>type=sub</skos:note>
+    <skos:note>lang=it</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/author/ovidio">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/ovidio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/battle">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/1115-1202">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=1115</skos:note>
+    <skos:note>to=1202</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/div/il-mago-merlino-memorie-tradi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">[page III]
+
+                IL MAGO
+
+                    MERLINO
+
+                    MEMORIE, TRADIZIONI, LEGGENDE
+                
+                Raccolte
+
+                    DA CARLO HAUGWITZ
+                
+                AGGIUNTAVI
+
+                    LA TREGENDA DI MERLINO
+
+                    la notte del 19 marzo 1865
+                
+                
+                    TRE TOMI IN UNO
+                
+                MILANO
+
+                    C.CORRADETTI e C.EDITORI
+
+                    M.DCCC.LXV</schema1:text>
+    <skos:note>type=title_page</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/pb/pb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/head/il-mago-merlino-memorie-tradi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/raccolte-da-carlo-haugwitz"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/aggiuntavi-la-tregenda-di-merl"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/tre-tomi-in-uno"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/milano-c.corradetti-e-c.editor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/french-theologian-and-poet-li">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/1115-1202"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/editorialDecl/this-digital-edition-includes">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/this-digital-edition-includes"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/in-our-project-we-selected-th"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/p/we-have-tried-to-keep-page-bre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/historical-region-in-what-is-n">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/armorica">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Armorica https://pleiades.stoa.org/places/69467 Name that in ancient times was given to today's Brittany.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/armorica"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpspleiades.stoa.orgplac"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/name-that-in-ancient-times-was"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/citedRange/pp.-275-277">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>unit=page</skos:note>
+    <skos:note>from=275</skos:note>
+    <skos:note>to=277</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/fates">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/ma">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Marso Roman god of war, a major figure in classical mythology.</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q112"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/marso"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/roman-god-of-war-a-major-figu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/caledonia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Caledonia https://pleiades.stoa.org/places/89132 Historical region in what is now northern Scotland.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/caledonia"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpspleiades.stoa.orgplac"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/historical-region-in-what-is-n"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/publisher/c.corradetti-e-c.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#CR</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/author/carlo-haugwitz">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/carlo-haugwitz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/sourceDesc/il-mago-merlino-memorie-trad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/bibl/il-mago-merlino-memorie-trad"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/listBibl/lodovico-ariosto-orlando-furio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/sword">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/front/il-mago-merlino-memorie-tradi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/div/il-mago-merlino-memorie-tradi"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/div/la-tregenda-di-merlino-la-nott"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/at">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Alfred Tennyson English poet, Poet Laureate during the Victorian era, lived 1809–1892 .</foaf:name>
+    <owl:sameAs rdf:resource="https://viaf.org/en/viaf/61540536"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/alfred-tennyson"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/english-poet-poet-laureate-du"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/september-2025">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>when=2025-09</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/hi/merlino">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>rend=bold</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/lantecedente-re-britanno">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>l'antecedente re britanno</foaf:name>
+    <skos:note>ref=#AA</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/legendary-island-featured-in-t">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/name-that-in-ancient-times-was">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/titleStmt/il-mago-merlino-memorie-trad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/il-mago-merlino-memorie-trad"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/title/a-digital-edition."/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/author/carlo-haugwitz"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/respStmt/digital-encoding-by-silvia-ant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/roman-god-of-war-a-major-figu">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/co--stantino">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Co- stantino</foaf:name>
+    <skos:note>ref=#COS</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/14741533">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=1474</skos:note>
+    <skos:note>to=1533</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/lb/lb">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/surname/haugwitz">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/this-digital-edition-includes">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="en">This digital edition includes selected excerpts from the original work.</schema1:text>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/tradizioni-celtiche">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=concept</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/ossian">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>Ossian</dcterms:title>
+    <skos:note>ref=#OS</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/org/cr">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <foaf:name>C.Corradetti e C.</foaf:name>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/orgName/c.corradetti-e-c."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/aggiuntavi-la-tregenda-di-merl">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">AGGIUNTAVI
+
+                    LA TREGENDA DI MERLINO
+
+                    la notte del 19 marzo 1865</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/channel/print">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>mode=w</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/idno/httpspleiades.stoa.orgplac">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=pleiades</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/listOrg/c.corradetti-e-c.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=source-publisher</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/org/cr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/forename/carlo">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/english-poet-poet-laureate-du">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/18091892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/body/il-mago-merlino-merlino-perso">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/div/il-mago-merlino-merlino-perso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/citedRange/pp.-246-247">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>unit=page</skos:note>
+    <skos:note>from=246</skos:note>
+    <skos:note>to=247</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/purpose/purpose">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=inform</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/semi-legendary-figure-of-the-a">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/britain"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/5th-century"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/san-kadwalader">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>san Kadwalader</foaf:name>
+    <skos:note>ref=#KA</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/britain">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Britain</rdfs:label>
+    <skos:note>ref=#britannia</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/german-historian-a-pioneer-of">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/17761831"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/citedRange/p.-106">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>unit=page</skos:note>
+    <skos:note>from=106</skos:note>
+    <skos:note>to=106</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/655-682-ad">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=0655</skos:note>
+    <skos:note>to=0682</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/alain-de-lille">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Alain de Lille</foaf:name>
+    <skos:note>lang=fr</skos:note>
+    <skos:note>role=french poet</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/spada">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <skos:note>type=concept</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/latin-poet-contemporary-of-ov">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/ovid"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/46-bc19-bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/alfredo-tennyson">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Alfredo Tennyson</foaf:name>
+    <skos:note>ref=#AT</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/particDesc/c.corradetti-e-c.-carlo-haugwi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/listOrg/c.corradetti-e-c."/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/listPerson/carlo-haugwitz-silvia-antonell"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/listPerson/lodovico-ariosto-italian-poet"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/listPerson/dante-gaelico-definition-used"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/legendary-king-of-britain-cen">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/costantino-corneu">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Costantino Corneu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/encodingDesc/text-encoded-in-xmltei-for-th">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/projectDesc/text-encoded-in-xmltei-for-th"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/editorialDecl/this-digital-edition-includes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/profeta-elia">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Profeta Elia</foaf:name>
+    <skos:note>lang=it</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/p/...-questo-vecchio-canuto-d">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">[...]
+                        
+                            Questo vecchio canuto, del quale Merlino
+
+                            predice l'arrivo, i Britanni suppongono debba
+
+                            essere Arturo loro antico e possente monarca;
+
+                            Arturo sì famoso in tutto l'universo, sì degno
+
+                            di essere celebrato dalla penna veritiera della
+
+                            storia, e non dileggiato dalle fiabe di vecchie
+
+                            nutrici, poich'egli restituì alla sua nazione
+
+                            calpestata sotto i piedi dello straniero la prisca
+
+                            sua gloria, e scacciò lungi dalla patria i perfidi
+
+                            invasori. Ora, none uno sa persuadere ai Bri-
+
+                            tanni che un uomo simile abbia potuto morire.
+
+                            Mostrateci, essi dicono, un libro che parli della
+
+                            sua morte o sepoltura! E tutti o quasi tutti
+
+                            pensano ch'egli se ne viva ascoso nell'isola
+
+                            d'Avalon, dove fu trasportato per curare le
+
+                            ricevute ferite.
+
+                            Nella stessa guisa che Elia ed
+
+                            Enoc vivi nel paradiso, un giorno de-
+
+                            vono ritornare in aiuto della loro stirpe, secondo le sacre Scritture,
+
+                            così, al dire dei Britanni, il loro famoso re
+
+                            Arturo dimora pieno di vita nella sua isola,
+
+                            finché la sua nazione venga richiamata sotto i suoi ordini nel
+
+                            regno de' suoi padri.</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/q/questo-vecchio-canuto-del-qua"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/emilio-montgut">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Emilio Montègut</foaf:name>
+    <skos:note>ref=#EM</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/place/inghilterra">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Inghilterra https://www.geonames.org/2648147 Country in the British Isles.</rdfs:label>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/inghilterra"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/idno/httpswww.geonames.org26481"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/country-in-the-british-isles."/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/person/a">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Arturo Legendary king of Britain, central figure of Arthurian tales.</foaf:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q45792"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/arturo"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/note/legendary-king-of-britain-cen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/author/james-macpherson">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/james-macpherson"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/forename/silvia-antonella">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/m.-lodovico-ariosto">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>M. Lodovico Ariosto</foaf:name>
+    <skos:note>ref=#LA</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/pro--feze">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=concept</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/french-scholar-and-folklorist">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/18151895"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/james-macpherson">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>James Macpherson</foaf:name>
+    <skos:note>lang=en</skos:note>
+    <skos:note>ref=#MC</skos:note>
+    <skos:note>role=scottish poet</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/hi/tre-tomi-in-uno">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>rend=bold</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/country/italia">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>key=IT</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/arturo">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Arturo</foaf:name>
+    <skos:note>lang=it</skos:note>
+    <skos:note>ref=#A</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/respStmt/annotations-by-silvia-antonell">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/resp/annotations-by"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/silvia-antonella-pellicano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/17361796">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=1736</skos:note>
+    <skos:note>to=1796</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/idno/163260542">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=OCLC</skos:note>
+    <skos:note>type=WorldCat</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/head/le-profezie-di-merlino-in-armo">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">LE PROFEZIE DI MERLINO IN ARMONICA</schema1:text>
+    <skos:note>rend=center</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/french-critic-and-essayist-kn">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/18251895"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/pubPlace/bologna">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/placeName/bologna"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/french-region.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/inglesi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q42406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/head/il-mago-merlino-memorie-tradi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">IL MAGO
+
+                    MERLINO
+
+                    MEMORIE, TRADIZIONI, LEGGENDE</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/hi/merlino"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/elia">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Elia</foaf:name>
+    <skos:note>ref=#EL</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/18251895">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=1825</skos:note>
+    <skos:note>to=1895</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/langUsage/italian">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/language/italian"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/pitti">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/citedRange/pp.-vii-viii">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>unit=page</skos:note>
+    <skos:note>from=VII</skos:note>
+    <skos:note>to=VIII</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/name/scoti">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=ethnonym</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q849967"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/date/46-bc19-bc">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>from=-0046</skos:note>
+    <skos:note>to=-0019</skos:note>
+    <skos:note>type=year</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/the-capital-of-the-roman-repub">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/placeName/britannia">
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdfs:label>Britannia</rdfs:label>
+    <skos:note>lang=it</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/european-state.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/idno/httpswww.geonames.org30302">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=geonames</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/villemarqu">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Villemarqué</foaf:name>
+    <skos:note>ref=#VI</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/chivalric-romances">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/poems">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=en</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/biblical-figure-son-of-jared.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/profezie">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>lang=it</skos:note>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q120668917"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/head/il-mago-merlino">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">Il mago Merlino</schema1:text>
+    <skos:note>rend=center</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/macpherson">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Macpherson</foaf:name>
+    <skos:note>ref=#MC</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/head/la-tregenda-di-merlino-la-nott">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <schema1:text xml:lang="it">LA TREGENDA DI MERLINO
+
+                    la notte del 19 marzo 1865.
+
+                    I.</schema1:text>
+    <skos:note>rend=center</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/19-marzo-1865"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/idno/httppleiades.stoa.orgplace">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=pleiades</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/resp/annotations-by">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/factuality/factuality">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=mixed</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/edition/the-sword-in-the-stone-in-lod">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/date/september-2025"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/title/metamorphoses">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:title>Metamorphoses</dcterms:title>
+    <skos:note>lang=en</skos:note>
+    <skos:note>ref=#MT</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/publisher/university-of-bologna">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/surname/pellicano">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/domain/domain">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=art</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/term/romanzi-cavallere--schi">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=concept</skos:note>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/lb/lb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/enoch">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Enoch</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/derivation/derivation">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <skos:note>type=original</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/author/lodovico-ariosto">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/lodovico-ariosto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/persName/konan">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>Konan</foaf:name>
+    <skos:note>ref=#KO</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/legendary-wizard-of-king-arthu">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/biblical-prophet.">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/capital-city-of-babylonia-and">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://sits.org/book/note/definition-used-by-montgut-fo">
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <dcterms:hasPart rdf:resource="https://sits.org/book/persName/montgut"/>
+  </rdf:Description>
+</rdf:RDF>
