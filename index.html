@@ -23,95 +23,50 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-
-  <style>
-/* Giustifica tutto il testo del sito */
-body,
-p,
-.idea-text p,
-.domain-subsection p,
-.item-content p,
-.item-text p,
-.member-card p,
-.csv-files-section p,
-.text-analysis-section p,
-.text-analysis-section li,
-.text-analysis-section ul,
-ul, ol,
-li {
-    text-align: justify !important;
-    text-justify: inter-word;
-}
-
-/* Eccezioni - elementi che rimangono allineati a sinistra */
-h1, h2, h3, h4, h5, h6,
-.section-title h2,
-.home-title,
-.home-subtitle,
-.item-content h4,
-.item-meta span,
-.member-card h3,
-.table th,
-.table td,
-blockquote,
-.image-caption,
-.quote-with-image footer,
-.text-muted,
-.credits,
-.copyright,
-.navmenu a,
-.home-btn {
-    text-align: left !important;
-}
-</style>
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
-<header id="header" class="header fixed-top">
-  <div class="container-fluid d-flex align-items-center">
-    
-    <!-- Logo centrato -->
-    <div class="d-flex justify-content-center flex-grow-1">
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
       <a href="index.html" class="logo d-flex align-items-center">
         <h1>The Sword in the Stone in LOD</h1>
       </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#study-domain">Study of the Domain</a></li>
+          <li><a href="#knowledge-organization">Knowledge Organization</a></li>
+          <li><a href="#knowledge-representation">Knowledge Representation</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </nav>
+
     </div>
-    
-    <!-- Menu a destra -->
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#study-domain">Study of the Domain</a></li>
-        <li><a href="#knowledge-organization">Knowledge Organization</a></li>
-        <li><a href="#knowledge-representation">Knowledge Representation</a></li>
-        <li><a href="#team">Team</a></li>
-      </ul>
-    </nav>
-    
-  </div>
-</header>
+  </header>
 
   <!-- ======= Main Content ======= -->
   <main id="main">
 
     <!-- ======= Home Section ======= -->
-<section id="home" class="home">
-  <div class="home-content">
-    <div class="home-title" style="text-align: center;">
-      <span class="home-title-line" style="display: block; text-align: center; width: 100%; margin: 0 auto;">THE LEGEND OF THE SWORD</span>
-      <span class="home-title-line" style="display: block; text-align: center; width: 100%; margin: 0 auto;">IN THE STONE</span>
-    </div>
-    
-    <p class="home-subtitle" style="text-align: center; max-width: 700px; margin: 0 auto 40px; line-height: 1.6;">
-      A Linked Open Data project exploring the Arthurian legend and its cultural heritage significance across centuries
-    </p>
-    
-    <a href="#project" class="home-btn">EXPLORE THE PROJECT</a>
-  </div>
-</section>
+    <section id="home" class="home">
+      <div class="home-content">
+        <div class="home-title">
+          <span class="home-title-line">THE LEGEND OF THE SWORD</span>
+          <span class="home-title-line">IN THE STONE</span>
+        </div>
+        
+        <p class="home-subtitle">
+          A Linked Open Data project exploring the Arthurian legend and its cultural heritage significance across centuries
+        </p>
+        
+        <a href="#project" class="home-btn">EXPLORE THE PROJECT</a>
+      </div>
+    </section>
 
     <!-- ======= Project Section ======= -->
     <section id="project" class="project">
@@ -492,6 +447,7 @@ blockquote,
             </div>
           </div>
         </div>
+
 
         <!-- Theoretical Model Subsection -->
         <div class="domain-subsection">
