@@ -379,7 +379,7 @@ blockquote,
           
           <div class="idea-text">
             <p>
-              The first activity carried out by the team was the identification of the <strong>metadata standard</strong> adopted by the providers of the selected items, with the goal of ensuring <strong>interoperability</strong>. In cases where the institution had not explicitly stated the standard in use, the team decided to apply either the standard commonly adopted by similar institutions or the one deemed most suitable and relevant to the nature of the object, according to semantic accuracy and the context of usage of the formal grammar chosen. In such cases, the symbol * was used.
+              The first activity carried out by the team was the identification of the <strong>metadata standard</strong> adopted by the providers of the selected items, with the goal of ensuring <strong>interoperability</strong>. In cases where the institution had not explicitly stated the standard in use, the team decided to apply either the standard commonly adopted by similar institutions or the one deemed most suitable and relevant to the nature of the object, according to semantic accuracy and the context of usage of the formal grammar chosen. 
             </p>
             <p>
               While an institution like, for example, the Metropolitan Museum of Art provides an API for its metadata but does not explicitly declare the use of a pre-existing metadata standard, in our project we made the conscious decision to adopt <strong>CDWA (Categories for the Description of Works of Art)</strong>, the typical content standard for the museum context. This choice was motivated by the fact that the metadata provided by The Met appeared to faithfully reflect the categories defined by the CDWA standard—with fields such as Title, Style, Measurements, Materials, Current Location... This led us to deduce that, in the absence of an explicit declaration, The Met was likely inspired by this standard to structure its information.
@@ -398,7 +398,8 @@ blockquote,
                     <th>Object Type</th>
                     <th>Manifestation</th>
                     <th>Provider</th>
-                    <th>Metadata Standard</th>
+                    <th>Metadata Standard - Provided By The Institution</th>
+                    <th>Chosen Metadata</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -407,7 +408,8 @@ blockquote,
                     <td>Artifact</td>
                     <td>Medieval sword</td>
                     <td>Metropolitan Museum of Art</td>
-                    <td>CDWA*</td>
+                    <td>-</td>
+                    <td>CDWA</td>
                   </tr>
                   <tr>
                     <td><strong>Merlin's Prophecies Manuscript</strong></td>
@@ -415,13 +417,15 @@ blockquote,
                     <td>Manuscript</td>
                     <td>Manus Online - Manoscritti delle biblioteche italiane</td>
                     <td>TEI/XML</td>
+                    <td>TEI/XML</td>
                   </tr>
                   <tr>
                     <td><strong>King Arthur - from the Heroes Tapestries</strong></td>
                     <td>Artwork</td>
                     <td>Tapestry</td>
                     <td>Metropolitan Museum of Art</td>
-                    <td>CDWA*</td>
+                    <td>-</td>
+                    <td>CDWA</td>
                   </tr>
                   <tr>
                     <td><strong>Il Mago Merlino: Memorie, Tradizioni, Leggende</strong></td>
@@ -429,19 +433,22 @@ blockquote,
                     <td>Print</td>
                     <td>Munich Digitization Center - Bavarian State Library (BSB)</td>
                     <td>MARC21</td>
+                    <td>MARC21</td>
                   </tr>
                   <tr>
                     <td><strong>King Arthur's Sculpture</strong></td>
                     <td>Artefact</td>
                     <td>Statue-Bronze</td>
                     <td>Metropolitan Museum of Art</td>
-                    <td>CDWA*</td>
+                    <td>-</td>
+                    <td>CDWA</td>
                   </tr>
                   <tr>
                     <td><strong>The sword in the stone (animation)</strong></td>
                     <td>Animation Movie</td>
                     <td>Videotape</td>
                     <td>ICBSA</td>
+                    <td>UNIMARC</td>
                     <td>UNIMARC</td>
                   </tr>
                   <tr>
@@ -450,6 +457,7 @@ blockquote,
                     <td>Vinyl</td>
                     <td>MusicBrainz</td>
                     <td>XML/MMD</td>
+                    <td>XML/MMD</td>
                   </tr>
                   <tr>
                     <td><strong>The sword in the stone (poster)</strong></td>
@@ -457,20 +465,23 @@ blockquote,
                     <td>Poster</td>
                     <td>Biblioteca provinciale La Magna Capitana - Foggia</td>
                     <td>SCHEMA MAG</td>
+                    <td>SCHEMA MAG</td>
                   </tr>
                   <tr>
                     <td><strong>Merlin</strong></td>
                     <td>Media</td>
                     <td>TV show</td>
                     <td>IMDb</td>
-                    <td>Schema*</td>
+                    <td>-</td>
+                    <td>Schema</td>
                   </tr>
                   <tr>
                     <td><strong>King Arthur (game)</strong></td>
                     <td>Game</td>
                     <td>Board Game</td>
                     <td>BoardGameGeek</td>
-                    <td>Schema*</td>
+                    <td>-</td>
+                    <td>Schema</td>
                   </tr>
                 </tbody>
               </table>
