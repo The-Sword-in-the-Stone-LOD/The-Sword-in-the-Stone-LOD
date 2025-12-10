@@ -627,7 +627,7 @@ section {
   word-break: break-word;
 }
 
-/* QUESTA È LA COLONNA CHE MANCAVA - COLONNA 6 */
+
 .metadata-table th:nth-child(6),
 .metadata-table td:nth-child(6) {
   width: 20%; 
@@ -645,7 +645,7 @@ section {
   background-color: rgba(139, 90, 43, 0.05);
 }
 
-/* WRAPPING PER TUTTE LE COLONNE ECCETTO 2 E 3 */
+
 .metadata-table td:nth-child(1),
 .metadata-table td:nth-child(4),
 .metadata-table td:nth-child(5),
@@ -655,7 +655,7 @@ section {
   hyphens: auto;
 }
 
-/* COLONNE 2 E 3 COMPATTE */
+
 .metadata-table td:nth-child(2),
 .metadata-table td:nth-child(3) {
   white-space: nowrap;
@@ -663,7 +663,7 @@ section {
   text-overflow: ellipsis;
 }
 
-/* PERMETTE IL WRAPPING PER LE COLONNE LUNGHE */
+
 .metadata-table td:nth-child(5),
 .metadata-table td:nth-child(6) {
   white-space: normal;
@@ -702,7 +702,7 @@ section {
   }
   
   .metadata-table {
-    min-width: 850px; /* Aumentato per 6 colonne */
+    min-width: 850px; 
   }
   
   /* Regole mobile per tutte le colonne */
@@ -728,9 +728,10 @@ section {
 /* Per schermi molto piccoli */
 @media (max-width: 576px) {
   .metadata-table {
-    min-width: 900px; /* Ancora più largo se necessario */
+    min-width: 900px; 
   }
 }
+
 
 
 /*--------------------------------------------------------------
